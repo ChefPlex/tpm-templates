@@ -12,24 +12,16 @@ The goal is simple: if you are starting a new program, you should not have to bu
 
 | Template | What It Is |
 |----------|-----------|
-| [Program Phases Playbook](program-phases-playbook.md) | End-to-end framework covering all five program phases from first idea through close-out. Artifacts, owners, and key questions at each gate. |
+| [Program Phases Playbook](program-phases-playbook.md) | End-to-end framework covering all five program phases - from first idea through close-out. Artifacts, owners, and key questions at each gate. |
 | [Program Charter](program-charter-template.md) | The founding document for any serious initiative. Scope, objectives, Definition of Done, resources, stakeholders, risks, and compliance requirements in one place. |
-| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
 
 ### Operations and Tracking
 
 | Template | What It Is |
 |----------|-----------|
-| [RAID Log Guide](raid-log-guide.md) | How to structure and run a Risks, Assumptions, Issues, and Dependencies log. Field definitions, rating guidance, and how to make it a living tool rather than a one-time exercise. See [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) for the working spreadsheet. |
+| [RAID Log Guide](raid-log-guide.md) | How to structure and run a Risks, Assumptions, Issues, and Dependencies log. Field definitions, rating guidance, and how to make it a living tool rather than a one-time exercise. |
 | [Communications Plan](communications-plan-template.md) | Stakeholder map, communications matrix, status report structure, and document repository setup. Everything needed to keep the right people informed at the right frequency. |
 | [Program Swim Lanes](program-swim-lanes-template.md) | Multi-workstream tracking view for programs running parallel initiatives. Executive-ready summary layer with workstream-level detail underneath. |
-
-### Program Execution
-
-| Template | What It Is |
-|----------|-----------|
-| [Program Kickoff Checklist](program-kickoff-checklist.md) | Pre-kickoff checklist, recommended agenda with timing, section-by-section facilitation guide, and post-kickoff follow-up checklist. |
-| [Meeting Notes and Action Item Tracker](meeting-notes-action-tracker.md) | Template for capturing decisions, actions, open questions, and risks in a meeting. Includes a running tracker for recurring meetings and facilitation tips. |
 
 ### Engineering Collaboration
 
@@ -38,11 +30,11 @@ The goal is simple: if you are starting a new program, you should not have to bu
 | [RFC Template](rfc-template.md) | Request for Comments template for significant proposals. Covers summary, motivation, detailed proposal, alternatives considered, impact, dependencies, risks, and decision record. |
 | [ADR Template](adr-template.md) | Architecture Decision Record template for documenting significant architectural decisions after they are made. Covers context, decision, alternatives, consequences, and status lifecycle. |
 
-### Teaching Materials
+### Program Close
 
-| File | What It Is |
-|------|-----------|
-| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A 13-slide presentation that teaches core project management concepts - scope, planning, critical path, risk, stakeholders, dependencies, and retrospectives - using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Includes a class exercise. Originally developed for Year Up. |
+| Template | What It Is |
+|----------|-----------|
+| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report template covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
 
 ---
 
@@ -55,10 +47,6 @@ The goal is simple: if you are starting a new program, you should not have to bu
 **Reporting to leadership:** The Swim Lanes template gives you an executive-ready view across multiple workstreams. Pair it with the status report structure in the Communications Plan.
 
 **New to a program that is already running:** Start with the Playbook to orient yourself to where things stand in the lifecycle, then look for gaps in the artifacts that should exist at this phase.
-
-**Teaching PM concepts to a non-practitioner audience:** The Thanksgiving deck is the place to start. It was originally developed for Year Up, a workforce development program for young adults entering tech careers, and has been used successfully with audiences who had never heard of a RACI chart. The concepts are not simplified - they are translated. There is a difference.
-
-**Building technical consensus:** Use the RFC template before a decision is made to drive structured discussion, and the ADR template after to document what was decided and why.
 
 ---
 
@@ -75,21 +63,13 @@ The goal is simple: if you are starting a new program, you should not have to bu
 ## What Is Coming
 
 - Stakeholder engagement playbook
-- Lessons learned facilitation guide (standalone version)
+- Program retrospective facilitation guide (see learning-notes for a standalone version)
 
 ---
 
 ## Contributing
 
 These templates improve with use. If you find a gap, an improvement, or a section that does not hold up in practice, open an issue or submit a pull request. Real-world feedback is how these get better.
-
----
-
-## Related Repos
-
-- [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and a guide to introducing PM concepts to career changers
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Tools and trackers, including a fully formatted RAID Log spreadsheet
-- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Frameworks and guides for TPMs running security programs
 
 ---
 
