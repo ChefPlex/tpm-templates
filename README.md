@@ -4,6 +4,8 @@ A collection of templates, frameworks, and reference docs built from real progra
 
 The goal is simple: if you are starting a new program, you should not have to build these from scratch. Take what is useful, adapt it to your context, and make it your own.
 
+This repo is the workbench, not the policy binder.
+
 ---
 
 ## What Is Here
@@ -14,6 +16,7 @@ The goal is simple: if you are starting a new program, you should not have to bu
 |----------|-----------|
 | [Program Phases Playbook](program-phases-playbook.md) | End-to-end framework covering all five program phases - from first idea through close-out. Artifacts, owners, and key questions at each gate. |
 | [Program Charter](program-charter-template.md) | The founding document for any serious initiative. Scope, objectives, Definition of Done, resources, stakeholders, risks, and compliance requirements in one place. |
+| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
 
 ### Operations and Tracking
 
@@ -27,8 +30,8 @@ The goal is simple: if you are starting a new program, you should not have to bu
 
 | Template | What It Is |
 |----------|-----------|
-| [Program Kickoff Checklist](program-kickoff-checklist.md) | Pre-kickoff checklist, recommended agenda with timing, section-by-section facilitation guide, and post-kickoff follow-up checklist. |
-| [Meeting Notes and Action Item Tracker](meeting-notes-action-tracker.md) | Template for capturing decisions, actions, open questions, and risks in a meeting. Includes a running tracker for recurring meetings and facilitation tips. |
+| [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | Pre-kickoff checklist, recommended agenda with timing, section-by-section facilitation guide, and post-kickoff follow-up checklist. Lives in tpm-toolbox. |
+| [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | Template for capturing decisions, actions, open questions, and risks in a meeting. Includes a running tracker for recurring meetings. Lives in tpm-toolbox. |
 
 ### Engineering Collaboration
 
@@ -37,17 +40,17 @@ The goal is simple: if you are starting a new program, you should not have to bu
 | [RFC Template](rfc-template.md) | Request for Comments template for significant proposals. Covers summary, motivation, detailed proposal, alternatives considered, impact, dependencies, risks, and decision record. |
 | [ADR Template](adr-template.md) | Architecture Decision Record template for documenting significant architectural decisions after they are made. Covers context, decision, alternatives, consequences, and status lifecycle. |
 
-### Program Close
-
-| Template | What It Is |
-|----------|-----------|
-| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
-
 ### Teaching Materials
 
 | File | What It Is |
 |------|-----------|
-| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A 13-slide presentation that teaches core project management concepts - scope, planning, critical path, risk, stakeholders, dependencies, and retrospectives - using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Includes a class exercise. Originally developed for Year Up. |
+| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A 13-slide presentation that teaches core project management concepts - scope, planning, critical path, risk, stakeholders, dependencies, and retrospectives - using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Originally developed for Year Up. |
+
+### Examples
+
+| File | What It Shows |
+|------|--------------|
+| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A weak RAID log entry vs. a complete one, with field-by-field explanation of why specificity matters. |
 
 ---
 
@@ -67,20 +70,27 @@ The goal is simple: if you are starting a new program, you should not have to bu
 
 ---
 
+## Where This Breaks
+
+This is too much process for a small effort that can be resolved in two conversations. It is not enough process for a regulated, multi-year program with audit evidence, legal review, and multiple executive sponsors.
+
+Use these templates as forcing functions for the right conversations, not as paperwork for its own sake. A half-filled charter that nobody trusts is worse than a messy conversation that gets the real constraint on the table.
+
+---
+
 ## A Few Things Worth Saying Up Front
 
 **These templates are starting points, not prescriptions.** A small three-person project does not need every field in the charter. A massive multi-year program probably needs more than what is here. Use judgment.
 
 **Fill them in or do not use them.** A half-filled charter is worse than no charter - it creates the illusion of alignment without the substance. If a section is not relevant to your program, say so explicitly rather than leaving it blank.
 
-**The artifacts exist to support shared understanding, not to satisfy a process.** The reason to write a charter is so that your team and your stakeholders are aligned on what you are building and why. The reason to maintain a RAID log is so that problems do not become surprises. Keep that in mind when the templates feel like overhead.
+**The artifacts exist to support shared understanding, not to satisfy a process.** The reason to write a charter is so that your team and your stakeholders are aligned on what you are building and why. Keep that in mind when the templates feel like overhead.
 
 ---
 
 ## What Is Coming
 
 - Stakeholder engagement playbook
-- Program retrospective facilitation guide (see learning-notes for a standalone version)
 
 ---
 
@@ -93,7 +103,7 @@ These templates improve with use. If you find a gap, an improvement, or a sectio
 ## Related Repos
 
 - [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and a guide to introducing PM concepts to career changers
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Tools and trackers, including a fully formatted RAID Log spreadsheet
+- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Tools and trackers, including a fully formatted RAID Log spreadsheet and kickoff/meeting templates
 - [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Frameworks and guides for TPMs running security programs
 
 ---
