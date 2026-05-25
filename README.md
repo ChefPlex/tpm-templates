@@ -1,222 +1,221 @@
 # tpm-templates
 
-A collection of templates, frameworks, and reference docs built from real program experience. These are not theoretical - they come from running programs at enterprise scale across security, infrastructure, and compliance domains.
+Reusable templates and lightweight operating tools for technical program management.
 
-The goal is simple: if you are starting a new program, you should not have to build these from scratch. Take what is useful, adapt it to your context, and make it your own.
+These are not meant to be perfect corporate artifacts. They are working templates for getting alignment, exposing risk, clarifying ownership, and helping teams move.
 
 This repo is the workbench, not the policy binder.
 
----
+## Who This Is For
+
+This repo is for TPMs, engineering leaders, security program owners, and project leads who need practical structure without turning every program into process theater.
+
+Use it when you need to:
+
+- Start a program with clearer scope and ownership
+- Turn ambiguity into an operating plan
+- Track risks, assumptions, issues, and dependencies
+- Communicate status without hiding the hard parts
+- Create enough structure for teams to move with confidence
+- Teach core program management ideas to people who are new to the work
 
 ## What Is Here
 
 ### Program Lifecycle
 
-| Template | What It Is |# tpm-templates
-
-A collection of templates, frameworks, and reference docs built from real program experience. These are not theoretical - they come from running programs at enterprise scale across security, infrastructure, and compliance domains.
-
-The goal is simple: if you are starting a new program, you should not have to build these from scratch. Take what is useful, adapt it to your context, and make it your own.
-
-This repo is the workbench, not the policy binder.
-
----
-
-## What Is Here
-
-### Program Lifecycle
-
 | Template | What It Is |
-|----------|-----------|
-| [Program Phases Playbook](program-phases-playbook.md) | End-to-end framework covering all five program phases - from first idea through close-out. Artifacts, owners, and key questions at each gate. |
-| [Program Charter](program-charter-template.md) | The founding document for any serious initiative. Scope, objectives, Definition of Done, resources, stakeholders, risks, and compliance requirements in one place. |
-| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
+|---|---|
+| [Program Phases Playbook](program-phases-playbook.md) | A phase-based view of how programs move from first idea through planning, execution, launch, and close-out. Useful for orienting a team around where the work actually is. |
+| [Program Charter Template](program-charter-template.md) | The founding document for a serious initiative. Captures problem, goals, scope, non-goals, stakeholders, risks, decisions, and success criteria. |
+| [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
 
 ### Operations and Tracking
 
 | Template | What It Is |
-|----------|-----------|
-| [RAID Log Guide](raid-log-guide.md) | How to structure and run a Risks, Assumptions, Issues, and Dependencies log. Field definitions, rating guidance, and how to make it a living tool rather than a one-time exercise. See [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) for the working spreadsheet. |
-| [Communications Plan](communications-plan-template.md) | Stakeholder map, communications matrix, status report structure, and document repository setup. Everything needed to keep the right people informed at the right frequency. |
-| [Program Swim Lanes](program-swim-lanes-template.md) | Multi-workstream tracking view for programs running parallel initiatives. Executive-ready summary layer with workstream-level detail underneath. |
+|---|---|
+| [RAID Log Guide](raid-log-guide.md) | A guide for running a Risks, Assumptions, Issues, and Dependencies log as a living program tool, not a spreadsheet nobody trusts. |
+| [Communications Plan Template](communications-plan-template.md) | A stakeholder and communications planning template for status reports, updates, document locations, meeting cadence, and escalation paths. |
+| [Program Swim Lanes Template](program-swim-lanes-template.md) | A multi-workstream view for programs with parallel tracks, owners, milestones, risks, and executive summary needs. |
 
 ### Program Execution
 
 | Template | What It Is |
-|----------|-----------|
-| [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | Pre-kickoff checklist, recommended agenda with timing, section-by-section facilitation guide, and post-kickoff follow-up checklist. Lives in tpm-toolbox. |
-| [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | Template for capturing decisions, actions, open questions, and risks in a meeting. Includes a running tracker for recurring meetings. Lives in tpm-toolbox. |
+|---|---|
+| [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | A lightweight checklist for aligning scope, stakeholders, risks, dependencies, decisions, and operating rhythm before a program starts. Lives in `tpm-toolbox`. |
+| [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | A simple structure for capturing decisions, owners, due dates, open questions, and follow-ups. Lives in `tpm-toolbox`. |
 
 ### Engineering Collaboration
 
 | Template | What It Is |
-|----------|-----------|
-| [RFC Template](rfc-template.md) | Request for Comments template for significant proposals. Covers summary, motivation, detailed proposal, alternatives considered, impact, dependencies, risks, and decision record. |
-| [ADR Template](adr-template.md) | Architecture Decision Record template for documenting significant architectural decisions after they are made. Covers context, decision, alternatives, consequences, and status lifecycle. |
-
-### Teaching Materials
-
-| File | What It Is |
-|------|-----------|
-| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A 13-slide presentation that teaches core project management concepts - scope, planning, critical path, risk, stakeholders, dependencies, and retrospectives - using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Originally developed for Year Up. |
+|---|---|
+| [RFC Template](rfc-template.md) | A Request for Comments template for proposals that need structured review before a decision is made. Covers context, motivation, proposal, risks, alternatives, and decision path. |
+| [ADR Template](adr-template.md) | An Architecture Decision Record template for documenting important decisions after they are made. Captures context, decision, alternatives, consequences, and status. |
 
 ### Examples
 
 | File | What It Shows |
-|------|--------------|
-| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A weak RAID log entry vs. a complete one, with field-by-field explanation of why specificity matters. |
-
----
-
-## How to Use These
-
-**Starting a new program:** Begin with the Charter. It forces the conversations you need to have before work starts - scope, Definition of Done, resources, risks, and who is accountable for what. If you cannot fill it in, you are not ready to start yet.
-
-**Running an active program:** The RAID Log and Communications Plan are your operational tools. The RAID Log is the program's memory. The Communications Plan is how you keep stakeholders informed without spending your whole week answering status questions.
-
-**Reporting to leadership:** The Swim Lanes template gives you an executive-ready view across multiple workstreams. Pair it with the status report structure in the Communications Plan.
-
-**New to a program that is already running:** Start with the Playbook to orient yourself to where things stand in the lifecycle, then look for gaps in the artifacts that should exist at this phase.
-
-**Building technical consensus:** Use the RFC template before a decision is made to drive structured discussion, and the ADR template after to document what was decided and why.
-
-**Teaching PM concepts to a non-practitioner audience:** The Thanksgiving deck is the place to start. The concepts are not simplified - they are translated. There is a difference.
-
----
-
-## Where This Breaks
-
-This is too much process for a small effort that can be resolved in two conversations. It is not enough process for a regulated, multi-year program with audit evidence, legal review, and multiple executive sponsors.
-
-Use these templates as forcing functions for the right conversations, not as paperwork for its own sake. A half-filled charter that nobody trusts is worse than a messy conversation that gets the real constraint on the table.
-
----
-
-## A Few Things Worth Saying Up Front
-
-**These templates are starting points, not prescriptions.** A small three-person project does not need every field in the charter. A massive multi-year program probably needs more than what is here. Use judgment.
-
-**Fill them in or do not use them.** A half-filled charter is worse than no charter - it creates the illusion of alignment without the substance. If a section is not relevant to your program, say so explicitly rather than leaving it blank.
-
-**The artifacts exist to support shared understanding, not to satisfy a process.** The reason to write a charter is so that your team and your stakeholders are aligned on what you are building and why. Keep that in mind when the templates feel like overhead.
-
----
-
-## What Is Coming
-
-- Stakeholder engagement playbook
-
----
-
-## Contributing
-
-These templates improve with use. If you find a gap, an improvement, or a section that does not hold up in practice, open an issue or submit a pull request. Real-world feedback is how these get better.
-
----
-
-## Related Repos
-
-- [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and a guide to introducing PM concepts to career changers
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Tools and trackers, including a fully formatted RAID Log spreadsheet and kickoff/meeting templates
-- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Frameworks and guides for TPMs running security programs
-
----
-
-*Built from experience running platform security, infrastructure, and compliance programs at enterprise scale. Maintained by [Eric White](https://www.linkedin.com/in/edwhite) | [ChefPlex](https://github.com/ChefPlex)*
-
-|----------|-----------|
-| [Program Phases Playbook](program-phases-playbook.md) | End-to-end framework covering all five program phases - from first idea through close-out. Artifacts, owners, and key questions at each gate. |
-| [Program Charter](program-charter-template.md) | The founding document for any serious initiative. Scope, objectives, Definition of Done, resources, stakeholders, risks, and compliance requirements in one place. |
-| [Program Close-Out Report](program-close-out-report-template.md) | Full close-out report covering objectives vs. results, schedule and budget summary, risk disposition, operational handoff, lessons learned, team recognition, and recommendations. |
-
-### Operations and Tracking
-
-| Template | What It Is |
-|----------|-----------|
-| [RAID Log Guide](raid-log-guide.md) | How to structure and run a Risks, Assumptions, Issues, and Dependencies log. Field definitions, rating guidance, and how to make it a living tool rather than a one-time exercise. See [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) for the working spreadsheet. |
-| [Communications Plan](communications-plan-template.md) | Stakeholder map, communications matrix, status report structure, and document repository setup. Everything needed to keep the right people informed at the right frequency. |
-| [Program Swim Lanes](program-swim-lanes-template.md) | Multi-workstream tracking view for programs running parallel initiatives. Executive-ready summary layer with workstream-level detail underneath. |
-
-### Program Execution
-
-| Template | What It Is |
-|----------|-----------|
-| [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | Pre-kickoff checklist, recommended agenda with timing, section-by-section facilitation guide, and post-kickoff follow-up checklist. Lives in tpm-toolbox. |
-| [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | Template for capturing decisions, actions, open questions, and risks in a meeting. Includes a running tracker for recurring meetings. Lives in tpm-toolbox. |
-
-### Engineering Collaboration
-
-| Template | What It Is |
-|----------|-----------|
-| [RFC Template](rfc-template.md) | Request for Comments template for significant proposals. Covers summary, motivation, detailed proposal, alternatives considered, impact, dependencies, risks, and decision record. |
-| [ADR Template](adr-template.md) | Architecture Decision Record template for documenting significant architectural decisions after they are made. Covers context, decision, alternatives, consequences, and status lifecycle. |
+|---|---|
+| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
 
 ### Teaching Materials
 
 | File | What It Is |
-|------|-----------|
-| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A 13-slide presentation that teaches core project management concepts - scope, planning, critical path, risk, stakeholders, dependencies, and retrospectives - using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Originally developed for Year Up. |
+|---|---|
+| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A short presentation that teaches core project management concepts using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Originally developed for Year Up. |
 
-### Examples
+## Maturity
 
-| File | What It Shows |
-|------|--------------|
-| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A weak RAID log entry vs. a complete one, with field-by-field explanation of why specificity matters. |
+| Area | Status | Notes |
+|---|---|---|
+| Program charter | Ready | Good starting point for new programs, especially when scope and ownership are still fuzzy. |
+| Program phases playbook | Ready | Useful for orienting a team around lifecycle, gates, artifacts, and decision points. |
+| RAID log guide | Ready | Strong enough to use directly. Pair it with the sample entry. |
+| Communications plan | Ready | Useful for stakeholder mapping, status cadence, and escalation planning. |
+| Program swim lanes | Ready | Good for multi-workstream programs that need an executive summary layer. |
+| RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
+| Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
+| Examples | Working | More examples will make this repo easier to adopt. The next useful additions are a sample charter excerpt and a steering decision example. |
 
----
+## How to Use This Repo
 
-## How to Use These
+### Starting a new program
 
-**Starting a new program:** Begin with the Charter. It forces the conversations you need to have before work starts - scope, Definition of Done, resources, risks, and who is accountable for what. If you cannot fill it in, you are not ready to start yet.
+Start with the [Program Charter Template](program-charter-template.md).
 
-**Running an active program:** The RAID Log and Communications Plan are your operational tools. The RAID Log is the program's memory. The Communications Plan is how you keep stakeholders informed without spending your whole week answering status questions.
+The charter forces the conversations that need to happen before execution starts:
 
-**Reporting to leadership:** The Swim Lanes template gives you an executive-ready view across multiple workstreams. Pair it with the status report structure in the Communications Plan.
+- What problem are we solving?
+- What is in scope?
+- What is explicitly out of scope?
+- Who owns the work?
+- Who makes decisions?
+- What does done mean?
+- What risks are already visible?
+- What constraints are real?
 
-**New to a program that is already running:** Start with the Playbook to orient yourself to where things stand in the lifecycle, then look for gaps in the artifacts that should exist at this phase.
+If you cannot fill in the charter, that is the signal. Do not paper over it. Use the blank sections to drive the next conversation.
 
-**Building technical consensus:** Use the RFC template before a decision is made to drive structured discussion, and the ADR template after to document what was decided and why.
+### Running an active program
 
-**Teaching PM concepts to a non-practitioner audience:** The Thanksgiving deck is the place to start. The concepts are not simplified - they are translated. There is a difference.
+Use the [RAID Log Guide](raid-log-guide.md), [Communications Plan Template](communications-plan-template.md), and [Program Swim Lanes Template](program-swim-lanes-template.md).
 
----
+The RAID log is the program memory. The communications plan is how you keep people informed without spending the whole week answering the same status questions. The swim lanes view helps leadership understand how parallel workstreams fit together.
+
+### Reporting to leadership
+
+Use the [Program Swim Lanes Template](program-swim-lanes-template.md) for cross-workstream visibility and the [Communications Plan Template](communications-plan-template.md) for audience, cadence, and message discipline.
+
+Good reporting does not make a program look better than it is. It makes the actual state of the program easier to understand.
+
+### Joining a program already in motion
+
+Start with the [Program Phases Playbook](program-phases-playbook.md).
+
+Figure out where the program actually is, not where people say it is. Then look for the missing artifacts that should exist at that phase.
+
+A program in execution with no clear charter is probably carrying hidden alignment debt. A program near launch with no risk log is probably relying on memory and heroics. A program closing without lessons learned is probably going to repeat the same mistakes.
+
+### Building technical consensus
+
+Use the [RFC Template](rfc-template.md) before a decision is made.
+
+Use the [ADR Template](adr-template.md) after a decision is made.
+
+The RFC is for structured debate. The ADR is for memory and accountability. Mixing those up creates confusion. If a team is still debating options, write an RFC. If the decision has been made and people need to understand it later, write an ADR.
+
+### Teaching program management concepts
+
+Use [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) when you need to explain program management to people who do not live in TPM language.
+
+The concepts are not simplified. They are translated. There is a difference.
+
+## Using These Templates With AI
+
+These templates work well with AI as a drafting and critique partner.
+
+Good uses:
+
+- Turn messy notes into a first-pass charter
+- Ask for risks, assumptions, issues, and dependencies you may have missed
+- Rewrite a status update for a specific audience
+- Check whether a decision ask is clear
+- Convert meeting notes into owners, actions, due dates, and open questions
+- Pressure-test whether a program is actually ready for kickoff or launch
+
+Bad uses:
+
+- Pasting confidential company data into a public model
+- Letting AI invent facts, owners, dates, or commitments
+- Publishing AI-generated artifacts without review
+- Treating a polished draft as an aligned plan
+- Using the template to avoid a hard conversation
+
+AI can help with structure and speed. It does not own the facts, the judgment, the tradeoffs, or the final artifact.
 
 ## Where This Breaks
 
-This is too much process for a small effort that can be resolved in two conversations. It is not enough process for a regulated, multi-year program with audit evidence, legal review, and multiple executive sponsors.
+This repo is too much process for a small effort that can be solved in two conversations.
 
-Use these templates as forcing functions for the right conversations, not as paperwork for its own sake. A half-filled charter that nobody trusts is worse than a messy conversation that gets the real constraint on the table.
+It is not enough process for a regulated, multi-year program with legal review, audit evidence, customer commitments, and multiple executive sponsors.
 
----
+That is fine. Templates are not laws. They are forcing functions.
+
+Use them to expose the conversation you need to have. Do not use them as paperwork for its own sake.
 
 ## A Few Things Worth Saying Up Front
 
-**These templates are starting points, not prescriptions.** A small three-person project does not need every field in the charter. A massive multi-year program probably needs more than what is here. Use judgment.
+These templates are starting points, not prescriptions.
 
-**Fill them in or do not use them.** A half-filled charter is worse than no charter - it creates the illusion of alignment without the substance. If a section is not relevant to your program, say so explicitly rather than leaving it blank.
+A small three-person project does not need every field in the charter. A large security or infrastructure program may need more detail than what is here. Use judgment.
 
-**The artifacts exist to support shared understanding, not to satisfy a process.** The reason to write a charter is so that your team and your stakeholders are aligned on what you are building and why. Keep that in mind when the templates feel like overhead.
+Fill them in or do not use them.
 
----
+A half-filled charter is worse than no charter if it creates the illusion of alignment. If a section does not apply, say that. If a field is unknown, say who owns finding out. Blank space is not harmless when people mistake it for agreement.
+
+The artifact is not the work.
+
+The work is getting the right people aligned on the right problem, with clear ownership, visible risk, and a shared understanding of what happens next.
+
+## Recommended Starting Points
+
+| Situation | Start Here |
+|---|---|
+| New cross-functional program | [Program Charter Template](program-charter-template.md) |
+| Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
+| Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
+| Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
+| Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
+| Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
+| Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
+| Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
+| Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 
 ## What Is Coming
 
 - Stakeholder engagement playbook
+- Sample program charter excerpt
+- Sample steering committee decision example
 
----
-
-## Contributing
-
-These templates improve with use. If you find a gap, an improvement, or a section that does not hold up in practice, open an issue or submit a pull request. Real-world feedback is how these get better.
-
----
+No giant roadmap. The goal is to add examples and templates that are useful enough to stand on their own.
 
 ## Related Repos
 
-- [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and a guide to introducing PM concepts to career changers
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Tools and trackers, including a fully formatted RAID Log spreadsheet and kickoff/meeting templates
-- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Frameworks and guides for TPMs running security programs
+- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Lightweight TPM trackers, checklists, and practical tools, including kickoff and meeting templates.
+- [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks) - Status, steering committee, lessons-learned, and investment frameworks for honest program reporting.
+- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Security TPM guides for intake, compliance triage, evidence planning, and cross-team execution.
+- [ai-automations](https://github.com/ChefPlex/ai-automations) - AI-assisted TPM prompts, workflows, examples, and review checks for safer program artifacts.
+- [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and working notes across security, systems design, and program practice.
 
----
+## Contributing
 
-*Built from experience running platform security, infrastructure, and compliance programs at enterprise scale. Maintained by [Eric White](https://www.linkedin.com/in/edwhite) | [ChefPlex](https://github.com/ChefPlex)*
+These templates get better when they are used.
+
+If a section does not hold up in real work, change it. If a template creates confusion, simplify it. If an example would make the tool easier to adopt, add it.
+
+The bar is practical usefulness, not completeness.
+
+## Maintainer
+
+Built from experience running platform security, infrastructure, compliance, and enterprise execution programs.
+
+Maintained by [Eric White](https://github.com/ChefPlex).
