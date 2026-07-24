@@ -37,6 +37,12 @@ Use it when you need to:
 | [Communications Plan Template](communications-plan-template.md) | A stakeholder and communications planning template for status reports, updates, document locations, meeting cadence, and escalation paths. |
 | [Program Swim Lanes Template](program-swim-lanes-template.md) | A multi-workstream view for programs with parallel tracks, owners, milestones, risks, and executive summary needs. |
 
+### Incident Management
+
+| Template | What It Is |
+|---|---|
+| [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) | An Incident Commander playbook grounded in the LDR553/CIMTK framework. Covers first-hour actions from detection through the first exec briefing, plus the full six-phase incident lifecycle from detect and classify through sustain and exercise. |
+
 ### Program Execution
 
 | Template | What It Is |
@@ -74,6 +80,7 @@ Use it when you need to:
 | Program swim lanes | Ready | Good for multi-workstream programs that need an executive summary layer. |
 | RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
 | Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
+| Cyber incident playbook | Ready | Grounded in LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
 | Examples | Working | More examples will make this repo easier to adopt. The next useful additions are a sample charter excerpt and a steering decision example. |
 
 ## How to Use This Repo
@@ -100,6 +107,12 @@ If you cannot fill in the charter, that is the signal. Do not paper over it. Use
 Use the [RAID Log Guide](raid-log-guide.md), [Communications Plan Template](communications-plan-template.md), and [Program Swim Lanes Template](program-swim-lanes-template.md).
 
 The RAID log is the program memory. The communications plan is how you keep people informed without spending the whole week answering the same status questions. The swim lanes view helps leadership understand how parallel workstreams fit together.
+
+### Responding to a security incident
+
+Use the [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md).
+
+Part 1 covers the first hour: triage, command, scope, intent, battle rhythm, and the first exec brief. Part 2 covers the full lifecycle from detection through post-incident review. Use it as the incident commander's field reference, not a document to write from scratch mid-incident.
 
 ### Reporting to leadership
 
@@ -188,6 +201,7 @@ The work is getting the right people aligned on the right problem, with clear ow
 | Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
 | Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
 | Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
+| A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 
 ## What Is Coming
