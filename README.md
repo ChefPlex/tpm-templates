@@ -65,6 +65,7 @@ Use it when you need to:
 | File | What It Shows |
 |---|---|
 | [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
+| [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
 
 ### Teaching Materials
 
@@ -216,7 +217,6 @@ The work is getting the right people aligned on the right problem, with clear ow
 ## What Is Coming
 
 - Stakeholder engagement playbook
-- Sample program charter excerpt
 
 No giant roadmap. The goal is to add examples and templates that are useful enough to stand on their own.
 
