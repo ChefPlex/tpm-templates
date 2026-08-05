@@ -36,6 +36,7 @@ Use it when you need to:
 |---|---|
 | [RAID Log Guide](raid-log-guide.md) | A guide for running a Risks, Assumptions, Issues, and Dependencies log as a living program tool, not a spreadsheet nobody trusts. |
 | [Communications Plan Template](communications-plan-template.md) | A stakeholder and communications planning template for status reports, updates, document locations, meeting cadence, and escalation paths. |
+| [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) | The strategy layer above the comms plan: how to identify the stakeholders who matter, map power and interest, and move skeptics and resource owners you do not command - influence without authority across the program lifecycle. |
 | [Program Swim Lanes Template](program-swim-lanes-template.md) | A multi-workstream view for programs with parallel tracks, owners, milestones, risks, and executive summary needs. |
 | [RACI Template — Waterfall](raci-template-waterfall.md) | A phase-gated responsibility matrix for settling who's responsible, accountable, consulted, and informed across initiation through closure. |
 | [RACI Template — Agile](raci-template-agile.md) | A sprint- and release-cadence responsibility matrix for Scrum, Kanban, or SAFe teams, including the ownership handoff at release. |
@@ -205,6 +206,7 @@ The work is getting the right people aligned on the right problem, with clear ow
 | Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
 | Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
 | Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
+| Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
 | Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
 | Nobody can say who actually owns a decision — phase-gated program | [RACI Template — Waterfall](raci-template-waterfall.md) |
 | Nobody can say who actually owns a decision — sprint-based team | [RACI Template — Agile](raci-template-agile.md) |
@@ -216,9 +218,7 @@ The work is getting the right people aligned on the right problem, with clear ow
 
 ## What Is Coming
 
-- Stakeholder engagement playbook
-
-No giant roadmap. The goal is to add examples and templates that are useful enough to stand on their own.
+No giant roadmap - the goal is to add examples and templates useful enough to stand on their own. Nothing queued right now; contributions welcome (see Contributing).
 
 ## Related Repos
 
