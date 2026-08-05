@@ -217,7 +217,6 @@ The work is getting the right people aligned on the right problem, with clear ow
 
 - Stakeholder engagement playbook
 - Sample program charter excerpt
-- Sample steering committee decision example
 
 No giant roadmap. The goal is to add examples and templates that are useful enough to stand on their own.
 
