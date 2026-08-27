@@ -38,8 +38,8 @@ Use it when you need to:
 | [Communications Plan Template](communications-plan-template.md) | A stakeholder and communications planning template for status reports, updates, document locations, meeting cadence, and escalation paths. |
 | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) | The strategy layer above the comms plan: how to identify the stakeholders who matter, map power and interest, and move skeptics and resource owners you do not command - influence without authority across the program lifecycle. |
 | [Program Swim Lanes Template](program-swim-lanes-template.md) | A multi-workstream view for programs with parallel tracks, owners, milestones, risks, and executive summary needs. |
-| [RACI Template — Waterfall](raci-template-waterfall.md) | A phase-gated responsibility matrix for settling who's responsible, accountable, consulted, and informed across initiation through closure. |
-| [RACI Template — Agile](raci-template-agile.md) | A sprint- and release-cadence responsibility matrix for Scrum, Kanban, or SAFe teams, including the ownership handoff at release. |
+| [RACI Template - Waterfall](raci-template-waterfall.md) | A phase-gated responsibility matrix for settling who's responsible, accountable, consulted, and informed across initiation through closure. |
+| [RACI Template - Agile](raci-template-agile.md) | A sprint- and release-cadence responsibility matrix for Scrum, Kanban, or SAFe teams, including the ownership handoff at release. |
 
 ### Incident Management
 
@@ -89,7 +89,7 @@ Use it when you need to:
 | RAID log guide | Ready | Strong enough to use directly. Pair it with the sample entry. |
 | Communications plan | Ready | Useful for stakeholder mapping, status cadence, and escalation planning. |
 | Program swim lanes | Ready | Good for multi-workstream programs that need an executive summary layer. |
-| RACI templates (waterfall & agile) | Ready | Two separate matrices, not one template with a toggle — the phase structure and the sprint cadence break down differently and forcing them into one format hides the real handoff points. |
+| RACI templates (waterfall & agile) | Ready | Two separate matrices, not one template with a toggle - the phase structure and the sprint cadence break down differently and forcing them into one format hides the real handoff points. |
 | RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
 | Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
 | Cyber incident playbook | Ready | Grounded in LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
@@ -120,7 +120,7 @@ Use the [RAID Log Guide](raid-log-guide.md), [Communications Plan Template](comm
 
 The RAID log is the program memory. The communications plan is how you keep people informed without spending the whole week answering the same status questions. The swim lanes view helps leadership understand how parallel workstreams fit together.
 
-When ownership itself is the thing in question — not status, not risk, but who's actually on the hook for a decision — use the [RACI Template — Waterfall](raci-template-waterfall.md) or [RACI Template — Agile](raci-template-agile.md), depending on how the program runs. Waterfall maps ownership to phases and gates. Agile maps it to the sprint and release cadence, where the handoff usually gets lost between "dev is done" and "it's actually live."
+When ownership itself is the thing in question - not status, not risk, but who's actually on the hook for a decision - use the [RACI Template - Waterfall](raci-template-waterfall.md) or [RACI Template - Agile](raci-template-agile.md), depending on how the program runs. Waterfall maps ownership to phases and gates. Agile maps it to the sprint and release cadence, where the handoff usually gets lost between "dev is done" and "it's actually live."
 
 ### Responding to a security incident
 
@@ -198,7 +198,7 @@ A small three-person project does not need every field in the charter. A large s
 
 Fill them in or do not use them.
 
-A half-filled charter is worse than no charter if it creates the illusion of alignment. If a section does not apply, say that. If a field is unknown, say who owns finding out. Blank space is not harmless when people mistake it for agreement. The same goes for a RACI matrix with every cell filled in — a grid where every role touches every row isn't more thorough, it's a sign nobody actually worked out who owns what.
+A half-filled charter is worse than no charter if it creates the illusion of alignment. If a section does not apply, say that. If a field is unknown, say who owns finding out. Blank space is not harmless when people mistake it for agreement. The same goes for a RACI matrix with every cell filled in - a grid where every role touches every row isn't more thorough, it's a sign nobody actually worked out who owns what.
 
 The artifact is not the work.
 
@@ -214,8 +214,8 @@ The work is getting the right people aligned on the right problem, with clear ow
 | Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
 | Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
 | Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
-| Nobody can say who actually owns a decision — phase-gated program | [RACI Template — Waterfall](raci-template-waterfall.md) |
-| Nobody can say who actually owns a decision — sprint-based team | [RACI Template — Agile](raci-template-agile.md) |
+| Nobody can say who actually owns a decision - phase-gated program | [RACI Template - Waterfall](raci-template-waterfall.md) |
+| Nobody can say who actually owns a decision - sprint-based team | [RACI Template - Agile](raci-template-agile.md) |
 | Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
 | Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
 | Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |

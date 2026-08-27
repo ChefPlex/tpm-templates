@@ -1,6 +1,6 @@
-# RACI Template — Waterfall
+# RACI Template - Waterfall
 
-A responsibility matrix for phase-gated programs. Use it to settle who does the work, who owns the outcome, who gets consulted, and who just needs to know — before the ambiguity turns into a missed handoff.
+A responsibility matrix for phase-gated programs. Use it to settle who does the work, who owns the outcome, who gets consulted, and who just needs to know - before the ambiguity turns into a missed handoff.
 
 ## When To Use This
 
@@ -15,14 +15,14 @@ Pair this with the [Program Charter Template](program-charter-template.md) at ki
 
 | Code | Meaning |
 |---|---|
-| **R** — Responsible | Does the work to complete the task. Can be shared across roles. |
-| **A** — Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
-| **C** — Consulted | Two-way input sought before or during the work. |
-| **I** — Informed | Kept updated on progress or outcome. One-way, no input expected. |
+| **R** - Responsible | Does the work to complete the task. Can be shared across roles. |
+| **A** - Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
+| **C** - Consulted | Two-way input sought before or during the work. |
+| **I** - Informed | Kept updated on progress or outcome. One-way, no input expected. |
 
 ## Template
 
-Roles across the top are a starting set — rename or add columns to match your program. Rows are grouped by phase; add or cut rows to match your actual gates.
+Roles across the top are a starting set - rename or add columns to match your program. Rows are grouped by phase; add or cut rows to match your actual gates.
 
 | Activity / Deliverable | Sponsor | Program/Project Mgr | Business Analyst | Solution Architect | Dev Lead | QA Lead | Security/Compliance | Change Mgmt | End Users/Stakeholders |
 |---|---|---|---|---|---|---|---|---|---|
@@ -59,7 +59,7 @@ Roles across the top are a starting set — rename or add columns to match your 
 
 - One A per row. If two roles both think they're accountable, that's the conversation to have before the program starts, not after something slips.
 - R can be shared. A cannot.
-- A blank cell is fine. Don't mark every role on every row just to fill the grid — that's the fastest way to make the matrix meaningless.
+- A blank cell is fine. Don't mark every role on every row just to fill the grid - that's the fastest way to make the matrix meaningless.
 - If a row has zero A's or more than one, fix it before you circulate the matrix. It's not a formatting issue, it's an unresolved ownership question.
 - Revisit this at each phase gate, not just at kickoff. Roles that made sense in Design often don't hold in Deployment.
 

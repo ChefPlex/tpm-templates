@@ -1,4 +1,4 @@
-# RACI Template — Agile
+# RACI Template - Agile
 
 A responsibility matrix for sprint-based teams and programs. Waterfall RACIs map to phases; this one maps to the sprint and release cadence, where ownership shifts fast and the usual failure mode is nobody owning the release once dev is "done."
 
@@ -15,14 +15,14 @@ Pair this with the [Program Swim Lanes Template](program-swim-lanes-template.md)
 
 | Code | Meaning |
 |---|---|
-| **R** — Responsible | Does the work to complete the task. Can be shared across roles. |
-| **A** — Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
-| **C** — Consulted | Two-way input sought before or during the work. |
-| **I** — Informed | Kept updated on progress or outcome. One-way, no input expected. |
+| **R** - Responsible | Does the work to complete the task. Can be shared across roles. |
+| **A** - Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
+| **C** - Consulted | Two-way input sought before or during the work. |
+| **I** - Informed | Kept updated on progress or outcome. One-way, no input expected. |
 
 ## Template
 
-Roles are Scrum defaults — swap in Kanban or SAFe roles as needed (e.g. Release Train Engineer instead of Scrum Master, System Architect instead of Solution Architect). Rows are grouped by cadence; add or cut rows to match your actual ceremonies.
+Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release Train Engineer instead of Scrum Master, System Architect instead of Solution Architect). Rows are grouped by cadence; add or cut rows to match your actual ceremonies.
 
 | Activity / Deliverable | Product Owner | Scrum Master | Dev Team | QA/Test | Solution Architect | Release Mgr | Security/Compliance | Stakeholders/Sponsor |
 |---|---|---|---|---|---|---|---|---|
@@ -49,12 +49,12 @@ Roles are Scrum defaults — swap in Kanban or SAFe roles as needed (e.g. Releas
 
 ## Rules Of Thumb
 
-- One A per row. Note the deliberate handoff in this template — Product Owner holds A through Sprint Cadence and Quality & Review, then Release Manager takes it for Release. That's the transition teams most often lose track of.
+- One A per row. Note the deliberate handoff in this template - Product Owner holds A through Sprint Cadence and Quality & Review, then Release Manager takes it for Release. That's the transition teams most often lose track of.
 - R can be shared. A cannot.
-- Daily standup and development rows lean heavily R with almost no A — that's intentional, not a gap. Not every activity needs a formal accountable owner, only the ones with a real decision or sign-off attached.
+- Daily standup and development rows lean heavily R with almost no A - that's intentional, not a gap. Not every activity needs a formal accountable owner, only the ones with a real decision or sign-off attached.
 - A blank cell is fine. Don't mark every role on every row.
 - Revisit at the start of a new PI or when the team composition changes. A RACI built for a 5-person team doesn't survive a SAFe train unmodified.
 
 ## Where This Breaks
 
-Agile teams that are already high-trust and co-located sometimes don't need this at all — the ceremonies themselves make ownership visible. Reach for this when the team is new, distributed, scaling past one team, or when release ownership has already caused a miss. Don't add process for its own sake.
+Agile teams that are already high-trust and co-located sometimes don't need this at all - the ceremonies themselves make ownership visible. Reach for this when the team is new, distributed, scaling past one team, or when release ownership has already caused a miss. Don't add process for its own sake.
