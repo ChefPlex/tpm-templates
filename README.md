@@ -47,6 +47,12 @@ Use it when you need to:
 |---|---|
 | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) | An Incident Commander playbook grounded in the LDR553/CIMTK framework. Covers first-hour actions from detection through the first exec briefing, plus the full six-phase incident lifecycle from detect and classify through sustain and exercise. |
 
+### AI and RAG Programs
+
+| Template | What It Is |
+|---|---|
+| [Enterprise RAG Program](enterprise-rag-program/) | Running Retrieval-Augmented Generation as a program rather than an AI experiment. Playbook with phases, seven workstreams, governance and risk tiers, plus templates for the charter, use case catalog, data source inventory, evaluation plan, RAID starter, milestone exit criteria, and definition of done. The security workstream lives in [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security). |
+
 ### Program Execution
 
 | Template | What It Is |
@@ -214,6 +220,7 @@ The work is getting the right people aligned on the right problem, with clear ow
 | Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
 | Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
 | A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
+| Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 
 ## What Is Coming
