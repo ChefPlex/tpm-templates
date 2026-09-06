@@ -248,3 +248,8 @@ The bar is practical usefulness, not completeness.
 Built from experience running platform security, infrastructure, compliance, and enterprise execution programs.
 
 Maintained by [Eric White](https://github.com/ChefPlex).
+
+## License
+
+Copyright (c) 2026 Eric White. Licensed under [CC BY 4.0](LICENSE): use it, adapt it, put it to
+work in your own program. Credit is the only condition.
