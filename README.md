@@ -36,8 +36,9 @@ Four documents, in this order. They're the spine; everything below is situationa
 3. **[Meeting Notes + Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md)** - the habit that stops things getting dropped.
 4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust.
 
-Read the two [worked examples](examples/) alongside them. They show a weak version next to a
-useful one, which is faster than any amount of instruction.
+Read the [worked examples](examples/) alongside them. Each one shows a weak version next to a
+useful one, which is faster than any amount of instruction. They all draw on the same program, a
+platform encryption migration, so the artifacts connect to each other rather than standing alone.
 
 ### If you're running several programs at once
 
@@ -130,6 +131,8 @@ useful one, which is faster than any amount of instruction.
 |---|---|
 | [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
 | [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
+| [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, weak against better. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
+| [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The weak one records what was chosen; the better one records what was rejected, what it cost, and the two conditions that would reopen it. |
 
 ### Teaching Materials
 

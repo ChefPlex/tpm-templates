@@ -142,4 +142,6 @@ A good test: would this decision come up in a system design review? Would a new 
 
 ---
 
+**Worked example:** [the same decision written twice](examples/sample-adr.md), weak against better.
+
 *Template version 1.0. Propose changes via pull request.*
