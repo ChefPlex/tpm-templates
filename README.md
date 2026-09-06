@@ -2,7 +2,7 @@
 
 Reusable templates and lightweight operating tools for technical program management.
 
-These are not meant to be perfect corporate artifacts. They are working templates for getting alignment, exposing risk, clarifying ownership, and helping teams move.
+These are not meant to be perfect corporate artifacts. They're working templates for getting alignment, exposing risk, clarifying ownership, and helping teams move.
 
 This repo is the workbench, not the policy binder.
 
@@ -132,13 +132,13 @@ Part 1 covers the first hour: triage, command, scope, intent, battle rhythm, and
 
 Use the [Program Swim Lanes Template](program-swim-lanes-template.md) for cross-workstream visibility and the [Communications Plan Template](communications-plan-template.md) for audience, cadence, and message discipline.
 
-Good reporting does not make a program look better than it is. It makes the actual state of the program easier to understand.
+Good reporting doesn't make a program look better than it's. It makes the actual state of the program easier to understand.
 
 ### Joining a program already in motion
 
 Start with the [Program Phases Playbook](program-phases-playbook.md).
 
-Figure out where the program actually is, not where people say it is. Then look for the missing artifacts that should exist at that phase.
+Figure out where the program actually is, not where people say it's. Then look for the missing artifacts that should exist at that phase.
 
 A program in execution with no clear charter is probably carrying hidden alignment debt. A program near launch with no risk log is probably relying on memory and heroics. A program closing without lessons learned is probably going to repeat the same mistakes. A program where every status update reads "on track" but nobody can say who owns the next decision probably needs a RACI more than it needs another status meeting.
 
@@ -152,7 +152,7 @@ The RFC is for structured debate. The ADR is for memory and accountability. Mixi
 
 ### Teaching program management concepts
 
-Use [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) when you need to explain program management to people who do not live in TPM language.
+Use [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) when you need to explain program management to people who don't live in TPM language.
 
 The concepts are not simplified. They are translated. There is a difference.
 
@@ -178,13 +178,13 @@ Bad uses:
 - Treating a polished draft as an aligned plan
 - Using the template to avoid a hard conversation
 
-AI can help with structure and speed. It does not own the facts, the judgment, the tradeoffs, or the final artifact.
+AI can help with structure and speed. It doesn't own the facts, the judgment, the tradeoffs, or the final artifact.
 
 ## Where This Breaks
 
 This repo is too much process for a small effort that can be solved in two conversations.
 
-It is not enough process for a regulated, multi-year program with legal review, audit evidence, customer commitments, and multiple executive sponsors.
+It's not enough process for a regulated, multi-year program with legal review, audit evidence, customer commitments, and multiple executive sponsors.
 
 That is fine. Templates are not laws. They are forcing functions.
 
@@ -194,7 +194,7 @@ Use them to expose the conversation you need to have. Do not use them as paperwo
 
 These templates are starting points, not prescriptions.
 
-A small three-person project does not need every field in the charter. A large security or infrastructure program may need more detail than what is here. Use judgment.
+A small three-person project doesn't need every field in the charter. A large security or infrastructure program may need more detail than what is here. Use judgment.
 
 Fill them in or do not use them.
 
@@ -229,17 +229,17 @@ No giant roadmap - the goal is to add examples and templates useful enough to st
 
 ## Related Repos
 
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Lightweight TPM trackers, checklists, and practical tools, including kickoff and meeting templates.
-- [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks) - Status, steering committee, lessons-learned, and investment frameworks for honest program reporting.
-- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Security TPM guides for intake, compliance triage, evidence planning, and cross-team execution.
-- [ai-automations](https://github.com/ChefPlex/ai-automations) - AI-assisted TPM prompts, workflows, examples, and review checks for safer program artifacts.
-- [learning-notes](https://github.com/ChefPlex/learning-notes) - Technical concepts, TPM craft notes, and working notes across security, systems design, and program practice.
+- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - The things I kept using after the program ended, including kickoff and meeting templates.
+- [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks) - How to write a status report an executive can act on, and a steering deck that forces a decision.
+- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - What I'd hand a TPM taking over an encryption or compliance program in their first week.
+- [ai-automations](https://github.com/ChefPlex/ai-automations) - Prompts I actually use, and the frameworks for deciding how much AI belongs in a piece of work at all.
+- [learning-notes](https://github.com/ChefPlex/learning-notes) - A public notebook on security, systems design and program practice. Some of it will turn out to be wrong.
 
 ## Contributing
 
 These templates get better when they are used.
 
-If a section does not hold up in real work, change it. If a template creates confusion, simplify it. If an example would make the tool easier to adopt, add it.
+If a section doesn't hold up in real work, change it. If a template creates confusion, simplify it. If an example would make the tool easier to adopt, add it.
 
 The bar is practical usefulness, not completeness.
 

@@ -2,7 +2,7 @@
 
 The gate for calling an enterprise RAG platform production-ready. Ten dimensions, each with a named owner and a verifiable result.
 
-The value of a written DoD is that it is agreed before anyone is under launch pressure. Deferring a dimension is legitimate; deferring it silently in week 22 is not. Record every deferral with an approver and a date.
+The value of a written DoD is that it's agreed before anyone is under launch pressure. Deferring a dimension is legitimate; deferring it silently in week 22 isn't. Record every deferral with an approver and a date.
 
 ## The Gate
 
@@ -34,7 +34,7 @@ Owner: AI engineering lead
 ### 4. Security
 
 - [ ] Identity and authorization validated end to end
-- [ ] Permission-aware retrieval verified: no user can retrieve what they could not access directly
+- [ ] Permission-aware retrieval verified: no user can retrieve what they couldn't access directly
 - [ ] Permission changes propagate to the index within the agreed window
 - [ ] Encryption in transit and at rest confirmed
 - [ ] Audit logging captures query, retrieved documents, and requesting identity

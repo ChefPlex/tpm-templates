@@ -4,7 +4,7 @@ A pre-seeded Risks, Assumptions, Issues and Dependencies register for an enterpr
 
 Operating discipline, scoring, and review cadence: [RAID Log Guide](../raid-log-guide.md). This file is the RAG-specific content, not a second methodology.
 
-Every row below has been seen on real programs. Delete what genuinely does not apply, but delete it deliberately rather than by not reading it.
+Every row below has been seen on real programs. Delete what genuinely doesn't apply, but delete it deliberately rather than by not reading it.
 
 ## Risks
 
@@ -60,4 +60,4 @@ Four rows are marked Critical rather than High: R-04, R-05, R-13, R-14. All four
 
 A retrieval quality problem produces a bad answer, which a user notices and reports. An access-control problem produces a *good* answer, delivered confidently, to someone who should never have seen it, and nothing in the user experience signals that anything went wrong. Nobody files a ticket.
 
-That is why the escalation trigger on all four is a single occurrence rather than a threshold, and why the corresponding CI gate has no tolerance band.
+That's why the escalation trigger on all four is a single occurrence rather than a threshold, and why the corresponding CI gate has no tolerance band.

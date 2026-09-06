@@ -144,4 +144,4 @@ Use this section from the moment of notification until your first exec briefing.
 - Don't rush to pay ransom/extortion demands - no guarantee of outcome, and payment doesn't guarantee deletion
 - Default to consequence-based decisions: frame every technical fact in terms of data loss, downtime, or reputational exposure before it reaches execs
 - Every ransom/legal/disclosure decision gets logged with rationale - assume it will be reviewed later
-- Scope statements and exec briefs should be conservative and defensible, not comprehensive - you will need to walk back overclaims, rarely underclaims
+- Scope statements and exec briefs should be conservative and defensible, not comprehensive - you'll need to walk back overclaims, rarely underclaims

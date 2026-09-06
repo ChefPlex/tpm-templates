@@ -1,8 +1,8 @@
 # Stakeholder Engagement Playbook
 
-A communications plan tells people what is happening. A stakeholder engagement plan decides whose alignment you actually need, and how you earn it. They are not the same document, and confusing them is why programs with beautiful status reports still stall: everyone is informed, and nobody is aligned.
+A communications plan tells people what is happening. A stakeholder engagement plan decides whose alignment you actually need, and how you earn it. They aren't the same document, and confusing them is why programs with beautiful status reports still stall: everyone is informed, and nobody is aligned.
 
-For a TPM [Technical Program Manager], this is not a soft skill on the side of the job. It is most of the job. You own the outcome and almost none of the people. The program moves at the speed of the alignment you can build across teams that do not report to you. Engagement is the work of building the coalition that delivers, not the courtesy of keeping an audience updated.
+For a TPM [Technical Program Manager], this isn't a soft skill on the side of the job. It is most of the job. You own the outcome and almost none of the people. The program moves at the speed of the alignment you can build across teams that don't report to you. Engagement is the work of building the coalition that delivers, not the courtesy of keeping an audience updated.
 
 This playbook covers how to identify the stakeholders who matter, analyze where they stand, and move them - including the ones who start out skeptical or indifferent - using influence rather than authority.
 
@@ -13,12 +13,12 @@ This playbook covers how to identify the stakeholders who matter, analyze where 
 Start wider than the org chart. A stakeholder is anyone who can help the program, block it, or is materially affected by it. The ones who sink programs are usually not on the kickoff invite:
 
 - **Decision authority** - who can say yes or no to scope, budget, or launch.
-- **Resource owners** - who controls the people or systems you depend on but do not command.
-- **Gatekeepers** - security, legal, compliance, architecture review. A late no from any of them is the most expensive no there is.
-- **The quiet veto** - the senior engineer or ops lead who will not sit in the steering committee but whose skepticism can stall adoption after launch.
+- **Resource owners** - who controls the people or systems you depend on but don't command.
+- **Gatekeepers** - security, legal, compliance, architecture review. A late no from any of them is the most expensive no there's.
+- **The quiet veto** - the senior engineer or ops lead who won't sit in the steering committee but whose skepticism can stall adoption after launch.
 - **The affected** - the teams and users whose work changes when you ship.
 
-If you cannot name who could quietly kill this program six weeks in, you have not finished the map.
+If you can't name who could quietly kill this program six weeks in, you haven't finished the map.
 
 ---
 
@@ -36,7 +36,7 @@ The standard first cut. Place each stakeholder by how much **power** they have o
 Two disciplines most people skip:
 
 - **Positions move.** Power and interest change as the program crosses phase gates and as risk rises. Re-map at each major milestone; a grid built once at kickoff is fiction by launch.
-- **Power is not only the org chart.** Legitimacy (whose concern is seen as valid) and urgency (whose issue is loud right now) shift real influence. The person with the loudest legitimate concern this month has power the title does not show.
+- **Power isn't only the org chart.** Legitimacy (whose concern is seen as valid) and urgency (whose issue is loud right now) shift real influence. The person with the loudest legitimate concern this month has power the title doesn't show.
 
 ### Know Three Things About Everyone You Must "Manage Closely"
 
@@ -46,7 +46,7 @@ The grid tells you how much to engage. It does not tell you how to move someone.
 - **Their concern** - what are they actually afraid of? Loss of control, more work for their team, a past program that burned them, an incentive that points the other way.
 - **Their currency** - what do they value that you can offer? Recognition, information, a reciprocal favor, cover with their own leadership, a problem of theirs you can solve.
 
-If you cannot fill in those three for a key stakeholder, that gap is your next conversation, not your next status report.
+If you can't fill in those three for a key stakeholder, that gap is your next conversation, not your next status report.
 
 ---
 
@@ -58,11 +58,11 @@ This is the craft. When you cannot mandate cooperation, you earn it. A few thing
 
 **Build the coalition before the meeting, not in it.** Decisions are made in the hallway; meetings ratify them. Pre-wire every significant decision one-on-one with the people who matter, so the steering committee is a confirmation and not a fight. A key stakeholder should never be surprised in a room - surprise reads as disrespect and hardens positions.
 
-**Make it "us versus the problem."** The moment a disagreement becomes you versus them, you have lost, even if you win the argument. Name the shared problem, put it on the wall between you, and solve it together.
+**Make it "us versus the problem."** The moment a disagreement becomes you versus them, you've lost, even if you win the argument. Name the shared problem, put it on the wall between you, and solve it together.
 
-**Address the reason, not the objection.** A no is a surface. Under it is a reason - fear, workload, a bad past experience, a misaligned incentive. You do not overcome the objection by arguing it; you dissolve it by addressing the reason. "This will overload my team" is solved with sequencing or help, not with a better slide.
+**Address the reason, not the objection.** A no is a surface. Under it's a reason - fear, workload, a bad past experience, a misaligned incentive. You don't overcome the objection by arguing it; you dissolve it by addressing the reason. "This will overload my team" is solved with sequencing or help, not with a better slide.
 
-**Escalate the decision, not the person - and late, not early.** Escalation is a tool, not a failure, but it spends relationship capital. Use it only after you have genuinely worked the problem at the working level, and escalate the *decision that is stuck* with a clear recommendation, never a complaint about a *person*. An escalation that arrives as "here is the call I need and why" keeps the relationship; one that arrives as "make them cooperate" burns it.
+**Escalate the decision, not the person - and late, not early.** Escalation is a tool, not a failure, but it spends relationship capital. Use it only after you've genuinely worked the problem at the working level, and escalate the *decision that's stuck* with a clear recommendation, never a complaint about a *person*. An escalation that arrives as "here is the call I need and why" keeps the relationship; one that arrives as "make them cooperate" burns it.
 
 ---
 
@@ -70,7 +70,7 @@ This is the craft. When you cannot mandate cooperation, you earn it. A few thing
 
 Alignment is cheapest at the start and most expensive at the end.
 
-- **Kickoff / charter.** The charter conversation *is* the alignment. If you cannot get a stakeholder to agree to the problem, scope, and Definition of Done on paper, you do not have their alignment - you have their politeness. Surface the disagreement now, when it is cheap.
+- **Kickoff / charter.** The charter conversation *is* the alignment. If you can't get a stakeholder to agree to the problem, scope, and Definition of Done on paper, you don't have their alignment - you've their politeness. Surface the disagreement now, when it is cheap.
 - **Execution.** Re-engage at phase gates and whenever risk rises. The cost of a misaligned high-power stakeholder compounds the longer it goes unaddressed.
 - **Launch.** The quiet-veto stakeholders from Section 1 decide whether the thing you shipped actually gets adopted. Engage them before go-live, not after.
 - **Close.** The program ends; the relationships do not. The coalition you built is the asset you carry into the next program. Close the loop, share the credit widely, and the next alignment starts from trust instead of zero.
@@ -80,10 +80,10 @@ Alignment is cheapest at the start and most expensive at the end.
 ## 5. Where This Breaks
 
 - **The dead map.** A stakeholder grid built once and never revisited is worse than none - it gives false confidence while the real positions have moved.
-- **Communication mistaken for engagement.** Sending a status report is not engaging a stakeholder. Engagement is a two-way relationship; a newsletter is not.
-- **Engaging only the friendly.** It is comfortable to spend time with the stakeholders who already agree. The program is decided by the ones who do not.
-- **Escalating too early or too late.** Too early burns capital and signals you cannot operate without authority. Too late turns a solvable misalignment into a surprise crisis. The judgment on timing is the skill.
-- **Over-engineering the artifact.** The map and the analysis are tools for having better conversations, not deliverables to polish. If the document is immaculate and you have not talked to the person, you have done the wrong work.
+- **Communication mistaken for engagement.** Sending a status report isn't engaging a stakeholder. Engagement is a two-way relationship; a newsletter is not.
+- **Engaging only the friendly.** It's comfortable to spend time with the stakeholders who already agree. The program is decided by the ones who do not.
+- **Escalating too early or too late.** Too early burns capital and signals you can't operate without authority. Too late turns a solvable misalignment into a surprise crisis. The judgment on timing is the skill.
+- **Over-engineering the artifact.** The map and the analysis are tools for having better conversations, not deliverables to polish. If the document is immaculate and you haven't talked to the person, you've done the wrong work.
 
 ---
 
@@ -91,7 +91,7 @@ Alignment is cheapest at the start and most expensive at the end.
 
 - The [Communications Plan Template](communications-plan-template.md) is how you *execute* the engagement strategy - the cadence, channels, and message discipline. This playbook decides *whose* alignment you need and *how you earn it*; the comms plan runs the machine that keeps them informed.
 - The [RACI Template (Waterfall)](raci-template-waterfall.md) and [RACI Template (Agile)](raci-template-agile.md) settle who actually owns each decision, which is often the thing a stakeholder conflict is really about.
-- The [Steering Committee Deck Structure](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/steering-committee-deck-structure.md) is where you bring the decision you have already pre-wired one-on-one.
+- The [Steering Committee Deck Structure](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/steering-committee-deck-structure.md) is where you bring the decision you've already pre-wired one-on-one.
 - The [Influence Without Authority Plan](https://github.com/ChefPlex/ai-automations/blob/main/prompts/director-review/influence-without-authority-plan.md) prompt helps you work a *specific* hard situation with a *specific* stakeholder.
 
 ---

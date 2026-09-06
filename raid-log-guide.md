@@ -1,8 +1,8 @@
 # The RAID Log: What It Is, Why It Matters, and How to Use It
 
-If you are running a program and you do not have a RAID log, you are keeping all of that information in your head or in someone's inbox. That works fine until it doesn't - and it usually stops working at the worst possible moment.
+If you're running a program and you don't have a RAID log, you're keeping all of that information in your head or in someone's inbox. That works fine until it doesn't - and it usually stops working at the worst possible moment.
 
-A RAID log is not a bureaucratic checkbox. It is the operational memory of your program. Done right, it is the single place where anyone on the team can find out what risks are being watched, what is currently broken, what decisions have been made and why, and what the program is waiting on. That transparency is what keeps small problems from becoming expensive surprises.
+A RAID log is not a bureaucratic checkbox. It is the operational memory of your program. Done right, it's the single place where anyone on the team can find out what risks are being watched, what is currently broken, what decisions have been made and why, and what the program is waiting on. That transparency is what keeps small problems from becoming expensive surprises.
 
 ---
 
@@ -49,7 +49,7 @@ A risk is something that has not happened yet but could. The job is to catch it 
 
 ### How to Rate Risks
 
-Use a simple probability x impact matrix. A high-probability, high-impact risk is your top priority. A low-probability, low-impact risk goes on the log but does not need weekly attention.
+Use a simple probability x impact matrix. A high-probability, high-impact risk is your top priority. A low-probability, low-impact risk goes on the log but doesn't need weekly attention.
 
 ```
              Impact
@@ -64,13 +64,13 @@ Anything rated 7 or above gets active mitigation and regular review. Everything 
 
 ### What Good Risk Management Looks Like
 
-Risks get logged as soon as they are identified - not after they become issues. Every risk has a named owner and a mitigation plan that is actually being worked. The log gets reviewed at a regular cadence, not just when something goes wrong. When a risk is resolved or accepted, it gets closed with a note on how it was handled.
+Risks get logged as soon as they're identified - not after they become issues. Every risk has a named owner and a mitigation plan that's actually being worked. The log gets reviewed at a regular cadence, not just when something goes wrong. When a risk is resolved or accepted, it gets closed with a note on how it was handled.
 
 ---
 
 ## Assumptions
 
-An assumption is something you are treating as true without having confirmed it. Every program runs on assumptions. The ones that hurt are the ones nobody wrote down.
+An assumption is something you're treating as true without having confirmed it. Every program runs on assumptions. The ones that hurt are the ones nobody wrote down.
 
 ### Key Fields
 
@@ -99,7 +99,7 @@ The test for whether something belongs in the Assumptions log: if it turned out 
 
 ## Issues
 
-An issue is a risk that happened. Something is wrong right now and needs to be resolved. Issues are not the same as risks - they are active problems that need active owners and active resolution plans.
+An issue is a risk that happened. Something is wrong right now and needs to be resolved. Issues aren't the same as risks - they're active problems that need active owners and active resolution plans.
 
 ### Key Fields
 
@@ -120,7 +120,7 @@ An issue is a risk that happened. Something is wrong right now and needs to be r
 
 A risk is "our key engineering lead might leave the program." An issue is "our key engineering lead left the program last week." One requires monitoring and mitigation planning. The other requires a resolution plan right now.
 
-Do not let issues sit in the risk column because it feels better. Call them what they are.
+Don't let issues sit in the risk column because it feels better. Call them what they are.
 
 ---
 
@@ -143,7 +143,7 @@ A dependency is something this program needs from somewhere else - another team,
 
 ### Managing Dependencies Well
 
-Identify dependencies during planning, not during execution. Every dependency should have a named owner on your side and a named contact on the other side. Status gets reviewed regularly - "I haven't heard back" is not the same as "on track." When a dependency is at risk, escalate early. Waiting for the other team to tell you they are behind is not a dependency management strategy.
+Identify dependencies during planning, not during execution. Every dependency should have a named owner on your side and a named contact on the other side. Status gets reviewed regularly - "I haven't heard back" isn't the same as "on track." When a dependency is at risk, escalate early. Waiting for the other team to tell you they're behind isn't a dependency management strategy.
 
 ---
 
@@ -151,7 +151,7 @@ Identify dependencies during planning, not during execution. Every dependency sh
 
 ### Starting Out
 
-Set up the log at the beginning of the program, during the Definition & Planning phase. Run a session with the core team to brainstorm an initial list of risks, call out the assumptions you are all working from, and map the dependencies. You will not catch everything in that first session - the goal is to build the habit and get the obvious ones on paper.
+Set up the log at the beginning of the program, during the Definition & Planning phase. Run a session with the core team to brainstorm an initial list of risks, call out the assumptions you're all working from, and map the dependencies. You won't catch everything in that first session - the goal is to build the habit and get the obvious ones on paper.
 
 ### Keeping It Current
 
@@ -161,7 +161,7 @@ The RAID log dies when it stops getting reviewed. A stale RAID log is worse than
 
 ### Escalating From the Log
 
-The RAID log is your early warning system. When a risk moves from medium to high, escalate before it becomes an issue. When an issue has no resolution in sight, escalate before it becomes a crisis. The log should make it easy to tell the difference between "we are watching this" and "we need leadership attention on this now."
+The RAID log is your early warning system. When a risk moves from medium to high, escalate before it becomes an issue. When an issue has no resolution in sight, escalate before it becomes a crisis. The log should make it easy to tell the difference between "we're watching this" and "we need leadership attention on this now."
 
 ### Closing Items
 

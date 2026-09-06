@@ -2,9 +2,9 @@
 
 Running Retrieval-Augmented Generation as a program, not as an AI experiment.
 
-RAG gets treated as an AI engineering project and then fails on data, security, or adoption. It is a platform program that happens to use a retrieval architecture, and the workstreams that sink it are usually the ones nobody staffed.
+RAG gets treated as an AI engineering project and then fails on data, security, or adoption. It's a platform program that happens to use a retrieval architecture, and the workstreams that sink it are usually the ones nobody staffed.
 
-These are working templates, same as the rest of this repo. Fill them in, argue with them, delete what does not apply to your program.
+These are working templates, same as the rest of this repo. Fill them in, argue with them, delete what doesn't apply to your program.
 
 ## Start Here
 
@@ -26,7 +26,7 @@ These are working templates, same as the rest of this repo. Fill them in, argue 
 
 ## Security
 
-The security workstream lives in the companion repo, because it is a security program in its own right and belongs next to the other security playbooks:
+The security workstream lives in the companion repo, because it's a security program in its own right and belongs next to the other security playbooks:
 
 **[Enterprise RAG Security](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security)**
 
@@ -49,6 +49,6 @@ This folder does not restate the general program-management material. It points 
 
 ## If You Read Only One Thing
 
-Do not charter this as "implement RAG." Charter it as building a knowledge platform that securely connects authorized data to AI models and returns measurable, grounded answers.
+Don't charter this as "implement RAG." Charter it as building a knowledge platform that securely connects authorized data to AI models and returns measurable, grounded answers.
 
 That is not word games. The first framing produces a demo. The second produces something with a business case, a security model, named owners, and a reason to exist after the person who championed it moves on.

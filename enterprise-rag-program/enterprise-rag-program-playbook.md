@@ -2,7 +2,7 @@
 
 A phase-based playbook for running Retrieval-Augmented Generation as an enterprise program rather than an AI experiment.
 
-RAG is an architecture. The thing you are actually running is a platform program with a data workstream, a security workstream, and an adoption problem. This playbook is written for the TPM who has been handed "we want AI over our own documents" and needs it to survive contact with security review, a real user base, and a budget conversation.
+RAG is an architecture. The thing you're actually running is a platform program with a data workstream, a security workstream, and an adoption problem. This playbook is written for the TPM who has been handed "we want AI over our own documents" and needs it to survive contact with security review, a real user base, and a budget conversation.
 
 ## The Framing That Matters
 
@@ -14,7 +14,7 @@ Charter it as:
 
 > "Build an enterprise knowledge platform that securely connects authorized organizational data to AI models and returns measurable, grounded answers to employees and applications."
 
-RAG is the enabling architecture, not the goal. That distinction is what turns an interesting AI project into a program with business outcomes, architecture standards, security controls, named ownership, and reusable infrastructure. It is also the difference between a demo that impresses an executive once and a platform other teams can build on.
+RAG is the enabling architecture, not the goal. That distinction is what turns an interesting AI project into a program with business outcomes, architecture standards, security controls, named ownership, and reusable infrastructure. It's also the difference between a demo that impresses an executive once and a platform other teams can build on.
 
 The single most common failure is treating this as an AI engineering project. It is equally a data, security, platform, product, and operations program. Staff it that way or expect to discover the missing workstreams at the worst possible time.
 
@@ -36,7 +36,7 @@ Phases overlap on purpose. Data foundation starts before architecture is fully a
 
 ## Phase 0 - Program Definition
 
-Weeks 1-2. **Do not start by selecting a vector database.** Start with the business problem.
+Weeks 1-2. **Don't start by selecting a vector database.** Start with the business problem.
 
 Pick one high-value use case, narrow enough to actually finish:
 
@@ -46,7 +46,7 @@ Pick one high-value use case, narrow enough to actually finish:
 
 Then define what success means numerically, before anyone writes code.
 
-**Baseline the current state.** You cannot claim improvement without it, and the baseline is usually easy to get by asking twenty people and timing them.
+**Baseline the current state.** You can't claim improvement without it, and the baseline is usually easy to get by asking twenty people and timing them.
 
 ```text
 Average information search time:   18 minutes
@@ -65,7 +65,7 @@ Unauthorized retrieval:   0
 User satisfaction:        > 4.2 / 5
 ```
 
-Note the one target that is not a percentage. Unauthorized retrieval is zero or the program is not shippable, and treating it as a rate you optimize is how programs end up negotiating about acceptable leakage in week 19.
+Note the one target that is not a percentage. Unauthorized retrieval is zero or the program isn't shippable, and treating it as a rate you optimize is how programs end up negotiating about acceptable leakage in week 19.
 
 Deliverable: [RAG Program Charter](rag-program-charter-template.md).
 
@@ -106,7 +106,7 @@ Deliverable: [Use Case Catalog](rag-use-case-catalog-template.md).
 
 Owner: Data Engineering plus Data Governance.
 
-Usually the longest pole, and almost never the one that gets staffed first. Industry research consistently attributes the majority of AI project failures to data quality rather than model performance, and enterprise document estates are worse than anyone believes until they are inventoried.
+Usually the longest pole, and almost never the one that gets staffed first. Industry research consistently attributes the majority of AI project failures to data quality rather than model performance, and enterprise document estates are worse than anyone believes until they're inventoried.
 
 The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration.
 
@@ -141,13 +141,13 @@ The one rule to carry into every architecture conversation:
 
 > The system can never retrieve information the requesting user could not have accessed directly.
 
-Authorization filtering happens before content reaches the model, never after. Post-filtering a response that was generated from unauthorized content is not a control, it is a hope.
+Authorization filtering happens before content reaches the model, never after. Post-filtering a response that was generated from unauthorized content isn't a control, it's a hope.
 
 ### 5. Evaluation and Quality
 
 Owner: AI Engineering plus QA.
 
-You cannot manage what you cannot measure, and "it seems better" does not survive a steering committee. Retrieval and generation are measured separately because they fail separately, and an answer can be wrong for two completely different reasons that have two completely different fixes.
+You can't manage what you can't measure, and "it seems better" doesn't survive a steering committee. Retrieval and generation are measured separately because they fail separately, and an answer can be wrong for two completely different reasons that have two completely different fixes.
 
 Deliverable: [Evaluation Plan](rag-evaluation-plan-template.md).
 
@@ -169,7 +169,7 @@ Stand up an AI Platform Governance Council with representation from AI Engineeri
 
 They approve: new data sources, new models, high-risk use cases, sensitive integrations, and any autonomous capability.
 
-**Do not route every change through a committee.** Use risk tiers so low-risk work moves at engineering speed and the council spends its attention where the blast radius justifies it.
+**Don't route every change through a committee.** Use risk tiers so low-risk work moves at engineering speed and the council spends its attention where the blast radius justifies it.
 
 | Tier | Example | Control posture |
 |---|---|---|

@@ -1,8 +1,8 @@
 # Program Phases Playbook
 
-A practical guide to running programs and projects from first idea to final close-out. This playbook defines the phases, the artifacts that should come out of each one, and who owns what. It is intended for Technical Program Managers but is useful for anyone leading a complex cross-functional initiative.
+A practical guide to running programs and projects from first idea to final close-out. This playbook defines the phases, the artifacts that should come out of each one, and who owns what. It's intended for Technical Program Managers but is useful for anyone leading a complex cross-functional initiative.
 
-This is a living document. The phases are sequential but reality is not always - use judgment about what applies to your program's scope and complexity.
+This is a living document. The phases are sequential but reality isn't always - use judgment about what applies to your program's scope and complexity.
 
 ---
 
@@ -121,7 +121,7 @@ This is a living document. The phases are sequential but reality is not always -
 | Compliance / audit follow-up | TPM | Required if applicable | Close out open items from compliance reviews |
 | Transition to BAU planning | TPM + Engineering | Recommended | Start planning the handoff before you need it |
 
-**The right question here is not "are we on track" - it is "is our picture of the program still accurate."** A plan that nobody trusts is not a plan.
+**The right question here isn't "are we on track" - it's "is our picture of the program still accurate."** A plan that nobody trusts isn't a plan.
 
 ---
 
@@ -142,7 +142,7 @@ This is a living document. The phases are sequential but reality is not always -
 | Executive / stakeholder notification | TPM | Recommended | Close the loop with everyone who had a stake in this |
 | Team celebration | TPM | Required | Not optional. Programs are hard. Recognize the work. |
 
-**The close-out report goes to the program sponsor and key stakeholders when completed.** It should include the lessons learned output and an honest assessment of whether the program achieved its objectives. If it did not, the report explains why and what was done about it.
+**The close-out report goes to the program sponsor and key stakeholders when completed.** It should include the lessons learned output and an honest assessment of whether the program achieved its objectives. If it didn't, the report explains why and what was done about it.
 
 ---
 
@@ -166,7 +166,7 @@ This is a living document. The phases are sequential but reality is not always -
 
 ## A Note on Required vs. Recommended
 
-"Required" means the program should not advance past this phase without it. "Recommended" means it is the right practice for most programs - use judgment on smaller or lower-risk efforts.
+"Required" means the program shouldn't advance past this phase without it. "Recommended" means it's the right practice for most programs - use judgment on smaller or lower-risk efforts.
 
 The goal is not artifact production. The goal is shared understanding, clean decisions, and programs that deliver. The artifacts exist to support that, not the other way around.
 

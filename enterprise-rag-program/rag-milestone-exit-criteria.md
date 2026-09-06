@@ -83,7 +83,7 @@ Approver: AI engineering lead plus QA
 
 Approver: Platform lead plus security lead
 
-**Most common failure:** indirect injection untested. Direct injection gets tested because it is obvious; poisoned documents inside the corpus do not.
+**Most common failure:** indirect injection untested. Direct injection gets tested because it's obvious; poisoned documents inside the corpus don't.
 
 ## M6 - Pilot Complete
 
