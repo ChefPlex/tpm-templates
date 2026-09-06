@@ -139,11 +139,15 @@ A few things that make the difference between a communications plan that works a
 
 **Bad news travels early.** A Yellow or Red status flagged early is a problem you can solve together. The same problem flagged late is a crisis. There is no upside to waiting.
 
+**Earn the right to be trusted with bad news.** The habit above compounds. Stakeholders who hear about problems from you first, with a plan already forming, start asking you things before they ask anyone else. Stakeholders who hear about problems from another source start asking you less, and you find out about your own program secondhand.
+
 **Tailor the message to the audience.** Engineers need technical detail and context. Executives need outcomes, risk, and decisions. The underlying facts are the same - how you present them should not be.
 
 **Close the loop.** When a decision gets made, communicate it. When a risk gets resolved, communicate it. When a milestone lands, communicate it. Stakeholders who feel informed stay engaged. Stakeholders who feel out of the loop start asking questions at the wrong level.
 
 **Keep it skimmable.** Nobody has time to read a novel in their inbox. Bottom line up front, detail below for those who need it.
+
+*The reasoning behind several of these is in [TPM craft notes](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md).*
 
 ---
 

@@ -117,6 +117,8 @@ List any risks or issues that were not fully resolved and are being carried forw
 |------|------|-------|------|------------|
 | [Item 1] | Risk / Issue | | | |
 
+**The 90 percent problem.** A remediation program that closes 90% of vulnerabilities still has open vulnerabilities. An encryption program that covers 90% of services still has unencrypted services. The long tail is where the real risk lives, and a close-out report is the last moment anyone is paying attention to it. Name what is left, put an owner on it, and resist the pull to round it up to done. More on this in [TPM craft notes](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md).
+
 ---
 
 ## 5. Operational Handoff
