@@ -60,6 +60,7 @@ useful one, which is faster than any amount of instruction.
 |---|---|
 | New cross-functional program | [Program Charter Template](program-charter-template.md) |
 | Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
+| You inherited work that is already late and already an argument | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) |
 | Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
 | Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
 | Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
@@ -84,6 +85,7 @@ useful one, which is faster than any amount of instruction.
 | [Program Phases Playbook](program-phases-playbook.md) | A phase-based view of how programs move from first idea through planning, execution, launch, and close-out. Useful for orienting a team around where the work actually is. |
 | [Program Charter Template](program-charter-template.md) | The founding document for a serious initiative. Captures problem, goals, scope, non-goals, stakeholders, risks, decisions, and success criteria. |
 | [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
+| [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) | What to do when you are handed something already moving, already late, and already the subject of an argument. Diagnosis, baselining with real throughput data, renegotiating the commitment, and the day 1 / 30 / 90 / 180 shape of the recovery. |
 
 ### Operations and Tracking
 
