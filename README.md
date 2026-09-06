@@ -20,6 +20,61 @@ Use it when you need to:
 - Create enough structure for teams to move with confidence
 - Teach core program management ideas to people who are new to the work
 
+**This repo is the documents.** The things that *run* - checklists, trackers, scripts - are in
+[tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox).
+
+---
+
+## Start Here
+
+### If you're early in the work
+
+Four documents, in this order. They're the spine; everything below is situational.
+
+1. **[Program Charter Template](program-charter-template.md)** - the founding conversation. Do this before anything else, because everything after it is execution.
+2. **[Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md)** - turns the charter into a room full of people who agree.
+3. **[Meeting Notes + Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md)** - the habit that stops things getting dropped.
+4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust.
+
+Read the two [worked examples](examples/) alongside them. They show a weak version next to a
+useful one, which is faster than any amount of instruction.
+
+### If you're running several programs at once
+
+- [Program Phases Playbook](program-phases-playbook.md) - orienting a team on where the work actually is
+- [Program Swim Lanes](program-swim-lanes-template.md) - one leadership view across parallel workstreams
+- [Communications Plan](communications-plan-template.md) - status that scales past what you can carry in your head
+- [RACI - Waterfall](raci-template-waterfall.md) and [RACI - Agile](raci-template-agile.md) - settling who owns what. Two matrices rather than one with a toggle, because phase gates and sprint cadence break down differently. Fillable spreadsheet version: [RACI_Templates.xlsx](RACI_Templates.xlsx)
+- [RFC](rfc-template.md) and [ADR](adr-template.md) - proposals before a decision, records after one
+
+### If the hard part is people, or the problem is novel
+
+- [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) - influence without authority, which is most of the senior job
+- [Cyber Incident Playbook](incident-management/cyber-incident-playbook.md) - command structure when something is actively on fire
+- [Enterprise RAG Program](enterprise-rag-program/) - running retrieval as a program rather than an AI experiment
+- [Close-Out Report](program-close-out-report-template.md) - giving a program a real ending instead of a quiet drift into operations
+
+### Or start from the problem in front of you
+
+| Situation | Start Here |
+|---|---|
+| New cross-functional program | [Program Charter Template](program-charter-template.md) |
+| Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
+| Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
+| Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
+| Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
+| Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
+| Nobody can say who actually owns a decision - phase-gated program | [RACI Template - Waterfall](raci-template-waterfall.md) |
+| Nobody can say who actually owns a decision - sprint-based team | [RACI Template - Agile](raci-template-agile.md) |
+| Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
+| Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
+| Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
+| A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
+| Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
+| Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
+
+---
+
 ## What Is Here
 
 ### Program Lifecycle
@@ -203,29 +258,6 @@ A half-filled charter is worse than no charter if it creates the illusion of ali
 The artifact is not the work.
 
 The work is getting the right people aligned on the right problem, with clear ownership, visible risk, and a shared understanding of what happens next.
-
-## Recommended Starting Points
-
-| Situation | Start Here |
-|---|---|
-| New cross-functional program | [Program Charter Template](program-charter-template.md) |
-| Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
-| Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
-| Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
-| Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
-| Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
-| Nobody can say who actually owns a decision - phase-gated program | [RACI Template - Waterfall](raci-template-waterfall.md) |
-| Nobody can say who actually owns a decision - sprint-based team | [RACI Template - Agile](raci-template-agile.md) |
-| Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
-| Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
-| Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
-| A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
-| Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
-| Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
-
-## What Is Coming
-
-No giant roadmap - the goal is to add examples and templates useful enough to stand on their own. Nothing queued right now; contributions welcome (see Contributing).
 
 ## Related Repos
 
