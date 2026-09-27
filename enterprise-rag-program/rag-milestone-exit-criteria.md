@@ -12,6 +12,7 @@ The point of written exit criteria is to make "are we done with this phase" a qu
 - [ ] Success targets set with numbers and owners
 - [ ] Budget committed
 - [ ] All seven workstreams have a named owner
+- [ ] Oversharing remediation owner named and source permission review started
 - [ ] Risk tier assigned to the initial use case
 
 Approver: Executive sponsor
@@ -33,6 +34,7 @@ Approver: Governance council plus security lead
 
 ## M2 - Data Ready
 
+- [ ] Every priority source marked reviewed, remediated, or restricted for oversharing before ingestion; none ingested as "not reviewed"
 - [ ] Priority sources ingested
 - [ ] Permission model verified per source, resolvable per document at query time
 - [ ] Permission change propagation tested end to end
@@ -43,7 +45,7 @@ Approver: Governance council plus security lead
 
 Approver: Data lead plus security lead
 
-**Most common failure:** ingestion declared complete while permission propagation is untested. The system works and leaks.
+**Most common failure:** ingestion declared complete while permission propagation is untested. The system works and leaks. Close second: permission-aware retrieval working perfectly on a source that was overshared to begin with.
 
 ## M3 - RAG MVP
 
@@ -64,7 +66,8 @@ Approver: AI engineering lead
 - [ ] Refusal behavior correct on unanswerable questions
 - [ ] Permission-boundary questions correctly refused
 - [ ] Evals running in CI with regression gates active
-- [ ] Judge validated against human scoring on a sample
+- [ ] Judge validated against human scoring on a sample of this corpus, agreement reported
+- [ ] Held-out eval set run and results reported alongside the tuned set
 
 Approver: AI engineering lead plus QA
 
@@ -76,6 +79,7 @@ Approver: AI engineering lead plus QA
 - [ ] Observability live: latency, cost, retrieval quality, error rates
 - [ ] Cost controls active with budget alerts
 - [ ] Security testing complete including direct and indirect injection
+- [ ] Security workstream sign-off checklist complete or formally accepted: [Enterprise RAG Security Playbook, Sign-Off](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off)
 - [ ] Red team findings closed or formally accepted
 - [ ] Incident response runbook written and walked through
 - [ ] Kill switch tested
@@ -87,7 +91,8 @@ Approver: Platform lead plus security lead
 
 ## M6 - Pilot Complete
 
-- [ ] Real users in a real workflow for a defined period
+- [ ] Real users in a real workflow, on live traffic, for a defined period
+- [ ] Failure-point review completed on the pilot's bad and refused answers, each classified by where the pipeline failed, with owners for the top classes (see [Definition of Done, Operational Validation](rag-definition-of-done.md#11-operational-validation))
 - [ ] Measured improvement against the M0 baseline
 - [ ] Feedback channel operating with responses acted on
 - [ ] Production failures fed back into the eval set
@@ -97,6 +102,8 @@ Approver: Platform lead plus security lead
 Approver: Business owner plus TPM
 
 **Most common failure:** pilot with friendly users who work around problems instead of reporting them.
+
+This is the gate where the system is actually validated. Barnett et al. conclude from three deployments that RAG validation "is only feasible during operation" ([arXiv 2401.05856](https://arxiv.org/abs/2401.05856)), so M4 scores are a prediction and M6 is the test.
 
 ## M7 - General Availability
 

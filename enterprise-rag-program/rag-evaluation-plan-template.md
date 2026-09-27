@@ -19,6 +19,9 @@ The artifact that decides whether any of the other numbers mean anything, and th
 | Includes unanswerable questions | 10-15% |
 | Includes permission-boundary questions | 5-10% |
 | Reviewed by a subject matter expert | 100% |
+| Held-out set the team does not tune against | 20-30% of questions, kept separate |
+
+**Keep a held-out set.** Engineers tuning prompts, chunking, and retrieval against the full eval set will fit it, and the scores will rise while production quality does not. Split off a held-out portion, restrict access to it, and run it only at milestone gates. If the tuned set improves and the held-out set does not, the change fitted the test.
 
 The unanswerable set matters more than it looks. A system that confidently answers a question the corpus cannot support is worse than one that says it does not know, and nothing else in the eval catches that behavior.
 
@@ -43,6 +46,10 @@ Recall is the one to optimize first. A document that is never retrieved cannot b
 | Citation accuracy | Do citations point at the content actually used | > ____ |
 | Refusal correctness | Does it decline when the corpus cannot support an answer | > ____ |
 | Completeness | Does it answer the whole question | > ____ |
+| Nugget coverage | Share of the key facts ("nuggets") an SME listed for the question that the answer contains | > ____ |
+| Citation support | Share of cited sentences whose cited passage actually supports them (fully, partially, not) | > ____ |
+
+**Nugget coverage and citation support are answer measures used by the public TREC 2024 RAG Track** ([nugget evaluation, arXiv 2411.09607](https://arxiv.org/abs/2411.09607); [support evaluation, arXiv 2504.15205](https://arxiv.org/abs/2504.15205)). Nugget coverage is a practical, measurable form of completeness: an SME writes the few facts a good answer must contain, and the answer is scored on which it includes. Citation support is scored per sentence against the passage cited for it, which is stricter than asking whether the answer as a whole is grounded.
 
 **Reference-free metrics are the practical choice here.** Enterprise programs rarely have a gold-standard answer written for every question, which makes classical reference-based scoring inapplicable by construction. Grounding checks and model-graded scoring with explicit criteria work without one.
 
@@ -52,6 +59,10 @@ Two approaches worth knowing:
 - **Model-graded scoring with explicit criteria.** A judge model scores against a written rubric. Cheap, repeatable, and only as good as the rubric, so the rubric belongs in this document rather than in a prompt somewhere.
 
 Whatever you choose, **validate the judge against human scoring on a sample before trusting it.** An unvalidated automated judge is a number that feels like evidence.
+
+**Calibrate the judge on this program's own corpus and report the agreement.** A published agreement figure is evidence about that study's corpus, task, and judge model, not about yours. For scale: in the TREC 2024 RAG Track support evaluation, human and GPT-4o support labels agreed exactly on 56% of assessments done from scratch, and 72% when humans post-edited the model's labels; the same study found an independent human judge agreed more with GPT-4o than with the first human ([Thakur et al., arXiv 2504.15205](https://arxiv.org/abs/2504.15205)). Those are that study's figures, for one judge on one task. The lesson for a program is that humans also disagree with each other, so the calibration has to measure both: human-human agreement on a sample, and judge-human agreement on the same sample. Record both numbers and the sample size next to every judged metric.
+
+**Treat off-the-shelf faithfulness scores as unvalidated until calibrated.** Popular faithfulness metrics come with thin published validation. RAGAS, for example, was validated on WikiEval, 50 questions built from 50 Wikipedia pages ([Es et al., arXiv 2309.15217](https://arxiv.org/abs/2309.15217)). A score that has not been checked against human labels on your corpus is a trend line at best, not a gate.
 
 ## Operational Metrics
 
@@ -105,7 +116,9 @@ The security gate has no tolerance band on purpose. Retrieval quality is a negot
 |---|---|---|
 | Eval suite run | Every PR plus nightly | AI engineering |
 | Eval set expansion from production questions | Monthly | Product plus QA |
-| Judge validation against human scoring | Quarterly | AI engineering |
+| Judge validation against human scoring | Quarterly, and after any judge model or rubric change | AI engineering |
+| Held-out set run | At each milestone gate only | QA |
+| Failure-point review of production misses | Monthly during pilot, quarterly after | AI engineering plus Product |
 | Metric target review | Quarterly | Program |
 
 Production questions the system handled badly are the best source of new eval cases. Build the feedback path at launch, not after the first bad quarter.

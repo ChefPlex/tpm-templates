@@ -22,8 +22,8 @@ The single most common failure is treating this as an AI engineering project. It
 
 | Phase | Duration | Primary outcome |
 |---|---:|---|
-| 0. Program Definition | Weeks 1-2 | Business case, scope, ownership, success metrics |
-| 1. Architecture and Governance | Weeks 2-5 | Approved architecture and security model |
+| 0. Program Definition | Weeks 1-2 | Business case, scope, ownership, success metrics, oversharing review started |
+| 1. Architecture and Governance | Weeks 2-5 | Approved architecture and security model, oversharing remediated or restricted on priority sources |
 | 2. Data Foundation | Weeks 3-8 | Content ingested, normalized, permission-aware |
 | 3. RAG MVP | Weeks 5-10 | End-to-end retrieval and answering working |
 | 4. Quality and Evals | Weeks 8-14 | Measurable retrieval and answer quality |
@@ -69,6 +69,24 @@ Note the one target that is not a percentage. Unauthorized retrieval is zero or 
 
 Deliverable: [RAG Program Charter](rag-program-charter-template.md).
 
+## Phase 0/1 - Remediate Oversharing First
+
+Start the source permission review in Phase 0, alongside the charter, and finish it for priority sources before M2. It is a workstream with an owner and an exit criterion, not a line in a security appendix.
+
+The reason is mechanical. Permission-aware retrieval enforces the permissions the source systems already have. It is necessary and it is not sufficient: a folder shared with the whole company, or a site nobody locked down, becomes findable in one question the day it is indexed. Filtering works as designed and the data still reaches people it was never meant for.
+
+Microsoft's deployment guidance for Copilot is a useful public reference for the order. It is organised as three pillars: Remediate oversharing, Set up guardrails, Meet regulations. Its recommended actions start with identifying high-risk sites and files, applying interim access restrictions where needed, then fixing access ([Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/secure-govern-copilot-foundational-deployment-guidance)). The same order holds for a RAG program built on any stack.
+
+| Field | Value |
+|---|---|
+| Owner | Data governance, security lead approves |
+| Starts | Phase 0 |
+| Work | Review source permissions on the highest-sensitivity collections, apply interim restrictions where remediation will not finish in time, fix access, then keep it enforced |
+| Exit criterion | Every in-scope source is marked reviewed, remediated, or restricted in the [Data Source Inventory](rag-data-source-inventory-template.md). Nothing is ingested as "not reviewed." |
+| Gate | M2 (Data Ready) |
+
+The security detail, including service-account over-permission and permission drift, is in the [Enterprise RAG Security Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md).
+
 ## The Seven Workstreams
 
 ```text
@@ -99,6 +117,7 @@ Answer these before anything is built:
 - Where does the authoritative answer live today?
 - What happens if the answer is wrong? (This determines the risk tier.)
 - What actions, if any, can the system take on the user's behalf?
+- What shape are the questions: single-hop lookups, multi-hop reasoning, or long bounded documents? No single approach wins on all three, so this sets the candidate approach per use case (see the catalog's Approach Routing section).
 
 Deliverable: [Use Case Catalog](rag-use-case-catalog-template.md).
 
@@ -108,7 +127,7 @@ Owner: Data Engineering plus Data Governance.
 
 Usually the longest pole, and almost never the one that gets staffed first. Enterprise document estates are worse than anyone believes until they're inventoried.
 
-The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration.
+The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, remediate oversharing (above), build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration, and it includes deletions: a document removed at source has to leave the index and any caches inside a defined window.
 
 Deliverable: [Data Source Inventory](rag-data-source-inventory-template.md).
 
@@ -149,6 +168,8 @@ Owner: AI Engineering plus QA.
 
 You can't manage what you can't measure, and "it seems better" doesn't survive a steering committee. Retrieval and generation are measured separately because they fail separately, and an answer can be wrong for two completely different reasons that have two completely different fixes.
 
+Pre-launch evals are necessary and not sufficient. Barnett et al., reporting on three deployed RAG systems, conclude that "validation of a RAG system is only feasible during operation" and that robustness "evolves rather than designed in at the start" ([arXiv 2401.05856](https://arxiv.org/abs/2401.05856)). Plan the pilot as a validation phase with its own failure-point review, not as a victory lap.
+
 Deliverable: [Evaluation Plan](rag-evaluation-plan-template.md).
 
 ### 6. Platform Engineering
@@ -185,8 +206,8 @@ Tier is set by consequence of a wrong answer, not by technical complexity. A sim
 An illustrative 24-week shape for a first enterprise deployment. Adjust for data estate size, not for optimism.
 
 ```text
-Weeks  1-2    Program definition, charter, baseline metrics
-Weeks  2-5    Architecture, security model, governance stand-up
+Weeks  1-2    Program definition, charter, baseline metrics, oversharing review starts
+Weeks  2-5    Architecture, security model, governance stand-up, oversharing remediation
 Weeks  3-8    Data inventory, ingestion, permission mapping
 Weeks  5-10   RAG MVP end to end
 Weeks  8-14   Eval harness, quality gates, CI integration
@@ -201,11 +222,11 @@ Weeks 20-24   Enterprise launch and operating model handoff
 |---|---|---|
 | M0 | Program approved | Charter signed, sponsor named, budget committed, baseline captured |
 | M1 | Architecture approved | Architecture and security model approved by council, ADRs recorded |
-| M2 | Data ready | Priority sources ingested, permission model verified, freshness pipeline running |
+| M2 | Data ready | Priority sources ingested, oversharing reviewed and remediated or restricted per source, permission model verified, freshness and deletion pipeline running |
 | M3 | RAG MVP | End-to-end answering with citations against real corpus |
 | M4 | Quality gate | Retrieval and generation targets met on the eval set, evals running in CI |
 | M5 | Production ready | SLOs met under load, observability live, cost controls active, security testing complete |
-| M6 | Pilot complete | Real users, measured improvement against baseline, feedback loop operating |
+| M6 | Pilot complete | Real users on live traffic, measured improvement against baseline, failure-point review done, feedback loop operating |
 | M7 | General availability | Launched, operating model live, ownership and escalation named |
 
 Full exit criteria per milestone: [Milestone Exit Criteria](rag-milestone-exit-criteria.md).
@@ -220,20 +241,23 @@ Load these into the RAID log at kickoff rather than discovering them one at a ti
 | Bad chunking strategy | Medium | Retrieval evals before scale-out |
 | Hallucinated answers | High | Grounding requirement, citation enforcement, evals |
 | Unauthorized retrieval | Critical | Permission-aware retrieval, pre-model filtering |
+| Oversharing at source | Critical | Phase 0/1 permission review, interim restrictions, per-source hygiene status |
 | Prompt injection | Critical | Threat model, red teaming, indirect injection tests |
 | Provider dependency | Medium | Model abstraction layer |
 | Runaway token cost | High | Budget controls, caching, model routing |
 | Slow responses | Medium | Caching, routing, reranking budget |
 | Stale content | High | Refresh pipelines, freshness SLOs |
+| Deleted content still retrievable | Critical | Deletion propagation tested and monitored |
 | Low user trust | High | Citations, transparency, visible failure modes |
 | Unclear ownership | High | RACI, governance council |
 | Model regression | High | Eval gates in CI |
+| LLM judge drifts from human judgment | High | Judge calibrated against human labels, re-checked on a cadence |
 
 ## Definition of Done
 
-The platform is production-ready when all ten hold. Full checklist: [Definition of Done](rag-definition-of-done.md).
+The platform is production-ready when all eleven hold. Full checklist: [Definition of Done](rag-definition-of-done.md).
 
-Business value signed off. Retrieval targets met. Generation targets met. Identity, authorization, data protection, and audit validated. Injection and abuse testing complete. SLOs met under expected load. Monitoring, incident response, and ownership defined. Automated evals running in CI. Model, data, and use-case approval process operating. Pilot users show measurable improvement.
+Business value signed off. Retrieval targets met. Generation targets met. Identity, authorization, data protection, and audit validated. Injection and abuse testing complete. SLOs met under expected load. Monitoring, incident response, and ownership defined. Automated evals running in CI. Model, data, and use-case approval process operating. Pilot users show measurable improvement. Validated in operation: live-traffic pilot and failure-point review complete.
 
 ## Related
 

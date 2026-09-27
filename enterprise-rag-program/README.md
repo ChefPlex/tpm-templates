@@ -6,6 +6,10 @@ RAG gets treated as an AI engineering project and then fails on data, security, 
 
 These are working templates, same as the rest of this repo. Fill them in, argue with them, delete what doesn't apply to your program.
 
+Security workstream: [Enterprise RAG Security](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security) (trust boundary, controls, prompt-injection threat model, GA sign-off).
+
+Last reviewed: 2026-09-27.
+
 ## Start Here
 
 | Document | What It Is |
@@ -18,11 +22,11 @@ These are working templates, same as the rest of this repo. Fill them in, argue 
 |---|---|---|
 | [RAG Program Charter](rag-program-charter-template.md) | The founding document. Extends the general [Program Charter](../program-charter-template.md) with baseline metrics, data scope, autonomy level, and the architecture decisions that need an ADR. | Phase 0 |
 | [Use Case Catalog](rag-use-case-catalog-template.md) | Candidate use cases scored on value, data readiness, volume, and wrong-answer tolerance, so sequencing is defensible when four executives each want theirs first. | Phase 0 |
-| [Data Source Inventory](rag-data-source-inventory-template.md) | Every source with its owner, sensitivity, access-control model, and refresh need. The access-control column is the one that drives the architecture. | Phase 2 |
+| [Data Source Inventory](rag-data-source-inventory-template.md) | Every source with its owner, sensitivity, access-control model, permission-hygiene status, refresh need, and deletion propagation. The access-control and hygiene columns are the ones that drive the architecture. | Phase 0-2 |
 | [Evaluation Plan](rag-evaluation-plan-template.md) | Retrieval and generation measured separately, the eval set composition, and the CI gates that block a regression from merging. | Phase 4 |
-| [RAID Starter Register](rag-raid-starter-register.md) | Fifteen risks, six assumptions, and six dependencies already seen on real programs. Pre-seeded so you are not discovering them one at a time. | Phase 0 |
+| [RAID Starter Register](rag-raid-starter-register.md) | Twenty-four risks (including oversharing, judge drift, and seven RAG engineering failure points), six assumptions, and six dependencies. Pre-seeded so you are not discovering them one at a time. | Phase 0 |
 | [Milestone Exit Criteria](rag-milestone-exit-criteria.md) | Exit criteria for M0 through M7, with the most common failure at each gate. | Every milestone |
-| [Definition of Done](rag-definition-of-done.md) | Ten dimensions, each with a named owner. Agreed before anyone is under launch pressure. | Phase 7 |
+| [Definition of Done](rag-definition-of-done.md) | Eleven dimensions, each with a named owner, including validation in operation. Agreed before anyone is under launch pressure. | Phase 7 |
 
 ## Security
 

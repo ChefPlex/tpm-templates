@@ -35,6 +35,7 @@ What is broken today, in the words of the people it is broken for.
 | Program manager / TPM | | Delivery, risk, cross-workstream alignment |
 | AI engineering lead | | Retrieval and generation quality |
 | Data lead | | Source availability, freshness, permission fidelity |
+| Oversharing remediation owner | | Source permission review and cleanup before ingestion (Section 8) |
 | Security lead | | Trust boundary, injection posture, sign-off |
 | Platform lead | | SLOs, cost, observability |
 
@@ -94,7 +95,21 @@ Unauthorized retrieval is zero, not a rate to optimize. If it is written as a pe
 
 Out-of-scope data sources are the most common source of scope creep here, because every stakeholder has one more system they want included.
 
-## 8. Actions and Autonomy
+## 8. Oversharing Remediation
+
+A Phase 0/1 workstream, not a security appendix. Permission-aware retrieval is necessary and not sufficient: it enforces the permissions the source systems already have, including every folder shared with the whole company and every site nobody locked down. Retrieval makes that overshare findable in one question.
+
+Microsoft's deployment guidance for Copilot, which grounds responses "in the data users already have permission to access," is organised as three pillars in this order: Remediate oversharing, Set up guardrails, Meet regulations ([Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/secure-govern-copilot-foundational-deployment-guidance)). The same order applies to any enterprise RAG program.
+
+| Field | Value |
+|---|---|
+| Workstream owner | _______________ (Data governance, with the security lead as approver) |
+| Sources in first review | _______________ (highest-sensitivity collections first) |
+| Interim restriction if not remediated in time | _______________ (exclude the source, or restrict it to a named group) |
+| Exit criterion | Every in-scope source is marked reviewed, remediated, or restricted in the [Data Source Inventory](rag-data-source-inventory-template.md) before it is ingested. No source is ingested as "not reviewed." |
+| Due | Before M2 (Data Ready) |
+
+## 9. Actions and Autonomy
 
 Can the system do anything, or only answer?
 
@@ -105,14 +120,14 @@ Can the system do anything, or only answer?
 
 Anything below the first box requires a documented human-approval path and moves the risk tier up.
 
-## 9. Non-Goals
+## 10. Non-Goals
 
 What this program is not doing, written down so it can be pointed at.
 
 - _______________
 - _______________
 
-## 10. Key Architecture Decisions Pending
+## 11. Key Architecture Decisions Pending
 
 Each becomes an ADR. Reindexing cost is the reason the first two matter more than they look.
 
@@ -125,11 +140,11 @@ Each becomes an ADR. Reindexing cost is the reason the first two matter more tha
 | Model selection and routing | | | |
 | Citation format | | | |
 
-## 11. Definition of Done
+## 12. Definition of Done
 
 Reference: [Definition of Done](rag-definition-of-done.md). Note any dimension this program is explicitly deferring, and who approved the deferral.
 
-## 12. Approval
+## 13. Approval
 
 | Name | Role | Decision | Date |
 |---|---|---|---|

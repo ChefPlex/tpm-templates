@@ -19,13 +19,26 @@ Score each candidate 1 to 5 on the first four columns. Data readiness is usually
 
 ## Catalog
 
-| ID | Use case | Users | Sources | Value | Data | Volume | Tolerance | Risk tier | Phase | Status |
-|---|---|---|---|---|---|---|---|---|---|---|
-| UC-01 | | | | | | | | | | |
-| UC-02 | | | | | | | | | | |
-| UC-03 | | | | | | | | | | |
+| ID | Use case | Users | Sources | Value | Data | Volume | Tolerance | Risk tier | Question shape | Candidate approach | Phase | Status |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| UC-01 | | | | | | | | | | | | |
+| UC-02 | | | | | | | | | | | | |
+| UC-03 | | | | | | | | | | | | |
 
 Status: proposed, accepted, deferred, rejected. A rejected row keeps its reason.
+
+## Approach Routing
+
+No single retrieval approach wins across every kind of question, so record the question shape per use case and treat the approach as a hypothesis the eval set tests, not a platform-wide default.
+
+| Question shape | Candidate approach | Evidence |
+|---|---|---|
+| Single-hop fact lookup, detail questions ("what is the retention period for X") | Plain RAG | Han et al. found RAG excels on "detailed single-hop queries" ([arXiv 2502.11371](https://arxiv.org/abs/2502.11371)) |
+| Multi-hop reasoning across entities ("which teams own services that depend on X") | Consider GraphRAG | Same study: GraphRAG methods are "more effective on reasoning-intensive, multi-hop queries." The authors describe the two as complementary rather than one dominating, and report that selecting or combining them by query gave consistent gains |
+| A small, bounded set of long documents that fits in the model's context window | Consider long context, compared against RAG on your own questions | LaRA (ICML 2025, 2,326 test cases, 11 models) found the better choice "depends on a complex interplay of model capabilities, context length, task type, and retrieval characteristics" ([PMLR](https://proceedings.mlr.press/v267/li25dv.html)) |
+| Large, changing, or permission-mixed corpus | RAG, with permission-aware retrieval | A design consequence rather than a benchmark result: the corpus cannot fit in one context, and the retrieval step is where per-document permissions and freshness are enforced |
+
+This is qualitative guidance. Cost and latency differ by approach and are not compared here; measure them on your own workload before committing. Adding a second approach adds a second pipeline to evaluate, secure, and operate, so it needs a use case that the first approach measurably fails.
 
 ## Per Use Case Detail
 
@@ -52,6 +65,8 @@ Copy this block per accepted use case.
 **What "good" looks like to the user:** _______________
 
 **Can the system act, or only answer:** _______________
+
+**Question shape and candidate approach:** _______________ (single-hop, multi-hop, long bounded document, mixed; see Approach Routing)
 
 **Deferred because:** _______________ (for deferred rows only)
 

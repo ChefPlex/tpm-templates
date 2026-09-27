@@ -1,6 +1,6 @@
 # RAG Definition of Done
 
-The gate for calling an enterprise RAG platform production-ready. Ten dimensions, each with a named owner and a verifiable result.
+The gate for calling an enterprise RAG platform production-ready. Eleven dimensions, each with a named owner and a verifiable result.
 
 The value of a written DoD is that it's agreed before anyone is under launch pressure. Deferring a dimension is legitimate; deferring it silently in week 22 isn't. Record every deferral with an approver and a date.
 
@@ -40,6 +40,8 @@ Owner: AI engineering lead
 - [ ] Audit logging captures query, retrieved documents, and requesting identity
 - [ ] Secrets management reviewed
 - [ ] Model-provider data-handling terms reviewed and accepted
+- [ ] Every in-scope source marked reviewed, remediated, or restricted for oversharing in the [Data Source Inventory](rag-data-source-inventory-template.md)
+- [ ] Every item in the security workstream's GA sign-off checklist is checked or formally accepted: [Enterprise RAG Security Playbook, Sign-Off](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off)
 
 Owner: Security lead
 
@@ -78,7 +80,8 @@ Owner: Platform lead
 - [ ] Automated evals run in CI
 - [ ] Regression gates block merges
 - [ ] Eval set meets size and composition targets
-- [ ] Judge validated against human scoring
+- [ ] Judge validated against human scoring on this corpus, with judge-human and human-human agreement recorded
+- [ ] Held-out eval set passes at the same level as the tuned set
 - [ ] Process exists for adding production failures to the eval set
 
 Owner: AI engineering lead plus QA
@@ -103,6 +106,18 @@ Owner: Program manager
 
 Owner: TPM plus business owner
 
+### 11. Operational Validation
+
+Pre-launch eval scores are necessary and not sufficient. Barnett et al., from three deployed RAG systems, conclude that "validation of a RAG system is only feasible during operation" ([arXiv 2401.05856](https://arxiv.org/abs/2401.05856)). This dimension is the gate that proves it in operation.
+
+- [ ] Pilot ran on live traffic from real users for a defined period, not a replayed or curated set
+- [ ] Failure-point review completed on the pilot's bad or refused answers: each classified by where it failed (content missing from the corpus, not retrieved or ranked too low, retrieved but not in context, in context but not used, wrong format, wrong level of detail, incomplete)
+- [ ] Each failure class above a set threshold has an owner and a fix or an accepted risk in the RAID log
+- [ ] Failures from the pilot added to the eval set
+- [ ] Production monitoring can detect the same failure classes after launch
+
+Owner: AI engineering lead plus TPM
+
 ## Deferrals
 
 | Dimension | What is deferred | Why | Risk accepted by | Date | Revisit |
@@ -115,7 +130,7 @@ Owner: TPM plus business owner
 |---|---|---|---|---|
 | | Executive sponsor | Business | | |
 | | Security lead | Security, Safety | | |
-| | AI engineering lead | Retrieval, Generation, Quality | | |
+| | AI engineering lead | Retrieval, Generation, Quality, Operational validation | | |
 | | Platform lead | Reliability, Operations | | |
 | | Program manager | Governance | | |
 | | Business owner | Adoption | | |
