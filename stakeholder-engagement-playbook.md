@@ -14,7 +14,7 @@ Start wider than the org chart. A stakeholder is anyone who can help the program
 
 - **Decision authority** - who can say yes or no to scope, budget, or launch.
 - **Resource owners** - who controls the people or systems you depend on but don't command.
-- **Gatekeepers** - security, legal, compliance, architecture review. A late no from any of them is the most expensive no there's.
+- **Gatekeepers** - security, legal, compliance, architecture review. A late no from any of them is the most expensive no there is.
 - **The quiet veto** - the senior engineer or ops lead who won't sit in the steering committee but whose skepticism can stall adoption after launch.
 - **The affected** - the teams and users whose work changes when you ship.
 
@@ -70,7 +70,7 @@ This is the craft. When you cannot mandate cooperation, you earn it. A few thing
 
 Alignment is cheapest at the start and most expensive at the end.
 
-- **Kickoff / charter.** The charter conversation *is* the alignment. If you can't get a stakeholder to agree to the problem, scope, and Definition of Done on paper, you don't have their alignment - you've their politeness. Surface the disagreement now, when it is cheap.
+- **Kickoff / charter.** The charter conversation *is* the alignment. If you can't get a stakeholder to agree to the problem, scope, and Definition of Done on paper, you don't have their alignment - you have their politeness. Surface the disagreement now, when it is cheap.
 - **Execution.** Re-engage at phase gates and whenever risk rises. The cost of a misaligned high-power stakeholder compounds the longer it goes unaddressed.
 - **Launch.** The quiet-veto stakeholders from Section 1 decide whether the thing you shipped actually gets adopted. Engage them before go-live, not after.
 - **Close.** The program ends; the relationships do not. The coalition you built is the asset you carry into the next program. Close the loop, share the credit widely, and the next alignment starts from trust instead of zero.

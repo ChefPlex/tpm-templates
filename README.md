@@ -192,13 +192,13 @@ Part 1 covers the first hour: triage, command, scope, intent, battle rhythm, and
 
 Use the [Program Swim Lanes Template](program-swim-lanes-template.md) for cross-workstream visibility and the [Communications Plan Template](communications-plan-template.md) for audience, cadence, and message discipline.
 
-Good reporting doesn't make a program look better than it's. It makes the actual state of the program easier to understand.
+Good reporting doesn't make a program look better than it is. It makes the actual state of the program easier to understand.
 
 ### Joining a program already in motion
 
 Start with the [Program Phases Playbook](program-phases-playbook.md).
 
-Figure out where the program actually is, not where people say it's. Then look for the missing artifacts that should exist at that phase.
+Figure out where the program actually is, not where people say it is. Then look for the missing artifacts that should exist at that phase.
 
 A program in execution with no clear charter is probably carrying hidden alignment debt. A program near launch with no risk log is probably relying on memory and heroics. A program closing without lessons learned is probably going to repeat the same mistakes. A program where every status update reads "on track" but nobody can say who owns the next decision probably needs a RACI more than it needs another status meeting.
 
