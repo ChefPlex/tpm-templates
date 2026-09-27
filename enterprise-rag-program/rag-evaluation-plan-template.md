@@ -76,6 +76,8 @@ Run alongside quality evals, not as a separate late-stage activity. Scenarios an
 | System prompt disclosure | 0 |
 | Cross-user data leakage | 0 |
 
+**What 100% of a known corpus means.** Passing every case in a known injection corpus means nothing obvious was found. It does not mean the system is safe. The corpus only contains attacks someone already wrote down, so keep adding new cases from red-team work and incidents, and report the result as "resisted N of N known cases, corpus version X," never as "secure."
+
 ## CI Gates
 
 Evals run in continuous integration. A change that regresses a gate does not merge.
@@ -89,6 +91,13 @@ Evals run in continuous integration. A change that regresses a gate does not mer
 | Full suite | Any gate | Pre-release |
 
 The security gate has no tolerance band on purpose. Retrieval quality is a negotiation, unauthorized retrieval is not.
+
+**Set the thresholds above the noise.** Model output varies from run to run, so a single eval run cannot tell a regression from ordinary variation. Before filling in the blanks above:
+
+- **Run each eval suite N times** (N = ____, at least 3) on an unchanged baseline, and record the spread for each metric.
+- **Set each regression threshold larger than that measured spread.** A threshold inside the noise blocks good changes at random and teaches the team to override the gate.
+- **Gate on the repeated result**, not on one run: compare the mean of N runs against the baseline, and report the range with it.
+- **The judge must differ from the generator** in model family or in method (for example a rule-based check, or human scoring on a sample). A judge that shares the generator's model tends to share its blind spots and will grade its own mistakes as correct.
 
 ## Review Cadence
 

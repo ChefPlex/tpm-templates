@@ -73,6 +73,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 | Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
 | A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
 | Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
+| AI agents are getting tool access and nobody can list what they can touch | [Agentic AI Program](agentic-ai-program/) |
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 
 ---
@@ -110,6 +111,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 | Template | What It Is |
 |---|---|
 | [Enterprise RAG Program](enterprise-rag-program/) | Running Retrieval-Augmented Generation as a program rather than an AI experiment. Playbook with phases, seven workstreams, governance and risk tiers, plus templates for the charter, use case catalog, data source inventory, evaluation plan, RAID starter, milestone exit criteria, and definition of done. The security workstream lives in [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security). |
+| [Agentic AI Program](agentic-ai-program/) | One-page control register for AI agents with tool access: an agent inventory with a named human owner per agent, a tool-permission map, who holds go / no-go on irreversible and outbound actions, and a guardrail coverage table that records what each guardrail cannot see. |
 
 ### Program Execution
 

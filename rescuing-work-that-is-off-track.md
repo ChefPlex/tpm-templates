@@ -87,11 +87,11 @@ The value is not in any one answer. It is in the gaps between them. Put every an
 
 You can't renegotiate anything from an opinion about capacity, because an opinion invites a competing opinion and the louder person wins.
 
-Go back through everything the team has actually completed over the last couple of years. If nobody has sized any of it, size it now. Use three sizes and give them enough spread to be meaningful, for example 5, 8 and 13. If the historical work was never sized, assign it all one middle value. That's crude and it's fine, because what you need out of this is one number: **how much this team can genuinely finish in a sprint.**
+Go back through everything the team has actually completed over the last couple of years. If nobody has sized any of it, size it now. Use three sizes and give them enough spread to be meaningful, for example 5, 8 and 13 (illustrative - any three values with real spread work, as long as the team uses them consistently). If the historical work was never sized, assign it all one middle value. That's crude and it's fine, because what you need out of this is one number: **how much this team can genuinely finish in a sprint.**
 
 That number is the whole negotiation. Without it, you are arguing. With it, you are reading.
 
-A team of five people who can finish roughly forty points each per sprint has a real capacity of about two hundred. If the stakeholders are collectively asking for five hundred, the conversation is no longer about whether people are working hard enough.
+An illustrative example: a team of five people who can finish roughly forty points each per sprint has a real capacity of about two hundred. Your numbers will differ, and the arithmetic is the point. If the stakeholders are collectively asking for five hundred, the conversation is no longer about whether people are working hard enough.
 
 ---
 
@@ -167,7 +167,7 @@ Once the rhythm is established, capacity goes up on its own. Rebaseline against 
 
 ---
 
-## 10. Ask for more only after everything is aligned
+## 10. Ask for more only after the rebaseline is agreed
 
 If the work genuinely needs more people, more time or more money, that ask comes last.
 

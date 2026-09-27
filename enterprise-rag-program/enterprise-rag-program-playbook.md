@@ -106,7 +106,7 @@ Deliverable: [Use Case Catalog](rag-use-case-catalog-template.md).
 
 Owner: Data Engineering plus Data Governance.
 
-Usually the longest pole, and almost never the one that gets staffed first. Industry research consistently attributes the majority of AI project failures to data quality rather than model performance, and enterprise document estates are worse than anyone believes until they're inventoried.
+Usually the longest pole, and almost never the one that gets staffed first. Enterprise document estates are worse than anyone believes until they're inventoried.
 
 The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration.
 
