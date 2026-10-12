@@ -16,7 +16,7 @@ Pair this with the [Program Swim Lanes Template](program-swim-lanes-template.md)
 | Code | Meaning |
 |---|---|
 | **R** - Responsible | Does the work to complete the task. Can be shared across roles. |
-| **A** - Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
+| **A** - Accountable | Owns the outcome and signs off. Never more than one per row; exactly one on any row with a real decision or sign-off. |
 | **C** - Consulted | Two-way input sought before or during the work. |
 | **I** - Informed | Kept updated on progress or outcome. One-way, no input expected. |
 
@@ -49,7 +49,7 @@ Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release 
 
 ## Rules Of Thumb
 
-- One A per row. Note the deliberate handoff in this template - Product Owner holds A through Sprint Cadence and Quality & Review, then Release Manager takes it for Release. That's the transition teams most often lose track of.
+- Never more than one A per row. Note the deliberate handoff in this template - Product Owner holds A from setup through the sprint review and the release readiness review, then Release Manager takes it for deployment and post-release monitoring. That's the transition teams most often lose track of.
 - R can be shared. A cannot.
 - Daily standup and development rows lean heavily R with almost no A - that's intentional, not a gap. Not every activity needs a formal accountable owner, only the ones with a real decision or sign-off attached.
 - A blank cell is fine. Don't mark every role on every row.
