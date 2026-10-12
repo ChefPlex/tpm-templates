@@ -20,7 +20,7 @@ These rows are from a platform encryption migration, the same program the [RAID 
 
 **Row two makes the TPM accountable for work the TPM cannot do.** The program manager does not migrate services. Putting an A there means the person who cannot fix the problem is the person who has to answer for it, which is how a status report starts describing effort instead of progress.
 
-**Row three is worse than blank.** The sponsor is marked both accountable and responsible, which reads as "the sponsor will handle it," and the five C's mean everyone has an opinion and nobody has a deadline. A go/no-go decision with five consulted parties and no named decider will be made by whoever is most senior in the room on the day, which is not a process.
+**Row three is worse than blank.** The sponsor is marked both accountable and responsible, which reads as "the sponsor will handle it," and the three C's mean everyone has an opinion and nobody has a deadline. A go/no-go decision with three consulted parties and no named decider will be made by whoever is most senior in the room on the day, which is not a process.
 
 Every row here would survive a workshop. People nod at charts like this because nothing in them is wrong, exactly. What they lack is a name attached to a consequence.
 

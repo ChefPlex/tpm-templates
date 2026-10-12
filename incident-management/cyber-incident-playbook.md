@@ -3,7 +3,7 @@
 
 ---
 
-## Part 1: First-Hour Actions (Detect & Classify to Orient & Scope)
+## Part 1: First-Hour Actions (Detect & Classify to the first exec brief)
 
 Use this section from the moment of notification until your first exec briefing. Goal: move from noise to a defensible, communicable position within ~60 minutes.
 
@@ -80,6 +80,8 @@ Use this section from the moment of notification until your first exec briefing.
 
 ## Part 2: Full Six-Phase Incident Management Lifecycle
 
+These six phases are the Incident Commander's command cycle. The [Security Incident Response Template](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-incident-response-template.md) has a different six: the response steps a TPM or incident lead runs, from identification and team notification through the data-exposure investigation to follow-up. Same incident, different seat.
+
 ### Phase 1 - Detect & Classify
 | | |
 |---|---|
@@ -147,7 +149,7 @@ Use this section from the moment of notification until your first exec briefing.
 - **Single Source of Truth** - the one channel/doc treated as authoritative incident record
 
 ## Reference: Standing Decision Rules
-- Don't rush to pay ransom/extortion demands - no guarantee of outcome, and payment doesn't guarantee deletion
+- Don't rush to pay ransom/extortion demands - payment doesn't guarantee an outcome or deletion. Check sanctions exposure and involve legal and law enforcement before any payment discussion (US: [OFAC ransomware advisory, September 2021](https://ofac.treasury.gov/media/912981/download))
 - Default to consequence-based decisions: frame every technical fact in terms of data loss, downtime, or reputational exposure before it reaches execs
 - Every ransom/legal/disclosure decision gets logged with rationale - assume it will be reviewed later
 - Scope statements and exec briefs should be conservative and defensible, not comprehensive - you'll need to walk back overclaims, rarely underclaims

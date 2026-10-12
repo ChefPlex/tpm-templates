@@ -47,7 +47,7 @@ Fill in every section. If you cannot fill in a section, that is useful informati
 
 What is the problem, gap, or risk this program addresses? Be specific. A vague problem statement produces a vague program.
 
-> Example: "Our encryption coverage across platform services stands at 10%. Any service transmitting data without encryption in transit represents a direct customer trust risk and a compliance exposure. Left unaddressed, this gap grows as we add services."
+> Example: "Our encryption coverage across platform services stands at 35%. Any service transmitting data without encryption in transit represents a direct customer trust risk and a compliance exposure. Left unaddressed, this gap grows as we add services."
 
 ### Strategic Alignment
 

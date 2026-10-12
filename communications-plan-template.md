@@ -28,7 +28,7 @@ Before you plan communications, you need to know who you are communicating with 
 | Executive Sponsor | Decision authority, budget approval | Outcomes, risk, schedule | Low frequency / high signal | Escalation path for blockers |
 | Engineering Lead(s) | Technical delivery | Technical direction, blockers, dependencies | High frequency | Day-to-day working partner |
 | Product / Program Owner | Requirements and scope | Progress against Definition of Done, scope changes | High frequency | Co-owner of program |
-| Partner Teams | Dependency owners | What you need from them and when | As needed | Flag dependencies early |
+| Partner Teams | Dependency owners | What you need from them and when | Medium frequency | Flag dependencies early |
 | Compliance / Legal / Security | Risk and review | Milestone gates, regulatory exposure | At key milestones | Engage early, not at the end |
 | End Users / Customers | Impacted by the change | What is changing, when, and what they need to do | Pre-launch and at launch | Coordinate with comms / change management team |
 | [Add rows as needed] | | | | |
@@ -68,7 +68,7 @@ Who is responsible for each communication type.
 | Weekly Status Report | TPM | TPM | PO | All stakeholders |
 | Executive Steering Update | TPM | Executive Sponsor | PO, Engineering Lead | Leadership |
 | Team Sync | TPM | TPM | Core team | Core team |
-| Risk / Issue Escalation | TPM | Executive Sponsor | Relevant leads | Affected parties |
+| Risk / Issue Escalation | TPM | TPM (gets it out on time; the sponsor owns the decision it asks for) | Relevant leads | Executive Sponsor, affected parties |
 | Launch Communication | TPM | PO | Comms, Legal | All impacted |
 
 ---

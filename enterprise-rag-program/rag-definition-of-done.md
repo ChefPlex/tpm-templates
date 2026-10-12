@@ -47,8 +47,8 @@ Owner: Security lead
 
 ### 5. Safety
 
-- [ ] Direct prompt-injection testing complete, zero successes
-- [ ] Indirect injection testing complete against poisoned documents in the corpus
+- [ ] Direct prompt-injection testing complete, zero successes, each case run repeatedly
+- [ ] Indirect injection testing complete against poisoned documents in the corpus, zero successes, each case run repeatedly. A pass is a regression floor, not proof of resistance.
 - [ ] Jailbreak testing complete
 - [ ] Cross-user leakage testing complete
 - [ ] Red team exercise conducted and findings closed or accepted
@@ -128,9 +128,11 @@ Owner: AI engineering lead plus TPM
 
 | Name | Role | Dimensions owned | Signed | Date |
 |---|---|---|---|---|
-| | Executive sponsor | Business | | |
+| | Executive sponsor | Business, co-signed with the business owner | | |
+| | Business owner | Business, Adoption | | |
 | | Security lead | Security, Safety | | |
 | | AI engineering lead | Retrieval, Generation, Quality, Operational validation | | |
+| | QA lead | Quality | | |
 | | Platform lead | Reliability, Operations | | |
 | | Program manager | Governance | | |
-| | Business owner | Adoption | | |
+| | TPM | Adoption, Operational validation | | |

@@ -113,7 +113,7 @@ Key milestones across all workstreams in one view. Update status at each reporti
 
 The swim lane is only useful if it is current. Stale status is worse than no status - it creates false confidence and erodes trust in the reporting.
 
-The right cadence: update workstream owners push status to you weekly. You update the master view before each steering committee or executive touchpoint. If an owner is not sending you updates, that is the conversation to have - not a reason to leave the swim lane blank.
+The right cadence: workstream owners push status to you weekly. You update the master view before each steering committee or executive touchpoint. If an owner is not sending you updates, that is the conversation to have - not a reason to leave the swim lane blank.
 
 The goal is that any stakeholder can look at the swim lane at any point and get an honest picture of where the program stands. If you would not feel comfortable showing it to your executive sponsor right now, update it before you do.
 

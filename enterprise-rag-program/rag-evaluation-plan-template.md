@@ -73,7 +73,7 @@ Recall is the one to optimize first. A document that is never retrieved cannot b
 
 **Nugget coverage and citation support are answer measures used by the public TREC 2024 RAG Track** ([nugget evaluation, arXiv 2411.09607](https://arxiv.org/abs/2411.09607); [support evaluation, arXiv 2504.15205](https://arxiv.org/abs/2504.15205)). Nugget coverage is a practical, measurable form of completeness: an SME writes the few facts a good answer must contain, and the answer is scored on which it includes. Citation support is scored per sentence against the passage cited for it, which is stricter than asking whether the answer as a whole is grounded.
 
-**Reference-free metrics are the practical choice here.** Enterprise programs rarely have a gold-standard answer written for every question, which makes classical reference-based scoring inapplicable by construction. Grounding checks and model-graded scoring with explicit criteria work without one.
+**Reference-free metrics extend coverage past the eval set.** The eval set has a known answer for every question. Production traffic and new questions do not, so classical reference-based scoring cannot reach them. Grounding checks and model-graded scoring with explicit criteria work without a reference answer.
 
 Two approaches worth knowing:
 

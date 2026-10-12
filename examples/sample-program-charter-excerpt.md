@@ -24,7 +24,7 @@ Every line is a direction, not a commitment. "Improve," "increase," "strengthen"
 
 > ### 1. Why Are We Doing This
 >
-> **Problem Statement.** Encryption-in-transit coverage across platform services is at 35 percent (140 of roughly 400 services). Every unencrypted service that carries customer data is a direct trust risk and a live finding in the annual compliance assessment. Because there is no default-TLS standard, the gap grows about 5 percent each quarter as new services ship unencrypted.
+> **Problem Statement.** Encryption-in-transit coverage across platform services is at 35 percent (140 of roughly 400 services). Every unencrypted service that carries customer data is a direct trust risk and a live finding in the annual compliance assessment. Because there is no default-TLS standard, coverage falls about 5 percentage points each quarter as new services ship unencrypted.
 >
 > **Strategic Alignment.** Supports the FY compliance commitment and the enterprise trust objective. **Cost of inaction:** the compliance finding stays open through the Q2 audit, and the remediation surface grows every quarter we wait.
 >
@@ -51,7 +51,7 @@ Every line is a direction, not a commitment. "Improve," "increase," "strengthen"
 
 ### Why This Works
 
-The problem has a baseline (35 percent), a magnitude (140 of 400), a named exposure (the compliance finding), and a rate of decay (5 percent a quarter) - a sponsor understands the stakes without asking a single follow-up. The objectives are testable: each one has a number and a date, so "done" is a fact, not an opinion, and the Definition of Done table turns that into a contract anyone can check. The scope draws a hard line, and the out-of-scope list does the real work - it names the four things this program will be asked to absorb and refuses them in writing, before the requests arrive.
+The problem has a baseline (35 percent), a magnitude (140 of 400), a named exposure (the compliance finding), and a rate of decay (5 percentage points a quarter) - a sponsor understands the stakes without asking a single follow-up. The objectives are testable: each one has a number and a date, so "done" is a fact, not an opinion, and the Definition of Done table turns that into a contract anyone can check. The scope draws a hard line, and the out-of-scope list does the real work - it names the four things this program will be asked to absorb and refuses them in writing, before the requests arrive.
 
 ---
 

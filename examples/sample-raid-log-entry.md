@@ -22,9 +22,9 @@ No owner. No date. No impact statement. No decision needed. No path to resolutio
 | Status | Yellow |
 | Owner | Sarah - Payments Engineering |
 | Due Date | 2026-06-07 |
-| Impact | Payments services cannot cut over to the central certificate authority until Payments commits a date for its rotation-client integration. Current cutover target of 2026-06-15 is at risk if the commitment does not arrive by end of this week. |
-| Next Step | TPM to confirm the integration date with Sarah and Dev by Friday. If date is not committed, escalate to sponsor for priority call. |
-| Escalation Trigger | No committed integration date by 2026-05-31. |
+| Impact | Payments services cannot cut over to the central certificate authority until Payments commits a date for its rotation-client integration. Current cutover target of 2026-06-15 is at risk if the commitment does not arrive by Friday 2026-05-29. |
+| Next Step | TPM to confirm the integration date with Sarah by Friday 2026-05-29. If date is not committed, escalate to sponsor for priority call. |
+| Escalation Trigger | No committed integration date by Friday 2026-05-29. |
 
 ### Why This Works
 

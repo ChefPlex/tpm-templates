@@ -26,7 +26,7 @@ If you can't name who could quietly kill this program six weeks in, you haven't 
 
 ### The Power / Interest Grid
 
-The standard first cut. Place each stakeholder by how much **power** they have over the program and how much **interest** they have in it. The quadrant sets the engagement strategy.
+The standard first cut, from Mendelow's power/interest matrix. Place each stakeholder by how much **power** they have over the program and how much **interest** they have in it. The quadrant sets the engagement strategy.
 
 | | Low Interest | High Interest |
 |---|---|---|
@@ -36,7 +36,7 @@ The standard first cut. Place each stakeholder by how much **power** they have o
 Two disciplines most people skip:
 
 - **Positions move.** Power and interest change as the program crosses phase gates and as risk rises. Re-map at each major milestone; a grid built once at kickoff is fiction by launch.
-- **Power isn't only the org chart.** Legitimacy (whose concern is seen as valid) and urgency (whose issue is loud right now) shift real influence. The person with the loudest legitimate concern this month has power the title doesn't show.
+- **Power isn't only the org chart.** Legitimacy (whose concern is seen as valid) and urgency (whose issue is loud right now) shift real influence. That is the stakeholder salience model of Mitchell, Agle and Wood ([Academy of Management Review, 1997](https://doi.org/10.2307/259247)). The person with the loudest legitimate concern this month has power the title doesn't show.
 
 ### Know Three Things About Everyone You Must "Manage Closely"
 

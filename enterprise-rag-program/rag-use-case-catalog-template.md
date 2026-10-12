@@ -34,7 +34,7 @@ No single retrieval approach wins across every kind of question, so record the q
 | Question shape | Candidate approach | Evidence |
 |---|---|---|
 | Single-hop fact lookup, detail questions ("what is the retention period for X") | Plain RAG | Han et al. found RAG excels on "detailed single-hop queries" ([arXiv 2502.11371](https://arxiv.org/abs/2502.11371)) |
-| Multi-hop reasoning across entities ("which teams own services that depend on X") | Consider GraphRAG | Same study: GraphRAG methods are "more effective on reasoning-intensive, multi-hop queries." The authors describe the two as complementary rather than one dominating, and report that selecting or combining them by query gave consistent gains |
+| Multi-hop reasoning across entities ("which teams own services that depend on X") | Consider GraphRAG | Same study: GraphRAG "is more effective on multi-hop, reasoning-intensive questions." The authors describe the two as complementary rather than one dominating, and report that selecting or combining them by query gave consistent gains |
 | A small, bounded set of long documents that fits in the model's context window | Consider long context, compared against RAG on your own questions | LaRA (ICML 2025, 2,326 test cases, 11 models) found the better choice "depends on a complex interplay of model capabilities, context length, task type, and retrieval characteristics" ([PMLR](https://proceedings.mlr.press/v267/li25dv.html)) |
 | Large, changing, or permission-mixed corpus | RAG, with permission-aware retrieval | A design consequence rather than a benchmark result: the corpus cannot fit in one context, and the retrieval step is where per-document permissions and freshness are enforced |
 

@@ -4,7 +4,7 @@ Two artifacts from an enterprise RAG program, each written twice. The first is o
 
 They connect: the gap in the weak inventory row is the cause of the failure in the trace. That is the usual shape. Most wrong answers a RAG pilot produces were decided months earlier, in a data inventory nobody read closely.
 
-**Scenario (sanitized).** The same company as the other examples in this folder, after the encryption program. Its first RAG use case is a security-policy assistant: *"Engineers can ask questions about security standards and get accurate answers with citations."* The encryption program's TLS standard is one of the documents in the corpus. Names, dates, and numbers are illustrative.
+**Scenario (sanitized).** The same company as the other examples in this folder, while the encryption program is still running. Its first RAG use case is a security-policy assistant: *"Engineers can ask questions about security standards and get accurate answers with citations."* The encryption program's TLS standard is one of the documents in the corpus. Names, dates, and numbers are illustrative.
 
 ---
 
@@ -49,7 +49,7 @@ The blanks that matter are the ones the row doesn't have. Nothing says whether p
 | Permission-change propagation | Target 1 hour. Page-restriction changes come through the change feed. Group membership changes do not; resolved at query time from the identity provider. **Tested** 2026-03-18 |
 | Deletion propagation | Target 1 hour from the change feed, plus nightly reconciliation against the full page list. **Tested** 2026-03-18 |
 | In scope | Yes, priority 1 |
-| Notes | Effective dates missing on about 40% of standards (logged under R-01, source data quality, owner Priya N.; it will surface as stale answers, R-09). Internal codename "Keystone" means the TLS standard (glossary entry G-04). Draft pages excluded until the status label is applied consistently |
+| Notes | Effective dates missing on about 40% of standards (logged under R-01, source data quality, owner Priya N.; it will surface as stale answers, R-09). "Keystone" is the encryption program's codename, and engineers use it to mean the program's TLS standard (glossary entry G-04). Draft pages excluded until the status label is applied consistently |
 
 ### Why This Works
 

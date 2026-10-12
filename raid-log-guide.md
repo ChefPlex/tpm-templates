@@ -2,7 +2,7 @@
 
 If you're running a program and you don't have a RAID log, you're keeping all of that information in your head or in someone's inbox. That works fine until it doesn't - and it usually stops working at the worst possible moment.
 
-A RAID log is not a bureaucratic checkbox. It is the operational memory of your program. Done right, it's the single place where anyone on the team can find out what risks are being watched, what is currently broken, what decisions have been made and why, and what the program is waiting on. That transparency is what keeps small problems from becoming expensive surprises.
+A RAID log is not a bureaucratic checkbox. It is the operational memory of your program. Done right, it's the single place where anyone on the team can find out what risks are being watched, what is currently broken, what the program is waiting on, and, through a linked decisions register, what decisions have been made and why. That transparency is what keeps small problems from becoming expensive surprises.
 
 ---
 
@@ -55,16 +55,18 @@ A risk is something that has not happened yet but could. The job is to catch it 
 
 Use a simple probability x impact matrix. A high-probability, high-impact risk is your top priority. A low-probability, low-impact risk goes on the log but doesn't need weekly attention.
 
+Score Low 1, Medium 2, High 3, and multiply.
+
 ```
              Impact
              Low    Med    High
 Probability
-High          4      7      9
-Med           2      5      8
-Low           1      3      6
+High          3      6      9
+Med           2      4      6
+Low           1      2      3
 ```
 
-Anything rated 7 or above gets active mitigation and regular review. Everything else gets monitored.
+Anything rated 6 or above gets active mitigation and regular review. Everything else gets monitored.
 
 ### Proximity: The Field That Sets Your Review Cadence
 

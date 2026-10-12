@@ -13,7 +13,7 @@ This is a living document. The phases are sequential but reality isn't always - 
 | 1. Conception & Initiation | Idea gets structured, scoped, and approved |
 | 2. Definition & Planning | Requirements get translated into a real plan |
 | 3. Launch & Execution | Work gets done, tracked, and reported |
-| 4. Performance & Control | Plan stays valid, risks stay managed |
+| 4. Performance & Control (runs alongside Phase 3) | Plan stays valid, risks stay managed |
 | 5. Program Closure | Work gets wrapped up, lessons get captured |
 
 ---

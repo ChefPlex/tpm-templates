@@ -80,6 +80,7 @@ Approver: AI engineering lead plus QA
 - [ ] SLOs met under expected peak load
 - [ ] Observability live: latency, cost, retrieval quality, error rates
 - [ ] Per-question retrieval logging live (candidates, rank, context, generated queries, index version), as the [Evaluation Plan](rag-evaluation-plan-template.md#which-layer-failed) specifies, so the pilot's failure-point review has something to read
+- [ ] Over-filtering test built and run: the same eval questions for a user who can see little and one who can see a lot, recall compared on the documents both may read ([Evaluation Plan](rag-evaluation-plan-template.md#which-layer-failed))
 - [ ] Cost controls active with budget alerts
 - [ ] Security testing complete including direct and indirect injection
 - [ ] Security workstream sign-off checklist complete or formally accepted: [Enterprise RAG Security Playbook, Sign-Off](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off)

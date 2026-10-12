@@ -37,8 +37,8 @@ Four documents, in this order. They're the spine; everything below is situationa
 4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust.
 
 Read the [worked examples](examples/) alongside them. Each one shows a weak version next to a
-useful one, which is faster than any amount of instruction. They all draw on the same program, a
-platform encryption migration, so the artifacts connect to each other rather than standing alone.
+useful one, which is faster than any amount of instruction. They all draw on the same company, most
+of them on one platform encryption migration, so the artifacts connect to each other rather than standing alone.
 
 ### If you're running several programs at once
 
@@ -134,7 +134,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 | [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
 | [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
 | [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, weak against better. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
-| [Sample RAG Inventory Row and Failure Trace](examples/sample-rag-inventory-row-and-failure-trace.md) | The same company's first RAG program, after the encryption migration. One data-source row and one wrong pilot answer, each weak against better. The gap in the weak row is what causes the wrong answer, and the trace finds it at ingestion instead of blaming the model. |
+| [Sample RAG Inventory Row and Failure Trace](examples/sample-rag-inventory-row-and-failure-trace.md) | The same company's first RAG program, run while the encryption migration is still under way. One data-source row and one wrong pilot answer, each weak against better. The gap in the weak row is what causes the wrong answer, and the trace finds it at ingestion instead of blaming the model. |
 | [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The weak one records what was chosen; the better one records what was rejected, what it cost, and the two conditions that would reopen it. |
 
 ### Teaching Materials
@@ -158,7 +158,7 @@ This table covers the core templates. The stakeholder playbook, the rescue guide
 | RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
 | Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
 | Cyber incident playbook | Ready | Draws on LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
-| Examples | Working | More examples will make this repo easier to adopt. The next useful addition is a steering decision example. |
+| Examples | Working | More examples will make this repo easier to adopt. For a steering decision, see the [sample steering committee decision](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/examples/sample-steering-committee-decision.md) in program-reporting-frameworks. |
 
 ## How to Use This Repo
 

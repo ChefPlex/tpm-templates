@@ -4,7 +4,7 @@ The control register for a program that puts AI agents to work - models that cal
 
 An agent program usually fails in one of two ways. Nobody can say which agents exist and what they are allowed to touch, or a guardrail everyone trusts turns out never to have seen the action that went wrong. This template is one page per program that makes both visible. Fill it in before the first agent gets write access, and review it whenever an agent gains a tool.
 
-Companion: the [Enterprise RAG Program](../enterprise-rag-program/) for retrieval work, and the [Prompt Injection Threat Model](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security) for the attack side.
+Companion: the [Enterprise RAG Program](../enterprise-rag-program/) for retrieval work, and the [Prompt Injection Threat Model](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/prompt-injection-threat-model.md) for the attack side.
 
 ---
 

@@ -27,21 +27,21 @@ Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release 
 | Activity / Deliverable | Product Owner | Scrum Master | Dev Team | QA/Test | Solution Architect | Release Mgr | Security/Compliance | Stakeholders/Sponsor |
 |---|---|---|---|---|---|---|---|---|
 | **Program/Release Setup** | | | | | | | | |
-| Vision & roadmap | A | C | I | | C | I | | R |
+| Vision & roadmap | R, A | C | I | | C | I | | C |
 | Release/PI planning | A | R | C | C | C | C | C | C |
 | Backlog prioritization | A | C | I | | I | | | C |
 | **Sprint Cadence** | | | | | | | | |
-| Backlog refinement/grooming | A | R | C | C | C | | | |
+| Backlog refinement | A | C | R | C | C | | | |
 | Sprint planning | A | R | R | C | C | I | | |
 | Daily standup | | R | R | I | | | | |
 | Story/epic definition & acceptance criteria | A | C | R | C | C | | | |
 | Development | | | R | I | C | | | |
 | Code review | | | R | C | C | | C | |
 | **Quality & Review** | | | | | | | | |
-| Sprint testing/QA | C | | C | R | | | C | |
-| Security scan/review | I | | C | C | C | | R | |
+| Sprint testing/QA | C | | C | R, A | | | C | |
+| Security scan/review | I | | C | C | C | | R, A | |
 | Sprint review/demo | A | R | R | C | I | I | | C |
-| Sprint retrospective | I | A | R | R | | | | |
+| Sprint retrospective | R | A | R | R | | | | |
 | **Release** | | | | | | | | |
 | Release readiness review | A | R | C | C | C | R | C | I |
 | Deployment/release | I | C | C | C | C | A | C | I |
