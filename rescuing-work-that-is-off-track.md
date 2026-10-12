@@ -125,7 +125,9 @@ Sizing is by working time, not by importance:
 | Medium | Up to about a day |
 | Small | Up to about an hour |
 
-Mediums fill in around the larges. Smalls fill in around the mediums. Nobody is ever blocked with nothing to pick up.
+In a two-week sprint that is one large a week, plus a medium and a small. It sounds like too much until you picture the mason jar. Someone fills a jar with rocks and asks if it's full. Then they pour in sand, and the sand fills the gaps between the rocks. Then they pour in water. Each time, the jar held more than it looked like it could.
+
+The work is the same. A large always has breaks in it: a review you are waiting on, a build that is running, a question out to another team. Mediums fill in around the larges. Smalls fill in around the mediums. You switch from the large to a medium to a small and back again, the week stays full, and nobody is ever blocked with nothing to pick up.
 
 With several stakeholders you'll hold more than one large at a time, and that's the point. Three larges and ten mediums in the funnel gives you room to route the right work to the right person without renegotiating anything.
 

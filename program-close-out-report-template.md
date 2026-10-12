@@ -25,7 +25,7 @@ Fill it in honestly. A close-out report that says everything went well when it d
 
 Three to five sentences. What the program set out to do, what it achieved, and the most important thing learned. Written for someone who did not follow the program closely and will not read beyond this section unless something catches their attention.
 
-> Example: "The TLS Modernization Program set out to eliminate TLS 1.0 and 1.1 exposure across all platform services by Q3. The program achieved 100% coverage across 147 services, reducing protocol-level attack surface and satisfying the DSA compliance requirement ahead of the regulatory deadline. The primary lesson was that service inventory is always less complete than it appears - the final 20% of services took as long as the first 80% to remediate and required a dedicated tracking workstream to close."
+> Example: "The TLS Modernization Program set out to eliminate TLS 1.0 and 1.1 exposure across all platform services by Q3. The program achieved 100% coverage across 147 services, reducing protocol-level attack surface and satisfying the EU Digital Services Act (DSA) compliance requirement ahead of the regulatory deadline. The primary lesson was that service inventory is always less complete than it appears - the final 20% of services took as long as the first 80% to remediate and required a dedicated tracking workstream to close."
 
 ---
 

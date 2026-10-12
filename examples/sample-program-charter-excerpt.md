@@ -1,6 +1,6 @@
 # Sample Program Charter Excerpt
 
-A charter is only as strong as its core: the problem it names, the outcomes it commits to, and the line it draws around the work. Those three sections are where most charters quietly fail - vague enough to approve, vague enough to argue about later. The PMI's own numbers make the cost concrete: scope creep hits about half of all projects, and projects without clearly defined objectives fail roughly a third of the time. This example shows the difference on the sections that carry the weight.
+A charter is only as strong as its core: the problem it names, the outcomes it commits to, and the line it draws around the work. Those three sections are where most charters quietly fail - vague enough to approve, vague enough to argue about later. This example shows the difference on the sections that carry the weight.
 
 **Scenario (sanitized).** An "Encryption in Transit Modernization" program. The excerpt below is Sections 1 through 3 of the [Program Charter Template](../program-charter-template.md) - Why, What, and Scope. Numbers, dates, and org names are illustrative; sanitize to your context before use.
 

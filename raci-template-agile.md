@@ -27,25 +27,25 @@ Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release 
 | Activity / Deliverable | Product Owner | Scrum Master | Dev Team | QA/Test | Solution Architect | Release Mgr | Security/Compliance | Stakeholders/Sponsor |
 |---|---|---|---|---|---|---|---|---|
 | **Program/Release Setup** | | | | | | | | |
-| Vision & roadmap | A | C | I | I | C | I | I | R |
+| Vision & roadmap | A | C | I | | C | I | | R |
 | Release/PI planning | A | R | C | C | C | C | C | C |
-| Backlog prioritization | A | C | I | I | I | I | I | C |
+| Backlog prioritization | A | C | I | | I | | | C |
 | **Sprint Cadence** | | | | | | | | |
-| Backlog refinement/grooming | A | R | C | C | C | I | I | I |
-| Sprint planning | A | R | R | C | C | I | I | I |
-| Daily standup | I | R | R | I | I | I | I | I |
-| Story/epic definition & acceptance criteria | A | C | R | C | C | I | I | I |
-| Development | I | I | R | I | C | I | I | I |
-| Code review | I | I | R | C | C | I | C | I |
+| Backlog refinement/grooming | A | R | C | C | C | | | |
+| Sprint planning | A | R | R | C | C | I | | |
+| Daily standup | | R | R | I | | | | |
+| Story/epic definition & acceptance criteria | A | C | R | C | C | | | |
+| Development | | | R | I | C | | | |
+| Code review | | | R | C | C | | C | |
 | **Quality & Review** | | | | | | | | |
-| Sprint testing/QA | C | I | C | R | I | I | C | I |
-| Security scan/review | I | I | C | C | C | I | R | I |
-| Sprint review/demo | A | R | R | C | I | I | I | C |
-| Sprint retrospective | I | A | R | R | I | I | I | I |
+| Sprint testing/QA | C | | C | R | | | C | |
+| Security scan/review | I | | C | C | C | | R | |
+| Sprint review/demo | A | R | R | C | I | I | | C |
+| Sprint retrospective | I | A | R | R | | | | |
 | **Release** | | | | | | | | |
 | Release readiness review | A | R | C | C | C | R | C | I |
 | Deployment/release | I | C | C | C | C | A | C | I |
-| Post-release monitoring | I | C | R | R | C | A | I | I |
+| Post-release monitoring | I | C | R | R | C | A | | I |
 
 ## Rules Of Thumb
 

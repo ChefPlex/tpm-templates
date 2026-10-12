@@ -27,33 +27,33 @@ Roles across the top are a starting set - rename or add columns to match your pr
 | Activity / Deliverable | Sponsor | Program/Project Mgr | Business Analyst | Solution Architect | Dev Lead | QA Lead | Security/Compliance | Change Mgmt | End Users/Stakeholders |
 |---|---|---|---|---|---|---|---|---|---|
 | **Initiation** | | | | | | | | | |
-| Business case & charter | A | R | C | I | I | I | C | I | C |
-| Stakeholder identification | I | R | C | I | I | I | I | C | A |
-| Budget & resource approval | A | R | C | C | I | I | I | I | I |
+| Business case & charter | A | R | C | I | | | C | | C |
+| Stakeholder identification | I | A/R | C | | | | | C | C |
+| Budget & resource approval | A | R | C | C | I | I | | | |
 | **Requirements** | | | | | | | | | |
-| Requirements gathering | I | A | R | C | C | C | C | I | R |
+| Requirements gathering | | A | R | C | C | C | C | I | R |
 | Requirements sign-off | A | R | R | C | I | I | C | I | C |
-| Scope baseline | A | R | C | C | C | I | I | I | I |
+| Scope baseline | A | R | C | C | C | I | | I | I |
 | **Design** | | | | | | | | | |
-| Solution/technical design | I | C | C | A/R | C | C | C | I | I |
-| Design review & approval | A | R | C | R | C | C | C | I | I |
-| Security/architecture review | I | C | I | C | C | C | A/R | I | I |
+| Solution/technical design | | C | C | A/R | C | C | C | | |
+| Design review & approval | A | R | C | R | C | C | C | | |
+| Security/architecture review | | C | | C | C | C | A/R | | |
 | **Development** | | | | | | | | | |
-| Build/development | I | I | I | C | A/R | I | I | I | I |
-| Code review | I | I | I | C | A/R | C | C | I | I |
-| Unit testing | I | I | I | I | A/R | C | I | I | I |
+| Build/development | | I | | C | A/R | I | | | |
+| Code review | | | | C | A/R | C | C | | |
+| Unit testing | | | | | A/R | C | | | |
 | **Testing** | | | | | | | | | |
-| Test plan development | I | C | C | C | C | A/R | C | I | I |
-| System integration testing | I | I | C | C | C | A/R | C | I | I |
-| UAT execution & sign-off | A | R | C | I | I | C | I | I | R |
-| Defect resolution | I | I | I | C | A/R | R | I | I | I |
+| Test plan development | | C | C | C | C | A/R | C | | |
+| System integration testing | | I | C | C | C | A/R | C | | |
+| UAT execution & sign-off | A | R | C | | I | C | | I | R |
+| Defect resolution | | I | | C | A/R | R | | | |
 | **Deployment** | | | | | | | | | |
 | Deployment/release plan | A | R | I | C | C | C | C | R | I |
 | Go-live execution | A | R | I | C | R | C | C | C | I |
-| Post-launch support/hypercare | I | C | I | C | A/R | R | I | C | I |
+| Post-launch support/hypercare | I | C | | C | A/R | R | | C | I |
 | **Closure** | | | | | | | | | |
-| Lessons learned | I | A | R | R | R | R | C | C | I |
-| Project closure & sign-off | A | R | C | I | I | I | I | I | I |
+| Lessons learned | I | A | R | R | R | R | C | C | |
+| Project closure & sign-off | A | R | C | I | I | I | | | I |
 
 ## Rules Of Thumb
 

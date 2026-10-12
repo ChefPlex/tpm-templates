@@ -1,5 +1,5 @@
 # Cyber Incident Management Playbook
-*Grounded in LDR553 / CIMTK framework - Incident Commander perspective*
+*Draws on SANS LDR553 and CIMTK (the Cyber Incident Management Toolkit); the six-phase structure is my own synthesis. Incident Commander perspective.*
 
 ---
 
@@ -92,7 +92,7 @@ Use this section from the moment of notification until your first exec briefing.
 | | |
 |---|---|
 | **Objective** | Establish what's known vs assumed; bound the problem |
-| **IC actions** | Build KFAU, define in/out of scope, identify attack surfaces and linked systems |
+| **IC actions** | Build KFAU, define in/out of scope, identify attack surfaces and linked systems, preserve evidence before containment changes it, bring in legal early so privilege decisions are made up front |
 | **Deliverables** | KFAU table, Scope Statement, Systems/Users Impacted tracker (CIMTK grid) |
 | **Exit criteria** | Scope statement exists and is defensible to execs and legal |
 
@@ -109,8 +109,13 @@ Use this section from the moment of notification until your first exec briefing.
 |---|---|
 | **Objective** | Control the narrative internally and externally before others control it for you |
 | **IC actions** | Brief execs on cadence, coordinate legal/comms/PR, prepare disclosure-scenario messaging |
-| **Deliverables** | Exec Briefing Notes, Press Statement Tracker, Email Comms Tracker, LE Briefing form (if law enforcement engaged) |
+| **Deliverables** | Exec Briefing Notes, Press Statement Tracker, Email Comms Tracker, LE Briefing form (if law enforcement engaged), Notification Clocks log |
 | **Exit criteria** | Holding statement ready; internal and external messaging aligned; no unapproved statements have gone out |
+
+**Notification clocks:** *Do we need to tell customers?* is often decided by a clock that is already running. Log each one in the Decision Log: which regime applies, who decides, when the clock started, when it expires. Common ones:
+- **SEC Form 8-K Item 1.05** (US public companies): generally due four business days after the company determines the incident is material. Name who makes the materiality call. [SEC release 2023-139](https://www.sec.gov/newsroom/press-releases/2023-139)
+- **GDPR Article 33**: notify the supervisory authority without undue delay and, where feasible, within 72 hours of becoming aware of a personal data breach. [Art. 33](https://gdpr-info.eu/art-33-gdpr/)
+- **US state breach laws, sector rules and contracts**: deadlines and triggers vary. Legal owns the list.
 
 **Key discipline:** say enough to be credible, not everything you don't yet know. Avoid absolutes ("no risk," "fully secure," "nothing to worry about") - they age badly and are the first thing quoted back at you.
 
@@ -127,14 +132,15 @@ Use this section from the moment of notification until your first exec briefing.
 |---|---|
 | **Objective** | Return to normal operations; capture lessons; harden for next time |
 | **IC actions** | Run Post-Incident Review, update playbooks, schedule follow-up exercises |
-| **Deliverables** | PIR report, updated Battle Rhythm/playbook, Exercise Roadmap |
-| **Exit criteria** | PIR complete, actions assigned, next exercise scheduled |
+| **Deliverables** | Post-Incident Review report, updated Battle Rhythm/playbook, Exercise Roadmap |
+| **Exit criteria** | Post-Incident Review complete, actions assigned, next exercise scheduled |
 
 ---
 
 ## Reference: Terminology
 - **IC** - Incident Commander: coordinates response, priorities, decisions, communications
 - **KFAU** - Known Facts / Assumptions / Unknowns
+- **PIR** - Priority Intelligence Requirements: the questions the response most needs answered. Not the Post-Incident Review, which this playbook spells out in full
 - **SITREP** - Situation Report: what happened, impact, actions, risks, next steps
 - **Battle Rhythm** - scheduled cadence of meetings/updates/decisions during the incident
 - **Decision Authority** - who is empowered to approve ransom, disclosure, shutdown decisions

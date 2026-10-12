@@ -32,7 +32,7 @@ What is the situation that requires a decision? Describe the problem, the constr
 
 Be specific about constraints - technical, organizational, regulatory, timeline. These are the things that made some options unavailable or unattractive.
 
-> Example: "Most service-to-service communication in the platform uses TLS 1.2, but 12 legacy services still accept TLS 1.0/1.1. The IETF formally deprecated TLS 1.0 and 1.1 in RFC 8996 (March 2021), NIST SP 800-52 Rev. 2 (2019) already required TLS 1.2 for government systems, and our DSA compliance assessment identified those 12 services as a finding. We need to establish a standard minimum TLS version for all new and existing services, with a remediation timeline for services that do not currently meet it."
+> Example: "Most service-to-service communication in the platform uses TLS 1.2, but 12 legacy services still accept TLS 1.0/1.1. The IETF formally deprecated TLS 1.0 and 1.1 in RFC 8996 (March 2021), NIST SP 800-52 Rev. 2 (2019) already required TLS 1.2 for government systems, and our EU Digital Services Act (DSA) compliance assessment identified those 12 services as a finding. We need to establish a standard minimum TLS version for all new and existing services, with a remediation timeline for services that do not currently meet it."
 
 ---
 

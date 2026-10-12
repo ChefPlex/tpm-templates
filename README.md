@@ -104,7 +104,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 
 | Template | What It Is |
 |---|---|
-| [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) | An Incident Commander playbook grounded in the LDR553/CIMTK framework. Covers first-hour actions from detection through the first exec briefing, plus the full six-phase incident lifecycle from detect and classify through sustain and exercise. |
+| [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) | An Incident Commander playbook that draws on SANS LDR553 and CIMTK, with a six-phase lifecycle of my own. Covers first-hour actions from detection through the first exec briefing, plus the full six-phase incident lifecycle from detect and classify through sustain and exercise. |
 
 ### AI and RAG Programs
 
@@ -145,6 +145,8 @@ platform encryption migration, so the artifacts connect to each other rather tha
 
 ## Maturity
 
+This table covers the core templates. The stakeholder playbook, the rescue guide and the Enterprise RAG and Agentic AI programs are not rated here yet.
+
 | Area | Status | Notes |
 |---|---|---|
 | Program charter | Ready | Good starting point for new programs, especially when scope and ownership are still fuzzy. |
@@ -155,8 +157,8 @@ platform encryption migration, so the artifacts connect to each other rather tha
 | RACI templates (waterfall & agile) | Ready | Two separate matrices, not one template with a toggle - the phase structure and the sprint cadence break down differently and forcing them into one format hides the real handoff points. |
 | RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
 | Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
-| Cyber incident playbook | Ready | Grounded in LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
-| Examples | Working | More examples will make this repo easier to adopt. The next useful additions are a sample charter excerpt and a steering decision example. |
+| Cyber incident playbook | Ready | Draws on LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
+| Examples | Working | More examples will make this repo easier to adopt. The next useful addition is a steering decision example. |
 
 ## How to Use This Repo
 

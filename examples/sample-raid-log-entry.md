@@ -1,12 +1,12 @@
 # Sample RAID Log Entry
 
-The RAID log is only useful if the entries are specific enough for someone to act on. These examples show the difference.
+The RAID log is only useful if the entries are specific enough for someone to act on. These examples show the difference. They come from the same platform encryption migration as the other examples: each service team integrates a client for the central certificate authority, and each integration is tracked as a dependency.
 
 ---
 
 ## Weak Entry
 
-**Dependency with auth team may affect launch.**
+**Dependency with payments team may affect cutover.**
 
 ### Why This Fails
 
@@ -20,11 +20,11 @@ No owner. No date. No impact statement. No decision needed. No path to resolutio
 |-------|-------|
 | Type | Dependency |
 | Status | Yellow |
-| Owner | Sarah - Auth Engineering |
+| Owner | Sarah - Payments Engineering |
 | Due Date | 2026-06-07 |
-| Impact | Launch cannot move to production until auth integration date is committed. Current target of 2026-06-15 is at risk if the commitment does not arrive by end of this week. |
-| Next Step | TPM to confirm integration date with Sarah and Dev by Friday. If date is not committed, escalate to sponsor for priority call. |
-| Escalation Trigger | No committed auth date by 2026-05-31. |
+| Impact | Payments services cannot cut over to the central certificate authority until Payments commits a date for its rotation-client integration. Current cutover target of 2026-06-15 is at risk if the commitment does not arrive by end of this week. |
+| Next Step | TPM to confirm the integration date with Sarah and Dev by Friday. If date is not committed, escalate to sponsor for priority call. |
+| Escalation Trigger | No committed integration date by 2026-05-31. |
 
 ### Why This Works
 

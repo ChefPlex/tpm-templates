@@ -173,14 +173,15 @@ List any fixed deadlines (regulatory, contractual, product launch) that constrai
 
 ### RACI
 
-| Role | Responsible | Accountable | Consulted | Informed |
-|------|------------|-------------|-----------|---------|
-| Executive Sponsor | | X | | X |
-| Product / Program Owner | X | | X | X |
-| TPM | X | | X | X |
-| Engineering Lead | X | | X | X |
-| [Partner Team] | | | X | X |
-| [Compliance / Legal] | | | X | |
+List the decisions the charter commits to, not the roles. Each row gets exactly one A. Leave a cell blank when the role has no part in that decision. For a full matrix, use the [waterfall](raci-template-waterfall.md) or [agile](raci-template-agile.md) RACI template.
+
+| Decision | Executive Sponsor | Product / Program Owner | TPM | Engineering Lead | [Partner Team] | [Compliance / Legal] |
+|----------|------------------|------------------------|-----|------------------|----------------|---------------------|
+| Scope change | C | A | R | C | I | |
+| Budget change | A | C | R | | | |
+| Go / no-go at launch | A | R | R | C | I | C |
+| Definition of Done sign-off | I | A | R | C | | |
+| [Decision] | | | | | | |
 
 ### Stakeholder Map
 
