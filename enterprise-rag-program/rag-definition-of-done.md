@@ -18,7 +18,7 @@ Owner: Business owner
 
 - [ ] Recall@K meets target on the full eval set
 - [ ] Precision meets target
-- [ ] Performance verified across every in-scope data source, not just the largest
+- [ ] Performance verified across every in-scope data source, not just the largest, and every eval question type meets its floor
 
 Owner: AI engineering lead
 
@@ -111,7 +111,7 @@ Owner: TPM plus business owner
 Pre-launch eval scores are necessary and not sufficient. Barnett et al., from three deployed RAG systems, conclude that "validation of a RAG system is only feasible during operation" ([arXiv 2401.05856](https://arxiv.org/abs/2401.05856)). This dimension is the gate that proves it in operation.
 
 - [ ] Pilot ran on live traffic from real users for a defined period, not a replayed or curated set
-- [ ] Failure-point review completed on the pilot's bad or refused answers: each classified by where it failed (content missing from the corpus, not retrieved or ranked too low, retrieved but not in context, in context but not used, wrong format, wrong level of detail, incomplete)
+- [ ] Failure-point review completed on the pilot's bad or refused answers: each classified by the layer where it failed, using the [Evaluation Plan's Which Layer Failed](rag-evaluation-plan-template.md#which-layer-failed) table
 - [ ] Each failure class above a set threshold has an owner and a fix or an accepted risk in the RAID log
 - [ ] Failures from the pilot added to the eval set
 - [ ] Production monitoring can detect the same failure classes after launch

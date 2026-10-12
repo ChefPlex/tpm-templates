@@ -34,7 +34,7 @@ What is broken today, in the words of the people it is broken for.
 | Business owner | | Value realization, answer quality after launch |
 | Program manager / TPM | | Delivery, risk, cross-workstream alignment |
 | AI engineering lead | | Retrieval and generation quality |
-| Data lead | | Source availability, freshness, permission fidelity |
+| Data lead | | Source availability, freshness, permission fidelity, which sources are indexed vs queried live, and the glossary (or a named delegate) |
 | Oversharing remediation owner | | Source permission review and cleanup before ingestion (Section 8) |
 | Security lead | | Trust boundary, injection posture, sign-off |
 | Platform lead | | SLOs, cost, observability |
@@ -87,9 +87,9 @@ Unauthorized retrieval is zero, not a rate to optimize. If it is written as a pe
 
 **In scope, priority order:**
 
-| Source | Owner | Sensitivity | Access model | Refresh need |
-|---|---|---|---|---|
-| | | | | |
+| Source | Owner | Path (indexed or live query) | Sensitivity | Access model | Refresh need |
+|---|---|---|---|---|---|
+| | | | | | |
 
 **Explicitly out of scope for this phase:** _______________
 
@@ -129,11 +129,13 @@ What this program is not doing, written down so it can be pointed at.
 
 ## 11. Key Architecture Decisions Pending
 
-Each becomes an ADR. Reindexing cost is the reason the first two matter more than they look.
+Each becomes an ADR. Reindexing cost is the reason chunking and the embedding model matter more than they look. If the terms are unfamiliar, the [RAG Architecture Primer](rag-architecture-primer.md) explains each one.
 
 | Decision | Owner | Needed by | ADR |
 |---|---|---|---|
-| Chunking strategy | | | |
+| Chunking boundaries per source | | | |
+| Retrieval method (vector, keyword, hybrid) | | | |
+| Structured data path (which sources are queried live, and how as the user) | | | |
 | Embedding model | | | |
 | Vector store | | | |
 | Reranking approach | | | |

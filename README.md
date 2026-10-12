@@ -110,7 +110,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 
 | Template | What It Is |
 |---|---|
-| [Enterprise RAG Program](enterprise-rag-program/) | Running Retrieval-Augmented Generation as a program rather than an AI experiment. Playbook with phases, seven workstreams, governance and risk tiers, plus templates for the charter, use case catalog, data source inventory, evaluation plan, RAID starter, milestone exit criteria, and definition of done. The security workstream lives in [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security). |
+| [Enterprise RAG Program](enterprise-rag-program/) | Running Retrieval-Augmented Generation as a program rather than an AI experiment. An architecture primer for the people making decisions about it, and a playbook with phases, seven workstreams, governance and risk tiers, plus templates for the charter, use case catalog, data source inventory, evaluation plan, RAID starter, milestone exit criteria, and definition of done. The security workstream lives in [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security). |
 | [Agentic AI Program](agentic-ai-program/) | One-page control register for AI agents with tool access: an agent inventory with a named human owner per agent, a tool-permission map, who holds go / no-go on irreversible and outbound actions, and a guardrail coverage table that records what each guardrail cannot see. |
 
 ### Program Execution
@@ -134,6 +134,7 @@ platform encryption migration, so the artifacts connect to each other rather tha
 | [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
 | [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
 | [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, weak against better. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
+| [Sample RAG Inventory Row and Failure Trace](examples/sample-rag-inventory-row-and-failure-trace.md) | The same company's first RAG program, after the encryption migration. One data-source row and one wrong pilot answer, each weak against better. The gap in the weak row is what causes the wrong answer, and the trace finds it at ingestion instead of blaming the model. |
 | [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The weak one records what was chosen; the better one records what was rejected, what it cost, and the two conditions that would reopen it. |
 
 ### Teaching Materials

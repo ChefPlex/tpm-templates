@@ -23,7 +23,7 @@ Approver: Executive sponsor
 
 - [ ] Architecture approved by governance council
 - [ ] Security model and trust boundary approved
-- [ ] ADRs recorded for chunking, embedding model, vector store, reranking, model selection, citation format
+- [ ] ADRs recorded for chunking boundaries, retrieval method (vector, keyword, hybrid), structured data path, embedding model, vector store, reranking, model selection, citation format
 - [ ] Permission-aware retrieval design reviewed and accepted by security
 - [ ] Cost model built with projected cost per query and per user
 - [ ] Model-provider data-handling terms reviewed
@@ -37,6 +37,8 @@ Approver: Governance council plus security lead
 - [ ] Every priority source marked reviewed, remediated, or restricted for oversharing before ingestion; none ingested as "not reviewed"
 - [ ] Priority sources ingested
 - [ ] Permission model verified per source, resolvable per document at query time
+- [ ] Live-query (structured) sources verified to run as the requesting user, not a service account
+- [ ] Glossary entries for every priority source recorded in the Data Source Inventory and reviewed by that source's owner
 - [ ] Permission change propagation tested end to end
 - [ ] Deletion propagation tested
 - [ ] Freshness pipeline running and monitored
@@ -61,7 +63,7 @@ Approver: AI engineering lead
 
 ## M4 - Quality Gate
 
-- [ ] Retrieval targets met on the full eval set
+- [ ] Retrieval targets met on the full eval set, including the per-question-type and per-source floors
 - [ ] Generation targets met
 - [ ] Refusal behavior correct on unanswerable questions
 - [ ] Permission-boundary questions correctly refused
@@ -77,6 +79,7 @@ Approver: AI engineering lead plus QA
 
 - [ ] SLOs met under expected peak load
 - [ ] Observability live: latency, cost, retrieval quality, error rates
+- [ ] Per-question retrieval logging live (candidates, rank, context, generated queries, index version), as the [Evaluation Plan](rag-evaluation-plan-template.md#which-layer-failed) specifies, so the pilot's failure-point review has something to read
 - [ ] Cost controls active with budget alerts
 - [ ] Security testing complete including direct and indirect injection
 - [ ] Security workstream sign-off checklist complete or formally accepted: [Enterprise RAG Security Playbook, Sign-Off](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off)

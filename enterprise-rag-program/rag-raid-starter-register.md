@@ -11,7 +11,7 @@ Every row below has been seen on real programs. Delete what genuinely doesn't ap
 | ID | Risk | Impact | Likelihood | Mitigation | Owner | Trigger to escalate |
 |---|---|---|---|---|---|---|
 | R-01 | Source data quality is worse than assumed | High | High | Data quality program, source ownership, sample audit before ingestion | Data lead | Sample audit finds > 10% unusable |
-| R-02 | Chunking strategy degrades retrieval | Medium | Medium | Retrieval evals before scale-out, ADR with revisit date | AI lead | Recall below target on any source |
+| R-02 | Chunk boundaries split meaning: a rule lands in one chunk and its exception in another, a reference ("see above") points at nothing, or chunks are so large the relevant sentence is diluted | Medium | High | Boundaries chosen per source on meaning (heading, clause, section), sample review before indexing, retrieval evals before scale-out, ADR with revisit date | AI lead | Recall below target on any source, or the failure-point review attributes repeated misses to chunking |
 | R-03 | Answers not grounded in retrieved content | High | Medium | Grounding requirement, citation enforcement, eval gate | AI lead | Groundedness below target |
 | R-04 | Unauthorized retrieval | **Critical** | Medium | Permission-aware retrieval, pre-model filtering, boundary tests in CI | Security lead | Any single occurrence |
 | R-05 | Prompt injection, direct or indirect | **Critical** | High | Threat model, red team, injection corpus in CI | Security lead | Any single success |
@@ -41,6 +41,15 @@ Seven starter risks for where a RAG pipeline loses the right answer. They follow
 | R-22 | Wrong format: the answer ignores a required format such as a table or list | Low | Medium | Format checks in the eval suite | AI lead | Format failures above threshold |
 | R-23 | Incorrect specificity: the answer is too general or too specific for the question | Medium | Medium | Real user questions in the eval set, SME review of answer level | Product | Recurring in pilot feedback |
 | R-24 | Incomplete: the answer is correct but leaves out information that was available | Medium | High | Nugget coverage as a gated metric | AI lead | Nugget coverage below target |
+
+### Upstream of the Failure Points
+
+Barnett's points start at the corpus. Two more failures sit upstream, in how the corpus is understood and how structured data is reached. Chunking, the third upstream failure, is R-02 above. The [Evaluation Plan's Which Layer Failed](rag-evaluation-plan-template.md#which-layer-failed) section uses all of these together to trace a miss to its layer.
+
+| ID | Risk | Impact | Likelihood | Mitigation | Owner | Trigger to escalate |
+|---|---|---|---|---|---|---|
+| R-25 | Vocabulary gap: internal acronyms, codenames, and product names mean nothing to a general embedding model, so retrieval misses or mismatches them | Medium | High | Glossary in the Data Source Inventory, hybrid (vector plus keyword) retrieval, terminology questions in the eval set with their own recall floor | Data lead | Recall@K on terminology questions below its per-type floor |
+| R-26 | Structured-path authorization: a SQL or API query made for the user runs with the integration's service-account privilege, or through a shared cache or owner-rights view, returning rows the user could not see directly | **Critical** | Medium | Live queries run as the user (row-level security, user-scoped token), caches keyed by identity, included in the security workstream's [permission test matrix](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off) | Security lead | Any single occurrence |
 
 ## Assumptions
 
@@ -72,10 +81,10 @@ Seven starter risks for where a RAG pipeline loses the right answer. They follow
 
 ## Notes on the Critical Rows
 
-Five rows are marked Critical rather than High: R-04, R-05, R-13, R-14, R-16. All five are unauthorized-access paths, and they share a property that separates them from the quality risks.
+Six rows are marked Critical rather than High: R-04, R-05, R-13, R-14, R-16, R-26. All six are unauthorized-access paths, and they share a property that separates them from the quality risks.
 
 A retrieval quality problem produces a bad answer, which a user notices and reports. An access-control problem produces a *good* answer, delivered confidently, to someone who should never have seen it, and nothing in the user experience signals that anything went wrong. Nobody files a ticket.
 
-That's why the escalation trigger on all five is a single occurrence rather than a threshold, and why the corresponding CI gate has no tolerance band.
+That's why the escalation trigger on all six is a single occurrence rather than a threshold, and why the corresponding CI gate has no tolerance band.
 
 R-16 is the one most programs miss, because nothing is broken. Permission-aware retrieval is necessary and not sufficient: it inherits whatever the source systems grant. Microsoft's Copilot deployment guidance puts "Remediate oversharing" first of its three pillars for this reason ([Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/copilot/secure-govern-copilot-foundational-deployment-guidance)). The security detail is in the [Enterprise RAG Security Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md).

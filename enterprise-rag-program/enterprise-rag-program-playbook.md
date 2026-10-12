@@ -18,6 +18,8 @@ RAG is the enabling architecture, not the goal. That distinction is what turns a
 
 The single most common failure is treating this as an AI engineering project. It is equally a data, security, platform, product, and operations program. Staff it that way or expect to discover the missing workstreams at the worst possible time.
 
+The vector database is not the RAG program. If the terms in the rest of this playbook are new (the model stays fixed while the context changes, structured and unstructured paths, hybrid retrieval, chunk boundaries, reranking), read the [RAG Architecture Primer](rag-architecture-primer.md) first.
+
 ## Phases
 
 | Phase | Duration | Primary outcome |
@@ -127,7 +129,11 @@ Owner: Data Engineering plus Data Governance.
 
 Usually the longest pole, and almost never the one that gets staffed first. Enterprise document estates are worse than anyone believes until they're inventoried.
 
-The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, remediate oversharing (above), build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration, and it includes deletions: a document removed at source has to leave the index and any caches inside a defined window.
+The work is: inventory sources, resolve ownership, classify sensitivity, capture the access-control model for each source, decide whether each source is indexed or queried live, remediate oversharing (above), build ingestion, then keep it fresh. Freshness is a permanent operating cost, not a one-time migration, and it includes deletions: a document removed at source has to leave the index and any caches inside a defined window.
+
+This workstream also owns the **enterprise vocabulary**: the glossary of acronyms, aliases, product names, and project codenames, and the taxonomy the metadata uses. A generic embedding model doesn't know what your codenames mean, and retrieval can only be as good as the vocabulary it is given (see the [primer](rag-architecture-primer.md#enterprise-vocabulary)). That is a deliverable, not a committee: the glossary lives in the [Data Source Inventory](rag-data-source-inventory-template.md#glossary), the data lead owns it (or names a delegate, often whoever already owns data definitions), and each source owner reviews the terms for their source before it is ingested.
+
+The data lead also decides, per source, whether it is indexed or queried live, with AI engineering consulted. AI engineering owns the ADR for how the live-query path works.
 
 Deliverable: [Data Source Inventory](rag-data-source-inventory-template.md).
 
@@ -135,13 +141,17 @@ Deliverable: [Data Source Inventory](rag-data-source-inventory-template.md).
 
 Owner: AI and ML Engineering.
 
-The pipeline is ingest, chunk, embed, index, retrieve, rerank, assemble prompt, generate, cite. The major decisions worth an ADR each:
+The document pipeline is ingest, chunk, attach metadata, embed and index, retrieve with the permission filter applied, rerank, assemble context, generate, cite. Structured sources take a second path: a query run as the user against the system of record, with its results joined into the same context. Most real questions need one path, some need both. The [primer](rag-architecture-primer.md#the-architecture) draws it.
+
+The major decisions worth an ADR each:
 
 | Decision | Why it needs a record |
 |---|---|
-| Chunking strategy and size | Silently determines retrieval quality and is expensive to change after indexing |
+| Chunking boundaries per source | Where a chunk starts and ends decides whether a retrieved passage keeps its meaning. Silently determines retrieval quality and is expensive to change after indexing |
+| Retrieval method: vector, keyword, or hybrid | Vector search alone misses exact internal terms, codenames, and IDs; keyword alone misses paraphrase. Hybrid is the usual enterprise default, and the eval set should confirm it |
+| Structured data path | Through what interface live sources are queried (semantic layer, templates, or model-written SQL), how the query is validated and limited, and how it runs as the user |
 | Embedding model | Changing it means reindexing the entire corpus |
-| Vector store | Operational burden, cost curve, and permission-filtering capability vary enormously |
+| Vector store | Operational burden, cost curve, and permission-filtering capability vary enormously. Test true filtered search with your real permission filters: some engines filter after searching, or lose recall when the filter is selective. Filtered vector search is an open research problem, not a solved feature ([primer](rag-architecture-primer.md#the-architecture)) |
 | Reranking | Adds latency and cost, materially improves precision |
 | Model selection and routing | Provider dependency, cost per query, data-handling terms |
 | Citation format | Cheap to design in, painful to retrofit, and it is what users trust |
@@ -160,7 +170,7 @@ The one rule to carry into every architecture conversation:
 
 > The system can never retrieve information the requesting user could not have accessed directly.
 
-Authorization filtering happens before content reaches the model, never after. Post-filtering a response that was generated from unauthorized content isn't a control, it's a hope.
+Authorization filtering happens before content reaches the model, never after. Post-filtering a response that was generated from unauthorized content isn't a control, it's a hope. The rule covers the structured path too: a SQL or API query made on the user's behalf runs with the user's authority, never the service account's.
 
 ### 5. Evaluation and Quality
 
@@ -222,7 +232,7 @@ Weeks 20-24   Enterprise launch and operating model handoff
 |---|---|---|
 | M0 | Program approved | Charter signed, sponsor named, budget committed, baseline captured |
 | M1 | Architecture approved | Architecture and security model approved by council, ADRs recorded |
-| M2 | Data ready | Priority sources ingested, oversharing reviewed and remediated or restricted per source, permission model verified, freshness and deletion pipeline running |
+| M2 | Data ready | Priority sources ingested, oversharing reviewed and remediated or restricted per source, permission model verified on both the indexed and live-query paths, freshness and deletion pipeline running, glossary reviewed for priority sources |
 | M3 | RAG MVP | End-to-end answering with citations against real corpus |
 | M4 | Quality gate | Retrieval and generation targets met on the eval set, evals running in CI |
 | M5 | Production ready | SLOs met under load, observability live, cost controls active, security testing complete |
@@ -239,6 +249,8 @@ Load these into the RAID log at kickoff rather than discovering them one at a ti
 |---|---|---|
 | Poor source data quality | High | Data quality program, source ownership |
 | Bad chunking strategy | Medium | Retrieval evals before scale-out |
+| Internal vocabulary not understood by retrieval | Medium | Owned glossary, hybrid retrieval, codename and acronym questions in the eval set |
+| Structured queries run with service-account privilege | Critical | Structured path queries as the user, verified in the security workstream's [permission test matrix](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md#sign-off) |
 | Hallucinated answers | High | Grounding requirement, citation enforcement, evals |
 | Unauthorized retrieval | Critical | Permission-aware retrieval, pre-model filtering |
 | Oversharing at source | Critical | Phase 0/1 permission review, interim restrictions, per-source hygiene status |
@@ -261,6 +273,7 @@ Business value signed off. Retrieval targets met. Generation targets met. Identi
 
 ## Related
 
+- [RAG Architecture Primer](rag-architecture-primer.md) - how the system works, for anyone making decisions about it
 - [Program Charter Template](../program-charter-template.md) - the general-purpose charter this program's charter extends
 - [Program Phases Playbook](../program-phases-playbook.md) - the phase model this follows
 - [RAID Log Guide](../raid-log-guide.md) - risk operating discipline
