@@ -72,6 +72,7 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 3. [Enterprise RAG Security Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/rag-security-playbook.md) and the [Prompt Injection Threat Model](https://github.com/ChefPlex/security-program-playbooks/blob/main/enterprise-rag-security/prompt-injection-threat-model.md)
 4. Where AI belongs at all: [The Five Execution Tiers](https://github.com/ChefPlex/ai-automations/blob/main/frameworks/ai-execution-tiers.md)
 5. Regulated data: [AI Tooling in Regulated Environments](https://github.com/ChefPlex/security-program-playbooks/blob/main/ai-tooling-regulated-data.md)
+6. Governing all of it: the [AI Governance Program Template](https://github.com/ChefPlex/ai-automations/blob/main/frameworks/ai-governance-program-template.md), charter to risk tiers to inventory
 
 ### I want to use AI in my own program work, safely
 
