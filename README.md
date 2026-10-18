@@ -75,6 +75,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
 | AI agents are getting tool access and nobody can list what they can touch | [Agentic AI Program](agentic-ai-program/) |
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
+| Your organization needs its first TPM and you have never hired one | [Building the TPM Function](building-the-tpm-function.md) |
 
 ---
 
@@ -119,6 +120,12 @@ of them on one platform encryption migration, so the artifacts connect to each o
 |---|---|
 | [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | A lightweight checklist for aligning scope, stakeholders, risks, dependencies, decisions, and operating rhythm before a program starts. Lives in `tpm-toolbox`. |
 | [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | A simple structure for capturing decisions, owners, due dates, open questions, and follow-ups. Lives in `tpm-toolbox`. |
+
+### Building the Function
+
+| Guide | What It Is |
+|:---|:---|
+| [Building the TPM Function: Hiring Your First TPMs](building-the-tpm-function.md) | For the engineering leader hiring a first technical program manager: the signals you need one, what the role is and is not, a role-definition template, a three-level starter ladder, an interview loop built on a work sample with planted traps, a scorecard, placement, and 30/60/90-day measures. With a worked example. |
 
 ### Engineering Collaboration
 

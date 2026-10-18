@@ -74,6 +74,12 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 3. [Prompt Quality Rubric](https://github.com/ChefPlex/ai-automations/blob/main/prompt-quality-rubric.md)
 4. Building your own agent tooling: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails), checks that keep an agent's claims honest
 
+### I need to hire our first TPM
+
+1. [Building the TPM Function: Hiring Your First TPMs](https://github.com/ChefPlex/tpm-templates/blob/main/building-the-tpm-function.md)
+2. [The Security TPM Role](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-tpm-role-guide.md), if the role is for security programs
+3. [TPM Craft: Notes on Running Programs at Scale](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md): what the person you hire should already know
+
 ### I'm closing a program
 
 1. [Program Close-Out Report Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-close-out-report-template.md)
@@ -89,6 +95,7 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 | **Program or technical program manager** | [TPM Craft notes](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md) | [Program Swim Lanes](https://github.com/ChefPlex/tpm-templates/blob/main/program-swim-lanes-template.md), [Status Reporting Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/program-status-reporting-framework.md) |
 | **Security TPM** | [The Security TPM Role](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-tpm-role-guide.md) | the security path above |
 | **Leader of program managers** | [Executive Investment Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/executive-investment-framework.md) | [Director-Level Program Review prompt](https://github.com/ChefPlex/ai-automations/blob/main/prompts/director-review/director-level-program-review.md) |
+| **Engineering leader building a TPM team** | [Building the TPM Function](https://github.com/ChefPlex/tpm-templates/blob/main/building-the-tpm-function.md) | [Stakeholder Engagement Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/stakeholder-engagement-playbook.md) |
 
 ---
 
