@@ -39,6 +39,12 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 3. Drafting from Slack: [Slack Canvas Status Synthesis](https://github.com/ChefPlex/tpm-toolbox/tree/main/slack-canvas-status-synthesis)
 4. Before you send anything AI-drafted: the [Status Contract](https://github.com/ChefPlex/tpm-toolbox/blob/main/STATUS-CONTRACT.md), what a draft may and may not decide
 
+### I report several programs to one leader
+
+1. [Portfolio Roll-Up: Reporting Across Programs](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/portfolio-roll-up-template.md)
+2. [Program Status Reporting Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/program-status-reporting-framework.md): every program's report has to use it first
+3. [Program Swim Lanes Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-swim-lanes-template.md): one view across parallel workstreams
+
 ### I need a decision or money from leadership
 
 1. [Executive Investment Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/executive-investment-framework.md)
