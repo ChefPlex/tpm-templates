@@ -76,6 +76,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | AI agents are getting tool access and nobody can list what they can touch | [Agentic AI Program](agentic-ai-program/) |
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 | Your organization needs its first TPM and you have never hired one | [Building the TPM Function](building-the-tpm-function.md) |
+| A vendor is doing the work and the statement of work is vague | [Vendor and SOW Management](vendor-and-sow-management.md) |
 
 ---
 
@@ -120,6 +121,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 |---|---|
 | [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | A lightweight checklist for aligning scope, stakeholders, risks, dependencies, decisions, and operating rhythm before a program starts. Lives in `tpm-toolbox`. |
 | [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | A simple structure for capturing decisions, owners, due dates, open questions, and follow-ups. Lives in `tpm-toolbox`. |
+| [Vendor and SOW Management](vendor-and-sow-management.md) | Running work a vendor delivers: choosing SOW, PWS or SOO, writing deliverables that can be accepted or rejected, paying on acceptance rather than the calendar, change control, SLOs versus SLAs, third-party risk, key-person and subcontractor risk, and exit. With a SOW review checklist, a vendor scorecard, and a worked example. |
 
 ### Building the Function
 

@@ -74,6 +74,12 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 3. [Prompt Quality Rubric](https://github.com/ChefPlex/ai-automations/blob/main/prompt-quality-rubric.md)
 4. Building your own agent tooling: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails), checks that keep an agent's claims honest
 
+### A vendor is doing the work
+
+1. [Vendor and SOW Management](https://github.com/ChefPlex/tpm-templates/blob/main/vendor-and-sow-management.md): the SOW review checklist and vendor scorecard are at the end
+2. [The RAID Log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md): vendor risks and when a risk is really transferred
+3. [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md): reading a vendor's SOC 2 report
+
 ### I need to hire our first TPM
 
 1. [Building the TPM Function: Hiring Your First TPMs](https://github.com/ChefPlex/tpm-templates/blob/main/building-the-tpm-function.md)
