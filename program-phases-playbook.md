@@ -39,7 +39,7 @@ The table below is the whole playbook, in the order the work happens, one phase 
 | Determine regulatory scope early | Requirements, the data in scope | Compliance assessment | TPM / GRC | As needed | | Surprises here are expensive |
 | Threat-model the design and get the security requirements | HLD | Security / architecture review | TPM + engineering | As needed | | A pen test may follow if the service is internet-facing |
 | Check the privacy and legal exposure | Requirements | Legal / privacy review | TPM + product / program owner | As needed | | See [when it is needed](#when-a-legal--privacy-review-is-needed) |
-| Prepare the kickoff | Charter, RACI, HLD, project plan | Kickoff deck | TPM | Should | | See the [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) |
+| Prepare the kickoff | Charter, RACI, HLD, project plan | Kickoff deck | TPM | Should | | See the [Program Kickoff Checklist](program-kickoff-checklist.md) |
 | Run the program kickoff, and record it | Kickoff deck | Kickoff held, recording | TPM | Must | | New team members will thank you later |
 | Review dependencies with partner teams | Dependency map | Dependency review | TPM | Should | | |
 | **3. Launch & Execution** - starts from the project plan, communications plan and RAID log | | | | | | |

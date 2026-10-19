@@ -1,6 +1,6 @@
 # tpm-templates
 
-Reusable templates and lightweight operating tools for technical program management.
+Every document a program produces, start to finish, and the guides for running one.
 
 These are not meant to be perfect corporate artifacts. They're working templates for getting alignment, exposing risk, clarifying ownership, and helping teams move.
 
@@ -18,10 +18,10 @@ Use it when you need to:
 - Clarify who owns what, who's consulted, and who just needs to know
 - Communicate status without hiding the hard parts
 - Create enough structure for teams to move with confidence
-- Teach core program management ideas to people who are new to the work
 
-**This repo is the documents.** The things that *run* - checklists, trackers, scripts - are in
-[tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox).
+**This repo is the documents**, including the checklists and trackers. Working tools with code are
+in [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox). Status reports and steering decks are in
+[program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks).
 
 ---
 
@@ -32,9 +32,9 @@ Use it when you need to:
 Four documents, in this order. They're the spine; everything below is situational.
 
 1. **[Program Charter Template](program-charter-template.md)** - the founding conversation. Do this before anything else, because everything after it is execution.
-2. **[Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md)** - turns the charter into a room full of people who agree.
-3. **[Meeting Notes + Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md)** - the habit that stops things getting dropped.
-4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust.
+2. **[Program Kickoff Checklist](program-kickoff-checklist.md)** - turns the charter into a room full of people who agree.
+3. **[Meeting Notes + Action Item Tracker](meeting-notes-action-tracker.md)** - the habit that stops things getting dropped.
+4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust, with the [RAID Log Template](raid-log-template.md) to fill in.
 
 Read the [worked examples](examples/) alongside them. Each one shows a weak version next to a
 useful one, which is faster than any amount of instruction. They all draw on the same company, most
@@ -43,7 +43,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 ### If you're running several programs at once
 
 - [Program Phases Playbook](program-phases-playbook.md) - orienting a team on where the work actually is
-- [Program Swim Lanes](program-swim-lanes-template.md) - one leadership view across parallel workstreams
+- [Program Swim Lanes](program-swim-lanes-template.md) - defining the workstreams, their owners and where they touch
 - [Communications Plan](communications-plan-template.md) - status that scales past what you can carry in your head
 - [RACI - Waterfall](raci-template-waterfall.md) and [RACI - Agile](raci-template-agile.md) - settling who owns what. Two matrices rather than one with a toggle, because phase gates and sprint cadence break down differently. Fillable spreadsheet version: [RACI_Templates.xlsx](RACI_Templates.xlsx)
 - [RFC](rfc-template.md) and [ADR](adr-template.md) - proposals before a decision, records after one
@@ -51,33 +51,38 @@ of them on one platform encryption migration, so the artifacts connect to each o
 ### If the hard part is people, or the problem is novel
 
 - [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) - influence without authority, which is most of the senior job
-- [Cyber Incident Playbook](incident-management/cyber-incident-playbook.md) - command structure when something is actively on fire
-- [Enterprise RAG Program](enterprise-rag-program/) - running retrieval as a program rather than an AI experiment
-- [Close-Out Report](program-close-out-report-template.md) - giving a program a real ending instead of a quiet drift into operations
+- [Close-Out Report](program-close-out-report-template.md) and [Lessons Learned Facilitation Guide](lessons-learned-facilitation-guide.md) - giving a program a real ending instead of a quiet drift into operations
 
 ### Or start from the problem in front of you
 
 | Situation | Start Here |
-|---|---|
+|:---|:---|
 | New cross-functional program | [Program Charter Template](program-charter-template.md) |
+| Getting ready to kick off | [Program Kickoff Checklist](program-kickoff-checklist.md) |
 | Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
 | You inherited work that is already late and already an argument | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) |
-| Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) |
+| Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) and [RAID Log Template](raid-log-template.md) |
+| Decisions and actions get lost after meetings | [Meeting Notes + Action Item Tracker](meeting-notes-action-tracker.md) |
 | Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
 | Stakeholders are misaligned, skeptical, or resisting, and you cannot just order them | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
-| Multiple workstreams need one leadership view | [Program Swim Lanes Template](program-swim-lanes-template.md) |
+| Several workstreams and nobody is sure where one ends and the next begins | [Program Swim Lanes Template](program-swim-lanes-template.md) |
 | Nobody can say who actually owns a decision - phase-gated program | [RACI Template - Waterfall](raci-template-waterfall.md) |
 | Nobody can say who actually owns a decision - sprint-based team | [RACI Template - Agile](raci-template-agile.md) |
 | Engineering proposal needs structured review | [RFC Template](rfc-template.md) |
 | Decision was made and needs to be remembered | [ADR Template](adr-template.md) |
 | Program is ending or moving to operations | [Program Close-Out Report Template](program-close-out-report-template.md) |
-| A security incident is unfolding and you need command structure now | [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) |
-| Someone handed you "we want AI over our own documents" | [Enterprise RAG Program](enterprise-rag-program/) |
-| AI agents are getting tool access and nobody can list what they can touch | [Agentic AI Program](agentic-ai-program/) |
-| Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
+| The program is over and the team needs to learn from it | [Lessons Learned Facilitation Guide](lessons-learned-facilitation-guide.md) |
 | Your organization needs its first TPM and you have never hired one | [Building the TPM Function](building-the-tpm-function.md) |
 | A vendor is doing the work and the statement of work is vague | [Vendor and SOW Management](vendor-and-sow-management.md) |
-| People still change production by hand, and an audit or an outage says they have to stop | [No Manual Changes in Production](no-manual-changes-program.md) |
+
+Looking for something that used to be here? The cyber incident playbook is in
+[security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md),
+no manual changes in production is in
+[infrastructure-program-playbooks](https://github.com/ChefPlex/infrastructure-program-playbooks/blob/main/no-manual-changes-program.md),
+the enterprise RAG and agentic AI programs are in
+[ai-automations](https://github.com/ChefPlex/ai-automations/tree/main/ai-programs), and the
+Thanksgiving teaching deck is in
+[teaching-notes](https://github.com/ChefPlex/teaching-notes/tree/main/project-management).
 
 ---
 
@@ -86,43 +91,26 @@ of them on one platform encryption migration, so the artifacts connect to each o
 ### Program Lifecycle
 
 | Template | What It Is |
-|---|---|
-| [Program Phases Playbook](program-phases-playbook.md) | A phase-based view of how programs move from first idea through planning, execution, launch, and close-out. Useful for orienting a team around where the work actually is. |
+|:---|:---|
+| [Program Phases Playbook](program-phases-playbook.md) | Every step from first idea to close-out in one table: what happens, what it needs, what it produces, who owns it, and how much it matters. |
 | [Program Charter Template](program-charter-template.md) | The founding document for a serious initiative. Captures problem, goals, scope, non-goals, stakeholders, risks, decisions, and success criteria. |
+| [Program Kickoff Checklist](program-kickoff-checklist.md) | What to have ready before the kickoff, what to settle in it, and what to set up in the 48 hours after, each with an owner and a level. |
 | [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
+| [Lessons Learned Facilitation Guide](lessons-learned-facilitation-guide.md) | How to run a retrospective that produces something the next program can use. |
 | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) | What to do when you are handed something already moving, already late, and already the subject of an argument. Diagnosis, baselining with real throughput data, renegotiating the commitment, and the day 1 / 30 / 90 / 180 shape of the recovery. |
-| [No Manual Changes in Production](no-manual-changes-program.md) | Running the program that moves an organization to pipeline-only changes. Sizing the problem from a survey and from the logs, defining "manual", how to run it start to finish, wave-based cutover (pre-work, soft cutover, hard cutover), break-glass rules, the weekly measures, and a worked example. |
 
 ### Operations and Tracking
 
 | Template | What It Is |
-|---|---|
+|:---|:---|
 | [RAID Log Guide](raid-log-guide.md) | A guide for running a Risks, Assumptions, Issues, and Dependencies log as a living program tool, not a spreadsheet nobody trusts. |
+| [RAID Log Template](raid-log-template.md) | The log itself, in markdown, with a [spreadsheet version](raid-log-template.xlsx) that sorts, filters and calculates. |
+| [Meeting Notes and Action Item Tracker](meeting-notes-action-tracker.md) | Decisions, actions, open questions and risks from a meeting in one table, with a running tracker for recurring meetings. |
 | [Communications Plan Template](communications-plan-template.md) | A stakeholder and communications planning template for status reports, updates, document locations, meeting cadence, and escalation paths. |
 | [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) | The strategy layer above the comms plan: how to identify the stakeholders who matter, map power and interest, and move skeptics and resource owners you do not command - influence without authority across the program lifecycle. |
-| [Program Swim Lanes Template](program-swim-lanes-template.md) | A multi-workstream view for programs with parallel tracks, owners, milestones, risks, and executive summary needs. |
+| [Program Swim Lanes Template](program-swim-lanes-template.md) | Defines the workstreams of a multi-track program: what each lane covers and does not, its owner, its dependencies and its Definition of Done. Status by lane goes in the status report. |
 | [RACI Template - Waterfall](raci-template-waterfall.md) | A phase-gated responsibility matrix for settling who's responsible, accountable, consulted, and informed across initiation through closure. |
 | [RACI Template - Agile](raci-template-agile.md) | A sprint- and release-cadence responsibility matrix for Scrum, Kanban, or SAFe teams, including the ownership handoff at release. |
-
-### Incident Management
-
-| Template | What It Is |
-|---|---|
-| [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md) | An Incident Commander playbook that draws on SANS LDR553 and CIMTK, with a six-phase lifecycle of my own. Covers first-hour actions from detection through the first exec briefing, plus the full six-phase incident lifecycle from detect and classify through sustain and exercise. |
-
-### AI and RAG Programs
-
-| Template | What It Is |
-|---|---|
-| [Enterprise RAG Program](enterprise-rag-program/) | Running Retrieval-Augmented Generation as a program rather than an AI experiment. An architecture primer for the people making decisions about it, and a playbook with phases, seven workstreams, governance and risk tiers, plus templates for the charter, use case catalog, data source inventory, evaluation plan, RAID starter, milestone exit criteria, and definition of done. The security workstream lives in [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks/tree/main/enterprise-rag-security). |
-| [Agentic AI Program](agentic-ai-program/) | One-page control register for AI agents with tool access: an agent inventory with a named human owner per agent, a tool-permission map, who holds go / no-go on irreversible and outbound actions, and a guardrail coverage table that records what each guardrail cannot see. |
-
-### Program Execution
-
-| Template | What It Is |
-|---|---|
-| [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-toolbox/blob/main/program-kickoff-checklist.md) | A lightweight checklist for aligning scope, stakeholders, risks, dependencies, decisions, and operating rhythm before a program starts. Lives in `tpm-toolbox`. |
-| [Meeting Notes and Action Item Tracker](https://github.com/ChefPlex/tpm-toolbox/blob/main/meeting-notes-action-tracker.md) | A simple structure for capturing decisions, owners, due dates, open questions, and follow-ups. Lives in `tpm-toolbox`. |
 | [Vendor and SOW Management](vendor-and-sow-management.md) | Running work a vendor delivers: choosing SOW, PWS or SOO, writing deliverables that can be accepted or rejected, paying on acceptance rather than the calendar, change control, SLOs versus SLAs, third-party risk, key-person and subcontractor risk, and exit. With a SOW review checklist, a vendor scorecard, and a worked example. |
 
 ### Building the Function
@@ -134,48 +122,42 @@ of them on one platform encryption migration, so the artifacts connect to each o
 ### Engineering Collaboration
 
 | Template | What It Is |
-|---|---|
+|:---|:---|
 | [RFC Template](rfc-template.md) | A Request for Comments template for proposals that need structured review before a decision is made. Covers context, motivation, proposal, risks, alternatives, and decision path. |
 | [ADR Template](adr-template.md) | An Architecture Decision Record template for documenting important decisions after they are made. Captures context, decision, alternatives, consequences, and status. |
 
 ### Examples
 
 | File | What It Shows |
-|---|---|
+|:---|:---|
 | [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
 | [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
 | [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, weak against better. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
-| [Sample RAG Inventory Row and Failure Trace](examples/sample-rag-inventory-row-and-failure-trace.md) | The same company's first RAG program, run while the encryption migration is still under way. One data-source row and one wrong pilot answer, each weak against better. The gap in the weak row is what causes the wrong answer, and the trace finds it at ingestion instead of blaming the model. |
 | [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The weak one records what was chosen; the better one records what was rejected, what it cost, and the two conditions that would reopen it. |
-
-### Teaching Materials
-
-| File | What It Is |
-|---|---|
-| [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) | A short presentation that teaches core project management concepts using Thanksgiving dinner as the running example. Built for a non-practitioner audience. Originally developed for Year Up. |
 
 ## Maturity
 
-This table covers the core templates. The stakeholder playbook, the rescue guide, the vendor and SOW guide, the guide to building the TPM function, the no-manual-changes guide, and the Enterprise RAG and Agentic AI programs are not rated here yet.
+This table covers the core templates. The stakeholder playbook, the rescue guide, the vendor and SOW guide, the guide to building the TPM function, and the lessons learned guide are not rated here yet.
 
 | Area | Status | Notes |
-|---|---|---|
+|:---|:---|:---|
 | Program charter | Ready | Good starting point for new programs, especially when scope and ownership are still fuzzy. |
 | Program phases playbook | Ready | Useful for orienting a team around lifecycle, gates, artifacts, and decision points. |
-| RAID log guide | Ready | Strong enough to use directly. Pair it with the sample entry. |
+| Kickoff checklist | Ready | One table in work order, with a level on every row. |
+| RAID log guide and template | Ready | Strong enough to use directly. Pair it with the sample entry. |
+| Meeting notes tracker | Ready | Decisions first, then actions, questions and risks. |
 | Communications plan | Ready | Useful for stakeholder mapping, status cadence, and escalation planning. |
-| Program swim lanes | Ready | Good for multi-workstream programs that need an executive summary layer. |
+| Program swim lanes | Ready | Lane definitions for multi-workstream programs. |
 | RACI templates (waterfall & agile) | Ready | Two separate matrices, not one template with a toggle - the phase structure and the sprint cadence break down differently and forcing them into one format hides the real handoff points. |
 | RFC and ADR templates | Ready | Good base formats for engineering alignment and decision records. |
 | Close-out report | Ready | Useful when a program needs a real ending, not just a quiet drift into operations. |
-| Cyber incident playbook | Ready | Draws on LDR553/CIMTK. Use as-is for first-hour response and the six-phase lifecycle; adapt battle rhythm timing to your org. |
 | Examples | Working | More examples will make this repo easier to adopt. For a steering decision, see the [sample steering committee decision](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/examples/sample-steering-committee-decision.md) in program-reporting-frameworks. |
 
 ## How to Use This Repo
 
 ### Starting a new program
 
-Start with the [Program Charter Template](program-charter-template.md).
+Start with the [Program Charter Template](program-charter-template.md), then the [Program Kickoff Checklist](program-kickoff-checklist.md).
 
 The charter forces the conversations that need to happen before execution starts:
 
@@ -192,21 +174,15 @@ If you cannot fill in the charter, that is the signal. Do not paper over it. Use
 
 ### Running an active program
 
-Use the [RAID Log Guide](raid-log-guide.md), [Communications Plan Template](communications-plan-template.md), and [Program Swim Lanes Template](program-swim-lanes-template.md).
+Use the [RAID Log Guide](raid-log-guide.md) with the [RAID Log Template](raid-log-template.md), the [Meeting Notes + Action Item Tracker](meeting-notes-action-tracker.md), and the [Communications Plan Template](communications-plan-template.md).
 
-The RAID log is the program memory. The communications plan is how you keep people informed without spending the whole week answering the same status questions. The swim lanes view helps leadership understand how parallel workstreams fit together.
+The RAID log is the program memory. The communications plan is how you keep people informed without spending the whole week answering the same status questions. The [swim lanes](program-swim-lanes-template.md) say how the parallel workstreams are cut up and who owns each one.
 
 When ownership itself is the thing in question - not status, not risk, but who's actually on the hook for a decision - use the [RACI Template - Waterfall](raci-template-waterfall.md) or [RACI Template - Agile](raci-template-agile.md), depending on how the program runs. Waterfall maps ownership to phases and gates. Agile maps it to the sprint and release cadence, where the handoff usually gets lost between "dev is done" and "it's actually live."
 
-### Responding to a security incident
-
-Use the [Cyber Incident Management Playbook](incident-management/cyber-incident-playbook.md).
-
-Part 1 covers the first hour: triage, command, scope, intent, battle rhythm, and the first exec brief. Part 2 covers the full lifecycle from detection through post-incident review. Use it as the incident commander's field reference, not a document to write from scratch mid-incident.
-
 ### Reporting to leadership
 
-Use the [Program Swim Lanes Template](program-swim-lanes-template.md) for cross-workstream visibility and the [Communications Plan Template](communications-plan-template.md) for audience, cadence, and message discipline.
+Status reports, steering decks and portfolio roll-ups are in [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks). The [Communications Plan Template](communications-plan-template.md) here sets the audience, cadence, and message discipline they follow.
 
 Good reporting doesn't make a program look better than it is. It makes the actual state of the program easier to understand.
 
@@ -225,12 +201,6 @@ Use the [RFC Template](rfc-template.md) before a decision is made.
 Use the [ADR Template](adr-template.md) after a decision is made.
 
 The RFC is for structured debate. The ADR is for memory and accountability. Mixing those up creates confusion. If a team is still debating options, write an RFC. If the decision has been made and people need to understand it later, write an ADR.
-
-### Teaching program management concepts
-
-Use [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) when you need to explain program management to people who don't live in TPM language.
-
-The concepts are not simplified. They are translated. There is a difference.
 
 ## Using These Templates With AI
 
@@ -282,11 +252,13 @@ The work is getting the right people aligned on the right problem, with clear ow
 
 ## Related Repos
 
-- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - The things I kept using after the program ended, including kickoff and meeting templates.
 - [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks) - How to write a status report an executive can act on, and a steering deck that forces a decision.
-- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - What I'd hand a TPM taking over an encryption or compliance program in their first week.
-- [ai-automations](https://github.com/ChefPlex/ai-automations) - Prompts I actually use, and the frameworks for deciding how much AI belongs in a piece of work at all.
+- [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) - Running a security program, incidents included.
+- [infrastructure-program-playbooks](https://github.com/ChefPlex/infrastructure-program-playbooks) - Running a data center, migration, directory, network or no-manual-changes program.
+- [ai-automations](https://github.com/ChefPlex/ai-automations) - Using AI in program work, and the enterprise RAG and agentic AI program kits.
+- [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Working tools with code, including the Slack status tooling.
 - [learning-notes](https://github.com/ChefPlex/learning-notes) - A public notebook on security, systems design and program practice. Some of it will turn out to be wrong.
+- [teaching-notes](https://github.com/ChefPlex/teaching-notes) - Teaching material, including the Thanksgiving deck and the career-changer course.
 
 ## Contributing
 

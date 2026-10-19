@@ -137,7 +137,7 @@ Dropbox's Staff (IC5) language is a good test for that top row: "I have a holist
 
 **Hire your first TPM at Senior.** The first one has no peers, no templates in use, and no one to ask. They will define what the role means in your organization whether you intend that or not. A junior hire in that seat gets well-defined tasks, which is exactly what you will not have.
 
-Entry-level and career-changer candidates are a good second or third hire, once there is a senior TPM to learn from. The [career changers note](https://github.com/ChefPlex/learning-notes/blob/main/pm-for-career-changers.md) is a useful read for that conversation.
+Entry-level and career-changer candidates are a good second or third hire, once there is a senior TPM to learn from. The [career changers note](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md) is a useful read for that conversation.
 
 **What to borrow and what to leave.** Borrow the scope and ambiguity rows. They are the part that transfers. Leave the org structure behind: GitLab's ladder was written for how GitLab is organized, and the reporting lines in it may not fit yours.
 
@@ -434,7 +434,7 @@ All accessed 2026-10-18. Facts are as of October 2026.
 - [The RAID Log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md)
 - [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md): for when the first assignment is a rescue after all
 - [TPM Craft: Notes on Running Programs at Scale](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md)
-- [Introducing PM Concepts to Career Changers](https://github.com/ChefPlex/learning-notes/blob/main/pm-for-career-changers.md)
+- [Introducing PM Concepts to Career Changers](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md)
 
 ---
 

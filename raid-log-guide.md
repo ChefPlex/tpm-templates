@@ -212,7 +212,7 @@ The RAID log does not exist in isolation. Risks that cross a threshold get calle
 
 The RAID log can live in a spreadsheet, a wiki, a project management tool, or any other system your team will actually use. The format matters less than the discipline. Pick something lightweight enough that people will update it without being asked, and structured enough that you can pull a meaningful status from it at any time.
 
-A working RAID log spreadsheet template is in the [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) repo, along with a [markdown version](https://github.com/ChefPlex/tpm-toolbox/blob/main/raid-log-template.md) for teams that keep their program docs in a wiki or a git repo. Both carry the same fields as this guide.
+A working RAID log [spreadsheet template](raid-log-template.xlsx) is in this repo, along with a [markdown version](raid-log-template.md) for teams that keep their program docs in a wiki or a git repo. Both carry the same fields as this guide.
 
 The spreadsheet opens on a Summary tab that reads across the four logs. It's the view to put on the screen in a steering committee, because it answers "what is the state of this program" without anyone scrolling through a hundred rows.
 
