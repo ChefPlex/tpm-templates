@@ -115,6 +115,8 @@ Take your capacity number to the people asking for the work, one at a time, and 
 
 Then give them a real choice inside a real limit. A structure that works:
 
+The points from section 4 tell you what the team has finished. The cap below is how each person commits from here on, and it becomes the new plan and timeline. Check one against the other: if the cap adds up to far more than the baseline, the cap is wrong.
+
 **Each person on the team takes two large, two medium and two small items per sprint.**
 
 Sizing is by working time, not by importance:
