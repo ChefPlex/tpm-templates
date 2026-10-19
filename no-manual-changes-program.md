@@ -51,29 +51,21 @@ Write the definition into the charter. Decide the borderline cases once, in writ
 
 ---
 
-## 3. The phases, in order
+## 3. Running it, start to finish
 
-The phases below follow the PMI (Project Management Institute) process groups: initiation, planning, execution, monitoring and controlling, and closing. Each phase's output is the input to the next one, so work them in order.
+The stages below line up with the PMI (Project Management Institute) process groups, named in parentheses. Use them as a guide, not a script.
 
-| Phase | Key processes | Output | What it feeds |
-|:---|:---|:---|:---|
-| **Initiation** | Business case, develop the charter, identify stakeholders | Charter; stakeholder register | Every planning process |
-| **Planning** | Collect requirements, define scope, build the WBS (work breakdown structure) and wave schedule, plan risk and communications | Requirements traceability matrix; wave plan; risk register | Execution, wave by wave |
-| **Execution** | Run each wave: pre-work, soft cutover, hard cutover | Teams moved to pipeline-only | Monitoring and controlling |
-| **Monitoring and controlling** | Track the measures, run the exception process, validate scope against logs | Weekly measures; exception register | Closing, and replanning of later waves |
-| **Closing** | Hand over to an operations owner, retire the old access, capture lessons | Handover record; lessons learned | The next program |
-
-### Initiation
+### Start (PMI: Initiation)
 
 **Inputs.** The reason the program exists: an audit finding, an outage caused by an unrecorded change, a compliance requirement such as SOX (Sarbanes-Oxley) or SOC 2 (System and Organization Controls 2) change-management controls, or a reliability goal. Add the existing change policy, the pipelines and standards already in place, and the constraints you cannot change.
 
 **Develop the charter.** The charter states the finish line from the top of this guide, the definition from section 2, the baseline from section 1, the scope (which environments, which teams), and the sponsor who will decide when teams disagree. See the [Program Charter Template](program-charter-template.md).
 
-**Identify stakeholders.** Every team that deploys to production, the on-call rotations, security, compliance, internal audit, the change advisory board if there is one, and whoever owns the pipeline platform. The output is a stakeholder register, and planning cannot start without it.
+**Identify stakeholders.** Every team that deploys to production, the on-call rotations, security, compliance, internal audit, the change advisory board if there is one, and whoever owns the pipeline platform. Start the stakeholder register here; it fills in as teams come forward.
 
-### Planning
+### Plan the waves (PMI: Planning)
 
-**Collect requirements once the stakeholders are known.** In the PMI sequence the stakeholder plan is a predecessor of collecting requirements, and here that matters. The real requirements come from the teams that deploy: the job that only runs by hand, the emergency the pipeline cannot handle today. You cannot collect them until you know who to ask.
+**Collect requirements once the stakeholders are known.** The real requirements come from the teams that deploy: the job that only runs by hand, the emergency the pipeline cannot handle today. You cannot collect them until you know who to ask.
 
 **Build a requirements traceability matrix.** Each requirement traces to the control it satisfies and the evidence that proves it. For example, "every production change traces to an approved request" traces to the change-management control and to the pipeline's deployment record. Auditors ask for exactly this mapping, and it is much easier to build at the start than to reconstruct at the end.
 
@@ -83,7 +75,7 @@ The phases below follow the PMI (Project Management Institute) process groups: i
 
 **Plan communications.** Each team hears about its wave at least four weeks before pre-work starts. See the [Communications Plan Template](communications-plan-template.md).
 
-### Execution: one wave at a time
+### Run each wave (PMI: Execution)
 
 Each team, or group of teams, moves in a wave with three steps.
 
@@ -95,7 +87,7 @@ Each team, or group of teams, moves in a wave with three steps.
 
 Stagger the waves one to two weeks apart so each wave's pre-work overlaps the next one's. A wave cuts over every week or two while the next ones are still in pre-work. The pipeline platform team is not swamped, and a problem in one wave shows up before the next one cuts over.
 
-### Monitoring and controlling
+### Track it (PMI: Monitoring and Controlling)
 
 Track these weekly, by team:
 
@@ -110,7 +102,7 @@ Track these weekly, by team:
 
 **Validate scope against the logs.** A team is done when the logs show no manual changes for a set period, such as 30 days. A team saying it is done does not count.
 
-### Closing
+### Hand it over (PMI: Closing)
 
 Hand the controls to a named operations owner. Keep a detective control in place: an alert on any production change that did not come through a pipeline. Retire the old access, shared credentials, jump hosts and scripts once they have shown zero use. Run a lessons-learned session, and close any vendor contracts. See the [Close-Out Report](program-close-out-report-template.md).
 

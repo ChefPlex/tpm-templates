@@ -91,7 +91,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | [Program Charter Template](program-charter-template.md) | The founding document for a serious initiative. Captures problem, goals, scope, non-goals, stakeholders, risks, decisions, and success criteria. |
 | [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
 | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) | What to do when you are handed something already moving, already late, and already the subject of an argument. Diagnosis, baselining with real throughput data, renegotiating the commitment, and the day 1 / 30 / 90 / 180 shape of the recovery. |
-| [No Manual Changes in Production](no-manual-changes-program.md) | Running the program that moves an organization to pipeline-only changes. Sizing the problem from a survey and from the logs, defining "manual", the PMI phases in dependency order, wave-based cutover (pre-work, soft cutover, hard cutover), break-glass rules, the weekly measures, and a worked example. |
+| [No Manual Changes in Production](no-manual-changes-program.md) | Running the program that moves an organization to pipeline-only changes. Sizing the problem from a survey and from the logs, defining "manual", how to run it start to finish, wave-based cutover (pre-work, soft cutover, hard cutover), break-glass rules, the weekly measures, and a worked example. |
 
 ### Operations and Tracking
 
