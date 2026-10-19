@@ -96,15 +96,15 @@ Dependencies that cut across workstreams are where multi-workstream programs mos
 
 ## Part 5: Milestone Summary
 
-Key milestones across all workstreams in one view. Update status at each reporting period.
+Key milestones across all workstreams in one view. Update status at each reporting period. Where a milestone depends on preparation that must finish first, show the planned window (estimate plus a buffer) and the date it must be done by; see the charter's milestone table.
 
-| Milestone | Workstream | Owner | Target Date | Status | Actual Date | Notes |
-|-----------|-----------|-------|-------------|--------|------------|-------|
-| Program Kickoff | All | TPM | | Complete | | |
-| [Milestone 1] | | | | | | |
-| [Milestone 2] | | | | | | |
-| [Milestone 3] | | | | | | |
-| Go-Live / Launch | All | TPM | | | | |
+| Milestone | Workstream | Owner | Prep (finish-to-start) | Target Date | Status | Actual Date | Notes |
+|-----------|-----------|-------|------------------------|-------------|--------|------------|-------|
+| Program Kickoff | All | TPM | | | Complete | | |
+| [Milestone 1] | | | | | | | |
+| [Milestone 2] | | | | | | | |
+| [Milestone 3] | | | | | | | |
+| Go-Live / Launch | All | TPM | | | | | |
 | Program Close | All | TPM | | | | |
 
 ---
