@@ -33,6 +33,8 @@ Before you plan communications, you need to know who you are communicating with 
 | End Users / Customers | Impacted by the change | What is changing, when, and what they need to do | Pre-launch and at launch | Coordinate with comms / change management team |
 | [Add rows as needed] | | | | |
 
+For a larger program, add the columns you need: a named contact for each group, how much influence they have over the outcome, and whether their support today is where you need it to be.
+
 **Engagement Level Guide:**
 - **High frequency** - Weekly or sprint cadence, actively involved in delivery
 - **Medium frequency** - Bi-weekly or monthly, needs regular visibility
