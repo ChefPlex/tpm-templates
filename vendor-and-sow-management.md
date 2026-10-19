@@ -237,7 +237,7 @@ Receiving the report is not the same as reading it. These are the things to look
 
 ### Clauses to check in the SOW or MSA
 
-- **Security incident notification:** how fast the vendor must tell you, through what channel, and what they must provide. Connect it to your [incident response template](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-incident-response-template.md) so the vendor's contact is already in it.
+- **Security incident notification:** how fast the vendor must tell you, through what channel, and what they must provide. Connect it to your [incident playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md) so the vendor's contact is already in it.
 - **Data handling:** where your data lives, who can access it, and what happens to it at exit.
 - **Right to evidence:** your ability to request current audit reports each year.
 - **Regulated data:** if the vendor will handle protected health information, a business associate agreement (BAA) is required; the [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md) covers it.
@@ -435,7 +435,7 @@ If yes, you are running a vendor program. If they would have to go and ask peopl
 - [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md): for an inherited, late vendor engagement
 - [Security Program Intake and Kickoff](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-program-intake-kickoff.md): the vendor and third-party review gate
 - [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md): SOC 2 and HIPAA business associate agreements
-- [Security Incident Response Template](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-incident-response-template.md): third-party compromise and vendor notification
+- [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md): third-party compromise and vendor notification
 
 ---
 

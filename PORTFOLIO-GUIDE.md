@@ -69,9 +69,8 @@ Every playbook, template and checklist here is a set of things to think through.
 
 ### A security incident just happened
 
-1. [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md)
-2. [Security Incident Response Template](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-incident-response-template.md)
-3. [Sample Security Incident Escalation](https://github.com/ChefPlex/security-program-playbooks/blob/main/examples/sample-incident-escalation.md)
+1. [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md): the first hour, then the incident commander's and the response team's work in each phase
+2. [Sample Security Incident Escalation](https://github.com/ChefPlex/security-program-playbooks/blob/main/examples/sample-incident-escalation.md)
 
 ### We're starting an AI or RAG program
 
