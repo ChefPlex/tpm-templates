@@ -2,23 +2,22 @@
 
 A program charter is the founding document for any serious initiative. It exists to answer the questions every stakeholder is going to ask anyway - why are we doing this, what exactly are we doing, who is responsible, and how will we know when we are done. Getting this on paper at the start saves a lot of painful conversations later.
 
-Start with the charter summary below: one table, one row per program, short enough to be the one-pager and to list every program in a portfolio side by side. When the program needs every section written out, use the [alternate style](#alternate-style-the-full-charter-on-one-page) at the bottom of this page and link to it from the summary.
+Start with the charter summary below: one table, with the program name in its title, short enough to be the one-pager. When the program needs every section written out, use the [alternate style](#alternate-style-the-full-charter-on-one-page) at the bottom of this page and link to it from the summary.
 
 ---
 
-## The Charter Summary
+## The Charter Summary - [Program Name]
 
-| Program | Problem | Definition of Done | Scope | Executive Sponsor | TPM | Target date | Status | Full charter |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| | | | | | | | | |
-| | | | | | | | | |
-| | | | | | | | | |
+| Problem | Definition of Done | Scope | Executive Sponsor | TPM | Target date | Status | Full charter |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| | | | | | | | |
+| | | | | | | | |
+| | | | | | | | |
 
 For a larger program, add the columns you need: the product or program owner, the objectives, the budget, and the delivery approach.
 
 ### What goes in each column
 
-- **Program:** the name people will use for it.
 - **Problem:** the problem, gap or risk, and what it costs to do nothing, in one or two sentences.
 - **Definition of Done:** what "complete" means, precise enough that a reasonable person could look at the finished work and say yes or no.
 - **Scope:** what is in, and the related things that are explicitly out.
@@ -100,10 +99,12 @@ List the decisions the charter commits to, not the roles. Each row gets exactly 
 
 The same summary row, written two ways:
 
-| | Program | Problem | Definition of Done | Scope | Executive Sponsor | TPM | Target date | Status |
-|:---|:---|:---|:---|:---|:---|:---|:---|:---|
-| **Unknown** | Encryption | Improve encryption | Services encrypted | Platform | | TPM | Q3 | In progress |
-| **Actionable** | Encryption in transit | 35% of platform services encrypt data in transit; a customer trust risk and a compliance exposure that grows with every new service | Every in-scope service accepts only TLS 1.2 or higher, confirmed by scan, signed off by the product owner | In: platform services listed in the charter. Out: third-party SaaS, internal batch jobs | [Sponsor name] | [TPM name] | [Date], or the date we will have one | Approved, [date] |
+For a program called Encryption in Transit:
+
+| | Problem | Definition of Done | Scope | Executive Sponsor | TPM | Target date | Status |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Unknown** | Improve encryption | Services encrypted | Platform | | TPM | Q3 | In progress |
+| **Actionable** | 35% of platform services encrypt data in transit; a customer trust risk and a compliance exposure that grows with every new service | Every in-scope service accepts only TLS 1.2 or higher, confirmed by scan, signed off by the product owner | In: platform services listed in the charter. Out: third-party SaaS, internal batch jobs | [Sponsor name] | [TPM name] | [Date], or the date we will have one | Approved, [date] |
 
 The actionable row answers who sponsors and runs it, what done looks like, when it is due, where the boundary is, why it is worth doing and how completion is proven. The unknown row could describe almost any encryption effort, which is why nobody can say yes or no to it. A longer worked example is in the [sample charter excerpt](examples/sample-program-charter-excerpt.md).
 
