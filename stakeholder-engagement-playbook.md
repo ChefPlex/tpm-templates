@@ -62,7 +62,7 @@ This is the craft. When you cannot mandate cooperation, you earn it. A few thing
 
 **Address the reason, not the objection.** A no is a surface. Under it's a reason - fear, workload, a bad past experience, a misaligned incentive. You don't overcome the objection by arguing it; you dissolve it by addressing the reason. "This will overload my team" is solved with sequencing or help, not with a better slide.
 
-**Escalate the decision, not the person - and late, not early.** Escalation is a tool, not a failure, but it spends relationship capital. Use it only after you've genuinely worked the problem at the working level, and escalate the *decision that's stuck* with a clear recommendation, never a complaint about a *person*. An escalation that arrives as "here is the call I need and why" keeps the relationship; one that arrives as "make them cooperate" burns it.
+**Escalate the decision, not the person, and early enough that the answer can still protect the timeline.** Work out the date by which the decision has to be made for the schedule to hold. Give the working level a fair chance to settle it before that, and escalate as soon as it is clear they will not, not when the date arrives. Bring the *decision that's stuck* with a clear recommendation, never a complaint about a *person*. An escalation that arrives as "here is the call I need and why" keeps the relationship; one that arrives as "make them cooperate" burns it.
 
 ---
 
