@@ -77,6 +77,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | Someone needs to learn PM basics without jargon | [PM: A Thanksgiving Story](PM_Thanksgiving_Story.pptx) |
 | Your organization needs its first TPM and you have never hired one | [Building the TPM Function](building-the-tpm-function.md) |
 | A vendor is doing the work and the statement of work is vague | [Vendor and SOW Management](vendor-and-sow-management.md) |
+| People still change production by hand, and an audit or an outage says they have to stop | [No Manual Changes in Production](no-manual-changes-program.md) |
 
 ---
 
@@ -90,6 +91,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | [Program Charter Template](program-charter-template.md) | The founding document for a serious initiative. Captures problem, goals, scope, non-goals, stakeholders, risks, decisions, and success criteria. |
 | [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
 | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) | What to do when you are handed something already moving, already late, and already the subject of an argument. Diagnosis, baselining with real throughput data, renegotiating the commitment, and the day 1 / 30 / 90 / 180 shape of the recovery. |
+| [No Manual Changes in Production](no-manual-changes-program.md) | Running the program that moves an organization to pipeline-only changes. Sizing the problem from a survey and from the logs, defining "manual", the PMI phases in dependency order, wave-based cutover (pre-work, soft cutover, hard cutover), break-glass rules, the weekly measures, and a worked example. |
 
 ### Operations and Tracking
 
@@ -127,7 +129,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 
 | Guide | What It Is |
 |:---|:---|
-| [Building the TPM Function: Hiring Your First TPMs](building-the-tpm-function.md) | For the engineering leader hiring a first technical program manager: the signals you need one, what the role is and is not, a role-definition template, a three-level starter ladder, an interview loop built on a work sample with planted traps, a scorecard, placement, and 30/60/90-day measures. With a worked example. |
+| [Building the TPM Function: Hiring Your First TPMs](building-the-tpm-function.md) | For the engineering leader hiring a first technical program manager: the signals you need one, what the role is and is not, a role-definition template, a three-level starter ladder, an interview loop built on a work sample with planted traps, a scorecard, how to calibrate the interviewers, placement, and 30/60/90-day measures. With a worked example. |
 
 ### Engineering Collaboration
 
@@ -154,7 +156,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 
 ## Maturity
 
-This table covers the core templates. The stakeholder playbook, the rescue guide, the vendor and SOW guide, the guide to building the TPM function, and the Enterprise RAG and Agentic AI programs are not rated here yet.
+This table covers the core templates. The stakeholder playbook, the rescue guide, the vendor and SOW guide, the guide to building the TPM function, the no-manual-changes guide, and the Enterprise RAG and Agentic AI programs are not rated here yet.
 
 | Area | Status | Notes |
 |---|---|---|

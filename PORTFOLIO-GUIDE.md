@@ -80,12 +80,19 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 2. The prompt library, by level: [junior](https://github.com/ChefPlex/ai-automations/tree/main/prompts/junior-tpm), [senior](https://github.com/ChefPlex/ai-automations/tree/main/prompts/senior-tpm), [director](https://github.com/ChefPlex/ai-automations/tree/main/prompts/director-review)
 3. [Prompt Quality Rubric](https://github.com/ChefPlex/ai-automations/blob/main/prompt-quality-rubric.md)
 4. Building your own agent tooling: [agent-guardrails](https://github.com/ChefPlex/agent-guardrails), checks that keep an agent's claims honest
+5. Letting people outside engineering build with AI: the [AI Prototyping Sandbox Workflow](https://github.com/ChefPlex/ai-automations/blob/main/workflows/ai-prototyping-sandbox-workflow.md). Reviewing a codebase with AI: the [Four-Lens Codebase Audit Workflow](https://github.com/ChefPlex/ai-automations/blob/main/workflows/four-lens-codebase-audit-workflow.md)
 
 ### A vendor is doing the work
 
 1. [Vendor and SOW Management](https://github.com/ChefPlex/tpm-templates/blob/main/vendor-and-sow-management.md): the SOW review checklist and vendor scorecard are at the end
 2. [The RAID Log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md): vendor risks and when a risk is really transferred
 3. [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md): reading a vendor's SOC 2 report
+
+### We have to stop changing production by hand
+
+1. [No Manual Changes in Production](https://github.com/ChefPlex/tpm-templates/blob/main/no-manual-changes-program.md): sizing, phases, waves and break-glass
+2. [Program Charter Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md): the definition of "manual" belongs in it
+3. [The RAID Log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md): track every exception there, with an owner and an expiry date
 
 ### I need to hire our first TPM
 

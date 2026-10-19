@@ -224,6 +224,16 @@ Hire / no hire, and the one piece of evidence that decided it:
 
 **Debrief rule:** each interviewer states evidence first, then the score. No one says "I liked them" before the evidence is on the table, because the first opinion in the room sets the anchor for everyone after it.
 
+### Interview the interviewers
+
+This comes from a consulting firm that ran its own technical interview for about fifteen years. When its recruiters and sales team were finally asked, they said the questions were out of date, which was expected. They also said a rating depended on who gave it, and they had quietly learned which interviewers to trust.
+
+- **Calibrate before an interviewer scores alone.** A new interviewer shadows two loops, then runs two with an experienced interviewer scoring alongside. Compare the scores and talk about every gap of more than one point.
+- **Send the role definition from section 3 with every loop.** Interviewers who know what the team needs ask better follow-up questions.
+- **Ask about scale and production.** A candidate who has read about a large migration and one who has run one can give the same answer to "how would you approach it?" Ask how big it was, what broke in production, and what they would not do again.
+- **Tell each interviewer how their hires are doing at 90 days.** An interviewer whose high scores keep washing out needs to know.
+- **Change the work sample and the technical questions for each role.** Keep the stages. One fixed interview for every role drifts out of date as the work changes.
+
 ---
 
 ## 6. Place the first hires
@@ -382,6 +392,8 @@ Two other directors asked for B by name for their programs. That was the waiting
 
 **When the work sample becomes a ritual.** A brief reused for two years leaks. Candidates see it in advance, and the traps stop catching anyone. Rotate the scenario every few hiring rounds.
 
+**When nobody checks the interviewers.** Two interviewers can apply the same anchors and land a full point apart, every time. Without calibration, the hire depends on who happened to be free that day.
+
 **When the scorecard is filled in after the debrief.** Then it records the group's opinion, not each interviewer's evidence, and it gives you false confidence in a decision that was made by whoever spoke first.
 
 **When the ladder is copied whole.** A nine-level ladder for a two-person function invents distinctions nobody can observe. Expand the ladder when you have people at the levels, not before.
@@ -409,7 +421,7 @@ All accessed 2026-10-18. Facts are as of October 2026.
 - GitLab, [Technical Program Management job description library](https://handbook.gitlab.com/job-description-library/engineering/technical-program-management/). Defines TPM competencies and levels "under the new structure rolled out during the job re-architecture in early 2026." Source of the scope, ambiguity and level quotes above.
 - Dropbox, [Engineering Career Framework, TPM track](https://dropbox.github.io/dbx-career-framework/ic1_technical_program_manager.html) (IC1, [IC4](https://dropbox.github.io/dbx-career-framework/ic4_technical_program_manager.html), [IC5](https://dropbox.github.io/dbx-career-framework/ic5_staff_technical_program_manager.html), [IC6](https://dropbox.github.io/dbx-career-framework/ic6_principal_technical_program_manager.html)). Publication date not confirmed.
 - Engineering Ladders, [Technical Program Manager](https://github.com/jorgef/engineeringladders/blob/master/TechnicalProgramManager.md). An individual's open framework, not a company ladder. Used here only for the one-line role definitions. In its [README](https://github.com/jorgef/engineeringladders/blob/master/README.md)'s own words: "every company is different. Please use the information provided as a baseline and feel free adjust it to your needs."
-- No public survey or study specific to TPM hiring was found. The interview loop, placement advice and measures are practitioner judgment.
+- No public survey or study specific to TPM hiring was found. The interview loop, placement advice and measures are practitioner judgment. The interviewer guidance in section 5 comes from a 2017 review of a consulting firm's long-running technical interview, in which recruiters, sales and practice leads gave their feedback on it.
 
 ---
 
