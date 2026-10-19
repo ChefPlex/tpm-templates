@@ -186,7 +186,9 @@ List the decisions the charter commits to, not the roles. Each row gets exactly 
 
 | Decision | Executive Sponsor | Product / Program Owner | TPM | Engineering Lead | [Partner Team] | [Compliance / Legal] |
 |----------|------------------|------------------------|-----|------------------|----------------|---------------------|
-| Scope change | C | A | R | C | I | |
+| Approve charter and baseline | A | R | R | C | I | C |
+| Scope change within the baseline | C | A | R | C | I | |
+| Scope change that moves the date, budget or baseline | A | C | R | C | I | |
 | Budget change | A | C | R | | | |
 | Go / no-go at launch | A | R | R | C | I | C |
 | Definition of Done sign-off | I | A | R | C | | |

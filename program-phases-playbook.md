@@ -6,6 +6,8 @@ This is a living document. The phases are sequential but reality isn't always - 
 
 The phases follow the PMI (Project Management Institute) process model. It is the standard, and it is meant to be tailored to the work in front of you. Review every artifact in the tables below at kickoff and decide as many as you can. **Required** items are done. **Recommended** items are a decision: include the item, or leave it out and record why and who decided, in the charter's [Tailoring Decisions](program-charter-template.md#tailoring-decisions) table. Kickoff will not settle all of them. A program can turn out to need a risk register nobody planned for, or be simple enough to drop a plan that looked necessary. When that happens, change the decision and record it the same way. An item nobody decided about is a gap in the plan.
 
+In the tables, **Owner** is the person who produces the artifact. Who approves it is in the charter's [RACI](program-charter-template.md#raci).
+
 ---
 
 ## Phases at a Glance
