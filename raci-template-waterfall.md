@@ -16,7 +16,7 @@ Pair this with the [Program Charter Template](program-charter-template.md) at ki
 | Code | Meaning |
 |---|---|
 | **R** - Responsible | Does the work to complete the task. Can be shared across roles. |
-| **A** - Accountable | Owns the outcome and signs off. Exactly one per row, no exceptions. |
+| **A** - Accountable | Owns the outcome and signs off. Never more than one per row; exactly one on any row with a real decision or sign-off. |
 | **C** - Consulted | Two-way input sought before or during the work. |
 | **I** - Informed | Kept updated on progress or outcome. One-way, no input expected. |
 
@@ -31,7 +31,7 @@ Roles across the top are a starting set - rename or add columns to match your pr
 | Stakeholder identification | I | A/R | C | | | | | C | C |
 | Budget & resource approval | A | R | C | C | I | I | | | |
 | **Requirements** | | | | | | | | | |
-| Requirements gathering | | A | R | C | C | C | C | I | R |
+| Requirements gathering | | C | A/R | C | C | C | C | I | R |
 | Requirements sign-off | A | R | R | C | I | I | C | I | C |
 | Scope baseline | A | R | C | C | C | I | | I | I |
 | **Design** | | | | | | | | | |
@@ -57,7 +57,7 @@ Roles across the top are a starting set - rename or add columns to match your pr
 
 ## Rules Of Thumb
 
-- One A per row. If two roles both think they're accountable, that's the conversation to have before the program starts, not after something slips.
+- Never more than one A per row. If two roles both think they're accountable, that's the conversation to have before the program starts, not after something slips.
 - R can be shared. A cannot. Where one role both does the work and owns it, write A/R.
 - The PM is accountable for the schedule, the gates, and the decisions that cross teams, not for the work itself. Build, test, and design are owned by the people who can actually do them.
 - A blank cell is fine. Don't mark every role on every row just to fill the grid - that's the fastest way to make the matrix meaningless.
