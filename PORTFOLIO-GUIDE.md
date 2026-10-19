@@ -4,6 +4,8 @@ A reading path across the whole ChefPlex TPM portfolio, by the situation you are
 
 The portfolio is nine repositories. You do not need to know which one holds what. Start from your situation below.
 
+Every playbook, template and checklist here is a set of things to think through. Some steps will not fit your program; skip them and note why. Some will need a deeper look than the page gives them. The point is to think about each one up front, so nothing you could have dealt with early catches you off guard later.
+
 ---
 
 ## By situation
