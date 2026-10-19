@@ -39,7 +39,7 @@ Define the plan at the start, and keep it simple enough to actually maintain and
 
 **Decide who does what.** For each communication type, name who sends it, who owns it, who gives input, and who receives it (the RACI in [Reference](#who-does-what-raci-for-communications)). For an escalation, the TPM gets it out on time and the sponsor owns the decision it asks for.
 
-**Pick the status report structure, and keep it.** The weekly status report is your most important recurring communication. Keep it consistent so people know where to look. Keep it honest so people know they can trust it. The recommended structure is in [Reference](#status-report-structure).
+**Pick the status report structure, and keep it.** The weekly status report is your most important recurring communication. Keep it consistent so people know where to look. Keep it honest so people know they can trust it. Use the format and the status colors in the [Program Status Reporting Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/program-status-reporting-framework.md), so every program's report reads the same way.
 
 **Name one place where documents live.** Every program needs a single location where documents live. Define it at the start and stick to it. Communicate the repository location at kickoff. Put it in every status report header. People will not go looking for it if they do not know it exists.
 
@@ -108,7 +108,7 @@ A few things that make the difference between a communications plan that works a
 
 | Communication Type | Audience | Frequency | Channel | Owner | Format / Notes |
 |:---|:---|:---|:---|:---|:---|
-| Weekly Status Report | Program stakeholders, leadership | Weekly | Email | TPM | See [status report structure](#status-report-structure) |
+| Weekly Status Report | Program stakeholders, leadership | Weekly | Email | TPM | The [Program Status Reporting Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/program-status-reporting-framework.md) format |
 | Executive Steering Update | Executive sponsor, senior leadership | Monthly or at milestones | Deck / Meeting | TPM + PO | Bottom line up front, escalations flagged |
 | Team Sync | Core delivery team | Weekly | Video / in person | TPM | Working session - blockers, dependencies, decisions |
 | Workstream Working Session | The people who own that workstream | Weekly, daily when it is moving fast | Video / in person | TPM | One per workstream: the recommended action, where it stands, and the next step or resource ask |
@@ -128,39 +128,9 @@ A few things that make the difference between a communications plan that works a
 | Risk / Issue Escalation | TPM | TPM (gets it out on time; the sponsor owns the decision it asks for) | Relevant leads | Executive Sponsor, affected parties |
 | Launch Communication | TPM | PO | Comms, Legal | All impacted |
 
-### Status Report Structure
+### Status Report Format and Colors
 
-```
-PROGRAM: [Program Name]
-WEEK ENDING: [Date]
-STATUS: Green / Yellow / Red
-PATH TO GREEN (if Yellow or Red): [what is being done, owner, date - or when you expect to have a date]
-
-ONE-LINE SUMMARY
-[What is the most important thing to know this week - one sentence]
-
-THIS WEEK
-- [What was completed or progressed]
-- [Key decisions made]
-
-NEXT TWO WEEKS
-- [What is planned]
-- [Key milestones coming up]
-
-RISKS / ISSUES
-- [Any active risks or issues requiring visibility - flag early, not late]
-
-DECISIONS NEEDED
-- [Any decisions you need from leadership or stakeholders]
-
-DEPENDENCIES
-- [Any dependencies at risk]
-```
-
-**On status color:**
-- **Green** - On track. No action needed from leadership.
-- **Yellow** - At risk. Specific issue identified, with a named owner running it down. Give a date to get back to green; if it is too early for a firm one, say when you expect to have it. Early dates are estimates and may move.
-- **Red** - Off track. Leadership attention required. Come with the path back to green and what you need from leadership.
+They live in one place, the [Program Status Reporting Framework](https://github.com/ChefPlex/program-reporting-frameworks/blob/main/program-status-reporting-framework.md): a 30-second short version, a full long version, and what Green, Yellow, Red and Blue mean. One definition, so a Yellow means the same thing in every program's report.
 
 ### Where Documents Live
 
@@ -204,8 +174,8 @@ Use this when the program needs the full plan in one document. Copy the block in
 |:---|:---|:---|:---|:---|
 | | | | | |
 
-## Status Report Structure
-[Paste the structure from Reference, or link to it]
+## Status Report Format
+[Link to the Program Status Reporting Framework, or to your program's own copy of it]
 
 ## Document Repository
 | Document Type | Location | Owner | Access |
