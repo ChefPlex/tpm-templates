@@ -61,7 +61,7 @@ Roles across the top are a starting set - rename or add columns to match your pr
 - R can be shared. A cannot. Where one role both does the work and owns it, write A/R.
 - The PM is accountable for the schedule, the gates, and the decisions that cross teams, not for the work itself. Build, test, and design are owned by the people who can actually do them.
 - A blank cell is fine. Don't mark every role on every row just to fill the grid - that's the fastest way to make the matrix meaningless.
-- If a row has zero A's or more than one, fix it before you circulate the matrix. It's not a formatting issue, it's an unresolved ownership question.
+- If a row has zero A's or more than one, fix it before you circulate the matrix. A row like that is an unresolved ownership question.
 - Revisit this at each phase gate, not just at kickoff. Roles that made sense in Design often don't hold in Deployment.
 
 ## Where This Breaks

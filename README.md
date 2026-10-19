@@ -154,7 +154,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 
 ## Maturity
 
-This table covers the core templates. The stakeholder playbook, the rescue guide and the Enterprise RAG and Agentic AI programs are not rated here yet.
+This table covers the core templates. The stakeholder playbook, the rescue guide, the vendor and SOW guide, the guide to building the TPM function, and the Enterprise RAG and Agentic AI programs are not rated here yet.
 
 | Area | Status | Notes |
 |---|---|---|

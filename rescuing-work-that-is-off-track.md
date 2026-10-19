@@ -4,7 +4,7 @@ Most guidance for program managers assumes you are starting something. You get a
 
 That is not the job most of the time. Most of the time somebody hands you work that's already moving, already late, and already the subject of an argument. It might be a program. It might be a team, a service, a vendor relationship, or a stream of requests that never had a shape in the first place. The label does not change the approach.
 
-This is what to do in that situation, in the order to do it.
+This is what to do in that situation, in the order to do it. It is written from taking over work in that state, including a group with no program management that reached on-time delivery within six months.
 
 ---
 

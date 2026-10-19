@@ -4,7 +4,7 @@
 
 This guide is for the engineering leader who has never had a TPM and is about to hire one or two. It covers the signals that you need the role, what the role is and is not, how to write it, how to level it, how to interview for it, how to place and measure the first hires, and when to add the next one.
 
-One honest caveat before the method. No public survey or study on TPM hiring turned up in research for this guide. Everything here comes from published career ladders (cited below, with dates) plus practitioner judgment. Where a point is opinion, it is written as opinion.
+One honest caveat before the method. No public survey or study on TPM hiring turned up in research for this guide. Everything here comes from published career ladders (cited below, with dates) plus practitioner judgment: mine comes from leading a practice of 15+ consultant TPMs, and from setting up program management in a group that had none. Where a point is opinion, it is written as opinion.
 
 ---
 

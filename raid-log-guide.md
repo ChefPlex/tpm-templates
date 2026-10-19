@@ -155,7 +155,7 @@ When you convert a risk into an issue, put the risk ID in the Linked Risk ID fie
 
 A dependency is something this program needs from somewhere else - another team, a vendor, a regulatory body, an upstream system.
 
-Dependencies are risks that have not activated yet. That's not a turn of phrase, it's the reason the log rates them the same way it rates risks: every dependency carries a likelihood that it slips and an impact if it does. Treat the dependency register as a risk register you happen to have named the owner of, and the escalation decisions get easier.
+Dependencies are risks that have not activated yet. That is why the log rates them the same way it rates risks: every dependency carries a likelihood that it slips and an impact if it does. Treat the dependency register as a risk register you happen to have named the owner of, and the escalation decisions get easier.
 
 ### Key Fields
 
