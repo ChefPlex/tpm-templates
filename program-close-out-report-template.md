@@ -144,10 +144,12 @@ Skip this section if the program used no vendors and replaced no contracts. Othe
 
 An old contract does not have to end when the program does. On a migration it is usually smarter to keep it running past the planned cutover date, with a buffer or through the end of the year, so the old service is still there if the move slips. That overlap is a managed risk with a known cost. Record the planned end date and the person who owns the contract after the program closes.
 
-| Vendor or contract | Final deliverables accepted (by whom) | Final invoice | Access revoked and verified | Data returned or deleted | Contract end date, and owner after close | Closed by |
-|------|------|------|------|------|------|------|
-| [Implementation vendor] | | | | | | |
-| [Old license, circuit or support contract this replaces] | n/a | | | | [Cutover date plus buffer; owner] | |
+| Vendor or contract | Access revoked and verified | Contract end date, and owner after close | Closed by |
+|------|------|------|------|
+| [Implementation vendor] | | | |
+| [Old license, circuit or support contract this replaces] | | [Cutover date plus buffer; owner] | |
+
+For a larger vendor engagement, add the columns you need: final deliverables accepted (and by whom), final invoice paid, data returned or deleted, transition support finished. The [Vendor and SOW Management](vendor-and-sow-management.md) guide covers each one.
 
 **Note on known technical debt:** Be honest here. If the program delivered the objective but left technical debt behind - edge cases not remediated, legacy services given a temporary exemption, documentation not fully completed - document it. The team inheriting this work needs to know.
 
