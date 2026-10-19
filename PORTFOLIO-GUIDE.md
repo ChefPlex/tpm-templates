@@ -2,7 +2,7 @@
 
 A reading path across the whole ChefPlex TPM portfolio, by the situation you are in. Each path is short and in order: read the first item first. Everything here is free to use; see each repository's license.
 
-The portfolio is eight repositories. You do not need to know which one holds what. Start from your situation below.
+The portfolio is nine repositories. You do not need to know which one holds what. Start from your situation below.
 
 ---
 
@@ -58,6 +58,12 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 3. [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md)
 4. By program type: [vulnerability remediation](https://github.com/ChefPlex/security-program-playbooks/blob/main/vulnerability-remediation-runbook.md), [encryption](https://github.com/ChefPlex/security-program-playbooks/blob/main/encryption-program-playbook.md), [compliance](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-program-playbook.md)
 5. Background: [Cryptography Fundamentals for TPMs](https://github.com/ChefPlex/learning-notes/blob/main/cryptography-fundamentals-for-tpms.md) and [System Design Concepts for Security TPMs](https://github.com/ChefPlex/learning-notes/blob/main/system-design-concepts-for-tpms.md)
+
+### I'm running an infrastructure program
+
+1. By program type: [data center or site build-out](https://github.com/ChefPlex/infrastructure-program-playbooks/blob/main/data-center-build-out-playbook.md), [end-of-support migration](https://github.com/ChefPlex/infrastructure-program-playbooks/blob/main/end-of-support-migration-playbook.md), [directory services upgrade](https://github.com/ChefPlex/infrastructure-program-playbooks/blob/main/directory-services-upgrade-playbook.md), [network rollout](https://github.com/ChefPlex/infrastructure-program-playbooks/blob/main/network-rollout-playbook.md)
+2. [Vendor and SOW Management](https://github.com/ChefPlex/tpm-templates/blob/main/vendor-and-sow-management.md): carriers, installers and hardware vendors
+3. [Program Close-Out Report Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-close-out-report-template.md): old contracts and circuits are part of the close
 
 ### A security incident just happened
 
@@ -126,6 +132,7 @@ The portfolio is eight repositories. You do not need to know which one holds wha
 | [tpm-templates](https://github.com/ChefPlex/tpm-templates) | Templates and playbooks for running a program, start to close |
 | [program-reporting-frameworks](https://github.com/ChefPlex/program-reporting-frameworks) | Status reporting, steering committees, investment cases |
 | [security-program-playbooks](https://github.com/ChefPlex/security-program-playbooks) | Security, compliance and incident programs |
+| [infrastructure-program-playbooks](https://github.com/ChefPlex/infrastructure-program-playbooks) | Data center build-outs, end-of-support migrations, directory upgrades, network rollouts |
 | [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) | Working tools: RAID log, kickoff checklist, Slack status tooling |
 | [ai-automations](https://github.com/ChefPlex/ai-automations) | Prompts, workflows and frameworks for AI-assisted program work |
 | [agent-guardrails](https://github.com/ChefPlex/agent-guardrails) | Code: checks that keep AI agents honest |
