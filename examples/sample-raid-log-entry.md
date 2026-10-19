@@ -41,7 +41,7 @@ Every RAID log entry should be able to answer these questions:
 - What is the next concrete action?
 - When does it escalate, and to whom?
 
-If an entry cannot answer those four questions, it is not ready for the log. Document the gap separately and work to fill it - the log entry comes after you have something real to say.
+If an entry cannot answer those four questions yet, log it anyway and mark what is missing. Getting it listed is the point: nobody forgets it, and everyone can see it. A risk kept off the log until it is complete is the one that surprises everyone.
 
 ---
 
