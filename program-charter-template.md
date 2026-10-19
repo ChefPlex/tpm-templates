@@ -120,6 +120,15 @@ If buying: procurement and legal engagement required before work starts.
 
 Agile / Waterfall / Hybrid - and why.
 
+### Tailoring Decisions
+
+Every Recommended artifact in the [Program Phases Playbook](program-phases-playbook.md) is decided here at kickoff. List the ones left out, and any Required item the sponsor has agreed to drop.
+
+| Artifact | Include / Omit | Reason | Decided By |
+|----------|----------------|--------|------------|
+| [e.g. Low Level Design] | Omit | [Single-component change; the HLD covers it] | [Name] |
+| | | | |
+
 ### High Level Milestones
 
 | Milestone | Description | Target Date | Owner |

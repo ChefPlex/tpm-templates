@@ -4,6 +4,8 @@ A practical guide to running programs and projects from first idea to final clos
 
 This is a living document. The phases are sequential but reality isn't always - use judgment about what applies to your program's scope and complexity.
 
+The phases follow the PMI (Project Management Institute) process model. It is the standard, and it is meant to be tailored to the work in front of you. Every artifact in the tables below gets considered at kickoff. **Required** items are done. **Recommended** items are a decision: include the item, or leave it out and record why and who decided, in the charter's [Tailoring Decisions](program-charter-template.md#tailoring-decisions) table. An item nobody decided about is a gap in the plan.
+
 ---
 
 ## Phases at a Glance
