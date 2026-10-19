@@ -122,12 +122,12 @@ Agile / Waterfall / Hybrid - and why.
 
 ### Tailoring Decisions
 
-Every Recommended artifact in the [Program Phases Playbook](program-phases-playbook.md) is decided here at kickoff. List the ones left out, and any Required item the sponsor has agreed to drop.
+Review every Recommended artifact in the [Program Phases Playbook](program-phases-playbook.md) at kickoff and decide as many as you can. List the ones left out, and any Required item the sponsor has agreed to drop. Come back to this table as the program learns more: add a row when a decision changes, and keep the old one.
 
-| Artifact | Include / Omit | Reason | Decided By |
-|----------|----------------|--------|------------|
-| [e.g. Low Level Design] | Omit | [Single-component change; the HLD covers it] | [Name] |
-| | | | |
+| Artifact | Include / Omit | Reason | Decided By | Date |
+|----------|----------------|--------|------------|------|
+| [e.g. Low Level Design] | Omit | [Single-component change; the HLD covers it] | [Name] | [Kickoff date] |
+| [e.g. Risk register] | Include | [Third-party dependencies turned out larger than planned] | [Name] | [Date of the change] |
 
 ### High Level Milestones
 

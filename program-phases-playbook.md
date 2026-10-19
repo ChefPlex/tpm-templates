@@ -4,7 +4,7 @@ A practical guide to running programs and projects from first idea to final clos
 
 This is a living document. The phases are sequential but reality isn't always - use judgment about what applies to your program's scope and complexity.
 
-The phases follow the PMI (Project Management Institute) process model. It is the standard, and it is meant to be tailored to the work in front of you. Every artifact in the tables below gets considered at kickoff. **Required** items are done. **Recommended** items are a decision: include the item, or leave it out and record why and who decided, in the charter's [Tailoring Decisions](program-charter-template.md#tailoring-decisions) table. An item nobody decided about is a gap in the plan.
+The phases follow the PMI (Project Management Institute) process model. It is the standard, and it is meant to be tailored to the work in front of you. Review every artifact in the tables below at kickoff and decide as many as you can. **Required** items are done. **Recommended** items are a decision: include the item, or leave it out and record why and who decided, in the charter's [Tailoring Decisions](program-charter-template.md#tailoring-decisions) table. Kickoff will not settle all of them. A program can turn out to need a risk register nobody planned for, or be simple enough to drop a plan that looked necessary. When that happens, change the decision and record it the same way. An item nobody decided about is a gap in the plan.
 
 ---
 
@@ -29,6 +29,7 @@ The phases follow the PMI (Project Management Institute) process model. It is th
 | Artifact | Owner | Required? | Notes |
 |----------|-------|-----------|-------|
 | Program/Project Charter (1-pager) | Product/Program Owner | Required | Pitch the idea, the value, and the ask |
+| Stakeholder register (started) | Product/Program Owner + TPM | Required | Who is affected, who decides, who must be consulted. Start it with whoever handed you the project; you will not know everyone yet, and the list fills in through discovery. Requirements are gathered from the people on it, so it starts first. Keep it in the charter's Stakeholder Map; the method is in the [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
 | Business Requirements Document | Product/Program Owner | Required | What problem are we solving and for whom |
 | Definition of Done (initial) | Product/Program Owner | Required | What does success actually look like |
 | TPM intake request | Product/Program Owner | Recommended | Engage TPM resources early |
@@ -56,7 +57,7 @@ The phases follow the PMI (Project Management Institute) process model. It is th
 | High Level Design (HLD) | Engineering Manager + Architect | Required | How are we going to build this |
 | Low Level Design (LLD) | Engineers / Architects | Recommended | Details per component as needed |
 | RAID Log (Risks, Assumptions, Issues, Dependencies) | TPM | Required | Start it now, do not wait |
-| Communications Plan | TPM | Recommended | RACI, stakeholder map, cadence |
+| Communications Plan | TPM | Recommended | RACI and cadence, built from the stakeholder register |
 | Resource Plan | Engineering Manager + TPM | Recommended | Headcount, budget, timeline |
 | Program Roadmap | Product/Program Owner + TPM | Recommended | Deliverables mapped across releases or sprints |
 | Dependency Map | TPM | Recommended | Internal and external dependencies logged |
