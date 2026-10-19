@@ -83,6 +83,7 @@ The weekly status report is your most important recurring communication. Keep it
 PROGRAM: [Program Name]
 WEEK ENDING: [Date]
 STATUS: Green / Yellow / Red
+PATH TO GREEN (if Yellow or Red): [what is being done, owner, date - or when you expect to have a date]
 
 ONE-LINE SUMMARY
 [What is the most important thing to know this week - one sentence]
@@ -107,8 +108,8 @@ DEPENDENCIES
 
 **On status color:**
 - **Green** - On track. No action needed from leadership.
-- **Yellow** - At risk. Specific issue identified, mitigation in progress, may need support.
-- **Red** - Off track. Leadership attention required. Come with a plan, not just the problem.
+- **Yellow** - At risk. Specific issue identified, with a named owner running it down. Give a date to get back to green; if it is too early for a firm one, say when you expect to have it. Early dates are estimates and may move.
+- **Red** - Off track. Leadership attention required. Come with the path back to green and what you need from leadership.
 
 Call things Yellow or Red when they are Yellow or Red. A program that is always Green until it suddenly fails is a program with a communications problem, not a delivery problem.
 

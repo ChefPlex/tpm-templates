@@ -45,8 +45,8 @@ Use this view for executive updates and steering committee. Each workstream gets
 
 **Status Key:**
 - **Green** - On track against plan
-- **Yellow** - At risk, mitigation in progress
-- **Red** - Off track, leadership attention needed
+- **Yellow** - At risk, with a named owner running it down and a date (or an expected date) to get back to green
+- **Red** - Off track, leadership attention needed, with the path back to green
 
 ---
 
