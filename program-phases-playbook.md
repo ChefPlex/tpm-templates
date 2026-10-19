@@ -4,7 +4,7 @@ A practical guide to running programs and projects from first idea to final clos
 
 This is a living document. The phases are sequential but reality isn't always - use judgment about what applies to your program's scope and complexity.
 
-The phases follow the PMI (Project Management Institute) process model. It is a good standard to start from, and your plan may end up looking quite different. Look it over before the program starts, and again along the way, to make sure nothing was forgotten. Review every artifact in the tables below at kickoff and decide as many as you can. **Required** items are done. **Recommended** items are a decision: include the item, or leave it out and record why and who decided, in the charter's [Tailoring Decisions](program-charter-template.md#tailoring-decisions) table. Kickoff will not settle all of them. A program can turn out to need a risk register nobody planned for, or be simple enough to drop a plan that looked necessary. When that happens, change the decision and record it the same way. An item nobody decided about is a gap in the plan.
+The phases follow the PMI (Project Management Institute) process model. It is a good standard to start from, and your plan may end up looking quite different. Look it over before the program starts, and again along the way, to make sure nothing was forgotten. Required items are the floor. Treat the rest as prompts: use what fits, skip what does not, and note in the [charter](program-charter-template.md#tailoring-decisions) anything you chose to leave out.
 
 In the tables, **Owner** is the person who produces the artifact. Who approves it is in the charter's [RACI](program-charter-template.md#raci).
 
@@ -31,7 +31,7 @@ In the tables, **Owner** is the person who produces the artifact. Who approves i
 | Artifact | Owner | Required? | Notes |
 |----------|-------|-----------|-------|
 | Program/Project Charter (1-pager) | Product/Program Owner | Required | Pitch the idea, the value, and the ask |
-| Stakeholder register (started) | Product/Program Owner + TPM | Required | Who is affected, who decides, who must be consulted. Start it with whoever handed you the project; you will not know everyone yet, and the list fills in through discovery. Requirements are gathered from the people on it, so it starts first. Keep it in the charter's Stakeholder Map; the method is in the [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
+| Stakeholder register (started) | Product/Program Owner + TPM | Required | Start it with whoever handed you the work; it fills in during discovery. See the [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
 | Business Requirements Document | Product/Program Owner | Required | What problem are we solving and for whom |
 | Definition of Done (initial) | Product/Program Owner | Required | What does success actually look like |
 | TPM intake request | Product/Program Owner | Recommended | Engage TPM resources early |

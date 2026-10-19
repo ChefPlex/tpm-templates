@@ -122,12 +122,7 @@ Agile / Waterfall / Hybrid - and why.
 
 ### Tailoring Decisions
 
-Review every Recommended artifact in the [Program Phases Playbook](program-phases-playbook.md) at kickoff and decide as many as you can. List the ones left out, and any Required item the sponsor has agreed to drop. Come back to this table as the program learns more: add a row when a decision changes, and keep the old one.
-
-| Artifact | Include / Omit | Reason | Decided By | Date |
-|----------|----------------|--------|------------|------|
-| [e.g. Low Level Design] | Omit | [Single-component change; the HLD covers it] | [Name] | [Kickoff date] |
-| [e.g. Risk register] | Include | [Third-party dependencies turned out larger than planned] | [Name] | [Date of the change] |
+List anything from the [Program Phases Playbook](program-phases-playbook.md) you chose to leave out, and why. Revisit it as the program learns more.
 
 ### High Level Milestones
 
