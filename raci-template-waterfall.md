@@ -11,6 +11,8 @@ A responsibility matrix for phase-gated programs. Use it to settle who does the 
 
 Pair this with the [Program Charter Template](program-charter-template.md) at kickoff and the [RAID Log Guide](raid-log-guide.md) during execution.
 
+The assignments below are a starting point, not the answer. Who is accountable depends on the organization: on one program the product manager owns requirements, on another the business analyst does. Change the cells to match who actually decides.
+
 ## The Codes
 
 | Code | Meaning |

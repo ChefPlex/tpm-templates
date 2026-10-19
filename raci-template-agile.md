@@ -11,6 +11,8 @@ A responsibility matrix for sprint-based teams and programs. Waterfall RACIs map
 
 Pair this with the [Program Swim Lanes Template](program-swim-lanes-template.md) for multi-team visibility and the [RAID Log Guide](raid-log-guide.md) for what surfaces mid-sprint.
 
+The assignments below are a starting point, not the answer. Who is accountable depends on the team: in one organization the product owner signs off a release, in another the release manager does. Change the cells to match who actually decides.
+
 ## The Codes
 
 | Code | Meaning |
