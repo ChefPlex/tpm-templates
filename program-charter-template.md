@@ -131,18 +131,18 @@ Review every Recommended artifact in the [Program Phases Playbook](program-phase
 
 ### High Level Milestones
 
-Some milestones depend on preparation that has to be finished before their work can start: hardware delivered, circuits in, access granted, a site surveyed. That is a finish-to-start dependency. Estimate how long the preparation takes, then add a buffer: if it should take three weeks, plan four; if it should take four, plan five. Record the planned window and the date it must be done by, and work back from that date to know when it has to begin. Leave the column blank where there is no preparation.
+Some milestones need preparation finished before their work can start, such as hardware, circuits, access or a site survey. Estimate how long it takes and add a buffer (if it should take three weeks, plan four), then work back to when it has to begin.
 
-| Milestone | Description | Prep (finish-to-start) | Target Date | Owner |
-|-----------|-------------|------------------------|-------------|-------|
-| Program Kickoff | | | | TPM |
-| Requirements Complete | | | | PO |
-| Design Complete | | | | Engineering Lead |
-| [Key Milestone 1] | | | | |
-| [Site cutover] | | [4 weeks estimated, 5 planned; done by (date)] | | |
-| User Acceptance Testing | | | | TPM + PO |
-| Go-Live / Launch | | | | TPM |
-| Program Close | | | | TPM |
+| Milestone | Description | Target Date | Owner |
+|-----------|-------------|-------------|-------|
+| Program Kickoff | | | TPM |
+| Requirements Complete | | | PO |
+| Design Complete | | | Engineering Lead |
+| [Key Milestone 1] | | | |
+| [Key Milestone 2] | | | |
+| User Acceptance Testing | | | TPM + PO |
+| Go-Live / Launch | | | TPM |
+| Program Close | | | TPM |
 
 ### Key Dates and Constraints
 
