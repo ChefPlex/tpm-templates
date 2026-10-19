@@ -37,6 +37,10 @@ A one-page charter is fine for a small project. A complex multi-team program may
 
 The charter is a living document through the Definition & Planning phase. Once approved, changes to scope, budget, or Definition of Done go through formal change control.
 
+**Check the six questions.** Before it goes for approval, read the charter as someone new to the program would, and make sure it answers who, what, when, where, why and how. A gap in any one is a question somebody will ask later.
+
+**Background.** How the program came about: the assessment, incident, audit or decision that started it, with links to those documents. A new team member should be able to read it and understand why this exists now.
+
 **Problem statement.** What is the problem, gap, or risk this program addresses? Be specific. A vague problem statement produces a vague program.
 
 > Example: "Our encryption coverage across platform services stands at 35%. Any service transmitting data without encryption in transit represents a direct customer trust risk and a compliance exposure. Left unaddressed, this gap grows as we add services."
@@ -45,11 +49,17 @@ The charter is a living document through the Definition & Planning phase. Once a
 
 **Program overview.** Two to four sentences describing what this program does and how it addresses the problem above.
 
-**Objectives.** List 3-5 specific, measurable objectives. Avoid vague language like "improve" or "enhance" without a number attached.
+**Objectives.** List 3-5 specific, measurable objectives. Avoid vague language like "improve" or "enhance" without a number attached. A useful test is SMART: specific, measurable, achievable with the people and skills you have, relevant to the organization's goals, and time-bound.
+
+**Deliverables.** List what the program will hand over: the systems, documents, policies or services that exist when it is done.
+
+**How the work was prioritized.** If the program addresses several problems, say how they were ranked, for example by likelihood and impact, and what each one means here. It tells the reader why the work is in this order.
 
 **Definition of Done.** This is the contract. What does "complete" mean for this program? Be precise enough that a reasonable person could look at the finished work and say yes or no. Add the business metrics: what needle moves in the business as a result of this program succeeding?
 
-**In scope and out of scope.** List specifically what this program covers. Be concrete - vague scope is how programs expand without anyone noticing. Out of scope is just as important as in scope: list things that are related but explicitly not part of this program.
+**In scope and out of scope.** List specifically what this program covers. Be concrete - vague scope is how programs expand without anyone noticing. Out of scope is just as important as in scope: list things that are related but explicitly not part of this program. If other teams will own the work after the program, put their ramp-up and the handoff in scope.
+
+**Workstreams and initial steps.** For each workstream, name the recommended action, the owner, and the next step or resource request. It is the first version of the [swim lanes](program-swim-lanes-template.md).
 
 **Build vs. buy.** Record the decision, the rationale and the date. If buying: procurement and legal engagement required before work starts.
 
@@ -83,7 +93,7 @@ List the decisions the charter commits to, not the roles. Each row gets exactly 
 
 **Risks.** For a larger program, add the columns you need: how soon each risk could land, and a rough exposure in days or dollars for the top ones. Keep the full RAID log separately and link to it.
 
-**Assumptions.** List things you are assuming to be true that, if wrong, would change the plan.
+**Assumptions and limitations.** List things you are assuming to be true that, if wrong, would change the plan. List the limitations too: the constraints the program has to work within, such as a fixed team, a frozen system or a hard date.
 
 **Dependencies.** For a larger program, add the columns you need: the date it is needed by, and what slips if it is late.
 
@@ -180,6 +190,9 @@ Use this when the program needs every section written out. Copy the block into a
 
 ## 1. Why Are We Doing This
 
+### Background
+[How the program came about, with links to the assessments or decisions that started it.]
+
 ### Problem Statement
 [The problem, gap, or risk. Be specific.]
 
@@ -196,6 +209,13 @@ Use this when the program needs every section written out. Copy the block into a
 1. [Objective 1 - specific and measurable]
 2. [Objective 2 - specific and measurable]
 3. [Objective 3 - specific and measurable]
+
+### Deliverables
+- [Deliverable 1]
+- [Deliverable 2]
+
+### How the Work Was Prioritized
+[For example: likelihood x impact, and what each means here.]
 
 ### Definition of Done
 
@@ -232,6 +252,12 @@ Use this when the program needs every section written out. Copy the block into a
 
 ### Tailoring Decisions
 [What you left out of the Program Phases Playbook, and why.]
+
+### Workstreams and Initial Steps
+
+| Workstream | Recommended Action | Owner | Next Step / Resource Request |
+|:---|:---|:---|:---|
+| | | | |
 
 ### High Level Milestones
 
@@ -315,6 +341,9 @@ Use this when the program needs every section written out. Copy the block into a
 1. [Assumption 1]
 2. [Assumption 2]
 3. Required team members will be available at the allocations listed above.
+
+### Limitations
+- [Constraints the program has to work within]
 
 ### Dependencies
 

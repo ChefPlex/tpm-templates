@@ -14,6 +14,8 @@ Start with the communications matrix below: one table, one row per communication
 | | | | | | |
 | | | | | | |
 
+For a program with several workstreams, add the columns you need: the workstream each line serves, and the next step or ask it carries.
+
 ### What goes in each column
 
 - **Communication Type:** what goes out, such as "Weekly Status Report" or "Risk / Issue Escalation".
@@ -32,6 +34,8 @@ Define the plan at the start, and keep it simple enough to actually maintain and
 **Start with the stakeholder map.** Before you plan communications, you need to know who you are communicating with and what they care about. These are not the same thing for every audience. List each group, its role, what it cares about, and how often it needs to hear from you. A starting set of groups is in [Reference](#common-stakeholder-groups). For a larger program, add the columns you need: a named contact for each group, how much influence they have over the outcome, and whether their support today is where you need it to be.
 
 **Then fill in the matrix.** For each communication type, define what it is, who gets it, how often, through what channel, and who owns sending it. A starting set of rows is in [Reference](#common-communication-types); delete the ones the program does not need.
+
+**Give each workstream its own line.** The program-wide status report is not enough when several teams own separate pieces. Each workstream gets a working session with the people who own it, and that session is where its next step and any resource ask come from.
 
 **Decide who does what.** For each communication type, name who sends it, who owns it, who gives input, and who receives it (the RACI in [Reference](#who-does-what-raci-for-communications)). For an escalation, the TPM gets it out on time and the sponsor owns the decision it asks for.
 
@@ -107,6 +111,7 @@ A few things that make the difference between a communications plan that works a
 | Weekly Status Report | Program stakeholders, leadership | Weekly | Email | TPM | See [status report structure](#status-report-structure) |
 | Executive Steering Update | Executive sponsor, senior leadership | Monthly or at milestones | Deck / Meeting | TPM + PO | Bottom line up front, escalations flagged |
 | Team Sync | Core delivery team | Weekly | Video / in person | TPM | Working session - blockers, dependencies, decisions |
+| Workstream Working Session | The people who own that workstream | Weekly, daily when it is moving fast | Video / in person | TPM | One per workstream: the recommended action, where it stands, and the next step or resource ask |
 | Sprint Review / Demo | Stakeholders, product team | Per sprint | Video / in person | Engineering Lead + TPM | Show the work, get feedback |
 | Milestone Announcement | All stakeholders | At each milestone | Email | TPM | Celebrate progress, signal what is next |
 | Risk / Issue Escalation | Executive sponsor, relevant leaders | As needed | Direct communication | TPM | Do not bury this in the status report |
