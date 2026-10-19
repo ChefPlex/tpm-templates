@@ -136,6 +136,17 @@ Who owns this now? This section confirms the handoff is complete and documents t
 | Handoff date | |
 | Handoff confirmed by | |
 
+### Vendor and Contract Closure
+
+Skip this section if the program used no vendors and replaced no contracts. Otherwise list every vendor that delivered work, and every old contract the program replaces. Access revocation is the item most often missed.
+
+An old contract does not have to end when the program does. On a migration it is usually smarter to keep it running past the planned cutover date, with a buffer or through the end of the year, so the old service is still there if the move slips. That overlap is a managed risk with a known cost. Record the planned end date and the person who owns the contract after the program closes.
+
+| Vendor or contract | Final deliverables accepted (by whom) | Final invoice | Access revoked and verified | Data returned or deleted | Contract end date, and owner after close | Closed by |
+|------|------|------|------|------|------|------|
+| [Implementation vendor] | | | | | | |
+| [Old license, circuit or support contract this replaces] | n/a | | | | [Cutover date plus buffer; owner] | |
+
 **Note on known technical debt:** Be honest here. If the program delivered the objective but left technical debt behind - edge cases not remediated, legacy services given a temporary exemption, documentation not fully completed - document it. The team inheriting this work needs to know.
 
 ---
