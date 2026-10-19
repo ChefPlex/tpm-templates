@@ -107,6 +107,8 @@ Key milestones across all workstreams in one view. Update status at each reporti
 | Go-Live / Launch | All | TPM | | | | |
 | Program Close | All | TPM | | | | |
 
+For a larger program, add the columns you need: what each milestone depends on, the preparation window before it, and how confident the owner is in the date.
+
 ---
 
 ## A Note on Maintaining This

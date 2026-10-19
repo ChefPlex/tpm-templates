@@ -139,6 +139,8 @@ Some milestones need preparation finished before their work can start, such as h
 | Go-Live / Launch | | | TPM |
 | Program Close | | | TPM |
 
+For a larger program, add the columns you need: what each milestone depends on, the preparation window before it, and its current status.
+
 ### Key Dates and Constraints
 
 List any fixed deadlines (regulatory, contractual, product launch) that constrain the schedule.
@@ -212,6 +214,8 @@ List the decisions the charter commits to, not the roles. Each row gets exactly 
 | [Risk 2] | | | | |
 | Resource contention from higher priority programs | Med | High | Escalation path defined with sponsor | TPM |
 
+For a larger program, add the columns you need: how soon each risk could land, and a rough exposure in days or dollars for the top ones.
+
 *Full RAID log maintained separately - see [link to RAID log].*
 
 ### Assumptions
@@ -228,6 +232,8 @@ List things you are assuming to be true that, if wrong, would change the plan.
 |-----------|------|-------|--------|
 | [Dependency 1] | Internal / External | | |
 | [Dependency 2] | | | |
+
+For a larger program, add the columns you need: the date it is needed by, and what slips if it is late.
 
 ---
 
