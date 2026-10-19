@@ -41,6 +41,8 @@ List the objectives from the original charter. Do not edit them retroactively to
 | [Objective 2] | [Original DoD] | Achieved / Partial / Not Achieved | |
 | [Objective 3] | [Original DoD] | Achieved / Partial / Not Achieved | |
 
+If the program kept a requirements traceability matrix, link it here. It is the evidence behind the Result column.
+
 ### Business Metrics
 
 What moved in the business as a result of this program? Connect delivery to the outcome that justified the investment.

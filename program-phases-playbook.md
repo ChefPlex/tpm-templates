@@ -56,6 +56,7 @@ In the tables, **Owner** is the person who produces the artifact. Who approves i
 | Artifact | Owner | Required? | Notes |
 |----------|-------|-----------|-------|
 | Functional / Non-Functional Requirements | Product/Program Owner + Engineering | Required | Translate business needs into technical scope |
+| Requirements traceability | Product/Program Owner + Engineering + QA | Recommended | Each requirement linked to the design that covers it, the test that proves it, and who accepted it. Close to required for regulated, audited or contract work, where you will be asked to show that each requirement was met. A spreadsheet is enough |
 | High Level Design (HLD) | Engineering Manager + Architect | Required | How are we going to build this |
 | Low Level Design (LLD) | Engineers / Architects | Recommended | Details per component as needed |
 | RAID Log (Risks, Assumptions, Issues, Dependencies) | TPM | Required | Start it now, do not wait |
