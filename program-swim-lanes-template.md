@@ -2,7 +2,7 @@
 
 When a program has multiple workstreams running in parallel, a swim lane view is one of the clearest ways to show what is happening, who owns it, and where things stand - all at the same time. It gives leadership a single view across the program without requiring them to dig through individual workstream status reports.
 
-A swim lane is not a replacement for a project plan. It is a summary layer on top of one - the view you use in steering committee, in executive updates, and in your own weekly sense-check on whether the program is holding together.
+A swim lane is a set of tasks grouped because they belong together: they share a theme, the same team is doing them, or they serve the same function. The project plan still holds every task. The swim lane view summarizes those groups, and it is the view you use in steering committee, in executive updates, and in your own weekly check on whether the program is holding together.
 
 ---
 
@@ -45,8 +45,19 @@ Use this view for executive updates and steering committee. Each workstream gets
 
 **Status Key:**
 - **Green** - On track against plan
-- **Yellow** - At risk, with a named owner running it down and a date (or an expected date) to get back to green
+- **Yellow** - At risk, with a named owner running it down and a date (or an expected date) to get back to green. One Yellow lane makes the whole program Yellow.
 - **Red** - Off track, leadership attention needed, with the path back to green
+
+### Unknown vs Actionable
+
+Here is the same row of the Swim Lane Status View filled in two ways. The first is how it often arrives; the second is what it should say.
+
+| | Workstream | Owner | Status | This Period | Next Period | Key Risks / Blockers | Notes |
+|:---|:---|:---|:---|:---|:---|:---|:---|
+| **Unknown** | Data migration | Platform | Yellow | Working on it | Continue | Some delays | |
+| **Actionable** | Data migration | Dana Ruiz (Platform Eng) | Yellow | 14 of 18 services moved to the new cluster | Last 4 services from Mon, Nov 3, after the change freeze lifts | Payments has no migration window agreed. Path to green: Dana and the Payments lead agree one by Fri, Oct 30 | Program stays Yellow until then |
+
+The actionable row answers who, what, when, where, why and how. A reader knows who owns it, how far along it is, what happens next and when, what is blocking it, and what turns it back to Green. The unknown row tells the reader nothing they can act on.
 
 ---
 
@@ -118,6 +129,8 @@ The swim lane is only useful if it is current. Stale status is worse than no sta
 The right cadence: workstream owners push status to you weekly. You update the master view before each steering committee or executive touchpoint. If an owner is not sending you updates, that is the conversation to have - not a reason to leave the swim lane blank.
 
 The goal is that any stakeholder can look at the swim lane at any point and get an honest picture of where the program stands. If you would not feel comfortable showing it to your executive sponsor right now, update it before you do.
+
+Watch the space between lanes. The real risk often sits there, which is what Part 4, Cross-Workstream Dependencies, is for.
 
 ---
 
