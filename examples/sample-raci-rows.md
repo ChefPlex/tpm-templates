@@ -6,7 +6,7 @@ These rows are from a platform encryption migration, the same program the [RAID 
 
 ---
 
-## Weak Rows
+## Unknown Rows
 
 | Activity | Platform Eng | Security | Service Teams | TPM | Sponsor |
 |---|---|---|---|---|---|
@@ -26,7 +26,7 @@ Every row here would survive a workshop. People nod at charts like this because 
 
 ---
 
-## Better Rows
+## Actionable Rows
 
 | Activity | Platform Eng | Security | Service Teams | TPM | Sponsor |
 |---|---|---|---|---|---|

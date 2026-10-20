@@ -60,13 +60,13 @@ If you need a domain-specific version of this split, the [Security TPM role guid
 
 Most TPM job descriptions are interchangeable. That is the problem. A description that could fit any company attracts candidates who could work anywhere and screens for nothing.
 
-### Weak versus better
+### Unknown vs Actionable
 
-> **Weak:** "Drive cross-functional initiatives and ensure on-time delivery of key projects in a fast-paced environment."
+> **Unknown:** "Drive cross-functional initiatives and ensure on-time delivery of key projects in a fast-paced environment."
 
-> **Better:** "Own the migration of 40 services to the new auth library by Q3: the plan, the dependency map, the weekly risk review, and the call to stop at 90% if the last services have no path."
+> **Actionable:** "Own the migration of 40 services to the new auth library by Q3: the plan, the dependency map, the weekly risk review, and the call to stop at 90% if the last services have no path."
 
-The better version names the program, the finish line, the artifacts, and a decision the TPM is expected to make. A candidate can read it and know whether they have done that before. So can your interviewers.
+The actionable version names the program, the finish line, the artifacts, and a decision the TPM is expected to make. A candidate can read it and know whether they have done that before. So can your interviewers.
 
 ### Template: role definition
 
@@ -187,13 +187,13 @@ Time: 90 minutes. Bullets are fine. We care about judgment, not polish.
 
 **Plant two traps in the fact sheet.** For example: one service is owned by a team that was reorganized last month, so the listed owner is wrong. One "dependency" is actually an outside vendor, with its own timeline you do not control. Strong candidates notice at least one and ask about it. Weak candidates build a clean plan on top of both.
 
-### Weak versus better questions
+### Unknown vs Actionable questions
 
-> **Weak:** "Tell me about a time you managed a difficult stakeholder."
+> **Unknown:** "Tell me about a time you managed a difficult stakeholder."
 
-> **Better:** "A team lead says your dates are fiction. The dates came from their own estimate. What do you do in the next 24 hours?"
+> **Actionable:** "A team lead says your dates are fiction. The dates came from their own estimate. What do you do in the next 24 hours?"
 
-The weak question invites a rehearsed story. The better one has no rehearsed answer, and it tests the thing you need: whether the candidate goes looking for what changed, or argues about whose number it was.
+The unknown question invites a rehearsed story. The actionable one has no rehearsed answer, and it tests the thing you need: whether the candidate goes looking for what changed, or argues about whose number it was.
 
 ### Template: scorecard
 
@@ -266,9 +266,9 @@ The first TPM should not be inventing templates in week one. Give them the basic
 
 Pick few measures, and tie each one to a program outcome. What you count is what you will get.
 
-### Weak versus better measures
+### Unknown vs Actionable measures
 
-| Weak measure | Why it misleads | Better measure |
+| Unknown measure | Why it misleads | Actionable measure |
 |:---|:---|:---|
 | Status reports sent | Rewards writing, not progress | Programs finished against a written Definition of Done |
 | Meetings run | Rewards calendar volume | Dependencies surfaced before they caused a slip |
@@ -276,7 +276,7 @@ Pick few measures, and tie each one to a program outcome. What you count is what
 | "Stakeholders seem happy" | Nobody asked | EMs, asked directly: "Is this person making your team's job easier?" |
 | Decisions discussed | Rewards talk | Decisions recorded with a named owner and a date |
 
-The last row in the better column is the cheapest measure there is. Ask the engineering managers. They know within six weeks whether the TPM is removing work or adding it.
+The last row in the actionable column is the cheapest measure there is. Ask the engineering managers. They know within six weeks whether the TPM is removing work or adding it.
 
 ### Template: 30/60/90 check-in
 
@@ -368,9 +368,9 @@ B reported to the VP of Engineering, who also sponsored the migration. A second 
 
 ### The 90 days
 
-The sponsor first proposed tracking "weekly status sent on time" and "meetings run." B pushed back and suggested the better column from section 7 instead.
+The sponsor first proposed tracking "weekly status sent on time" and "meetings run." B pushed back and suggested the actionable column from section 7 instead.
 
-| Day | Weak measure (dropped) | Better measure (used) |
+| Day | Unknown measure (dropped) | Actionable measure (used) |
 |:---|:---|:---|
 | 30 | 4 status reports sent | Plan with owners and Definition of Done; 7 of 7 EMs met |
 | 60 | 11 meetings run | 2 dependencies surfaced early, including a vendor certificate renewal due mid-migration; 5 decisions logged with owners |

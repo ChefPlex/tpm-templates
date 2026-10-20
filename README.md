@@ -36,7 +36,7 @@ Four documents, in this order. They're the spine; everything below is situationa
 3. **[Meeting Notes + Action Item Tracker](meeting-notes-action-tracker.md)** - the habit that stops things getting dropped.
 4. **[RAID Log Guide](raid-log-guide.md)** - how to run a risk register people actually trust, with the [RAID Log Template](raid-log-template.md) to fill in.
 
-Read the [worked examples](examples/) alongside them. Each one shows a weak version next to a
+Read the [worked examples](examples/) alongside them. Each one shows an unknown version next to a
 useful one, which is faster than any amount of instruction. They all draw on the same company, most
 of them on one platform encryption migration, so the artifacts connect to each other rather than standing alone.
 
@@ -130,10 +130,10 @@ Thanksgiving teaching deck is in
 
 | File | What It Shows |
 |:---|:---|
-| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of a weak risk entry versus a useful one, with field-by-field explanation of why specificity matters. |
+| [Sample RAID Log Entry](examples/sample-raid-log-entry.md) | A concrete example of an unknown dependency entry versus an actionable one, with field-by-field explanation of why specificity matters. |
 | [Sample Program Charter Excerpt](examples/sample-program-charter-excerpt.md) | A worked excerpt of a charter's core (Why / What / Scope) - a weak, directional version vs. one with a baseline, measurable Definition of Done, and an out-of-scope list that defends the scope. |
-| [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, weak against better. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
-| [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The weak one records what was chosen; the better one records what was rejected, what it cost, and the two conditions that would reopen it. |
+| [Sample RACI Rows](examples/sample-raci-rows.md) | Five rows from a real migration, unknown against actionable. Two accountable owners, a TPM held accountable for work it cannot do, and the test that settles a row: if this goes wrong, whose calendar does the meeting land on? |
+| [Sample Architecture Decision Record](examples/sample-adr.md) | The same decision written twice. The unknown one records what was chosen; the actionable one records what was rejected, what it cost, and the two conditions that would reopen it. |
 
 ## Maturity
 

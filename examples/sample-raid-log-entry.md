@@ -4,7 +4,7 @@ The RAID log is only useful if the entries are specific enough for someone to ac
 
 ---
 
-## Weak Entry
+## Unknown Entry
 
 **Dependency with payments team may affect cutover.**
 
@@ -14,7 +14,7 @@ No owner. No date. No impact statement. No decision needed. No path to resolutio
 
 ---
 
-## Better Entry
+## Actionable Entry
 
 | Field | Entry |
 |-------|-------|

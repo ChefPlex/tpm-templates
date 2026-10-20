@@ -50,9 +50,9 @@ In private contracts, "SOW" is the umbrella word for all three, and the PWS and 
 
 A SOW line is useful only if two reasonable people, reading it after the work is done, would agree on whether it was delivered. Every line that fails that test is a future dispute.
 
-### Weak vs better
+### Unknown vs Actionable
 
-**Weak SOW line**
+**Unknown SOW line**
 
 > Vendor will implement certificate rotation for platform services and provide documentation and knowledge transfer.
 
@@ -63,7 +63,7 @@ A SOW line is useful only if two reasonable people, reading it after the work is
 - **"Documentation and knowledge transfer" has no acceptance.** Any document delivered will meet it.
 - **No one accepts it, and no date applies.** So it is never late, and never done.
 
-**Better SOW line**
+**Actionable SOW line**
 
 > **Deliverable D3: Automated certificate rotation in production.** Vendor will enable automated rotation for the 40 services listed in Appendix B, in the production environment. **Acceptance criterion:** for each listed service, two consecutive scheduled rotations complete with no manual step and no service error, as shown in the rotation log. **Accepter:** Platform Engineering lead (one named person, recorded in Appendix A). **Due:** milestone M3. **Buyer dependency:** Buyer provides production change windows for all 40 services by milestone M2; a late window moves the D3 date day for day.
 
@@ -123,10 +123,10 @@ A practical private pattern follows from that:
 
 There is no authoritative standard for the split. Percentages are a negotiation between procurement and the vendor. Your job is to make sure the milestones that carry money are the ones defined by an acceptance criterion, not by elapsed time.
 
-**Weak:** "25% on signature, 25% at month 3, 25% at month 6, 25% on completion."
-**Better:** "Payment 2 on acceptance of D2 per its criterion. Payment 3 on acceptance of D3. Final payment on acceptance of the transition deliverables in section 10."
+**Unknown:** "25% on signature, 25% at month 3, 25% at month 6, 25% on completion."
+**Actionable:** "Payment 2 on acceptance of D2 per its criterion. Payment 3 on acceptance of D3. Final payment on acceptance of the transition deliverables in section 10."
 
-The weak version pays for the calendar. The better one pays for results.
+The unknown version pays for the calendar. The actionable one pays for results.
 
 ---
 

@@ -72,4 +72,4 @@ Roles across the top are a starting set - rename or add columns to match your pr
 
 A RACI doesn't replace the conversation, it documents the outcome of one. If people are filling this in without talking to each other, you'll get a grid that looks aligned and isn't. Use it to force the conversation, not to skip it.
 
-**Worked example:** [five rows, weak against better](examples/sample-raci-rows.md), and the test that settles a row.
+**Worked example:** [five rows, unknown against actionable](examples/sample-raci-rows.md), and the test that settles a row.
