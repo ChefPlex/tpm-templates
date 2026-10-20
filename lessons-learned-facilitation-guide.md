@@ -8,7 +8,7 @@ This guide is about running the version that's actually useful - the one where p
 
 ## When to Run It
 
-At program close-out, before resources are released and before the team disperses. This is not optional. The further you get from the program, the hazier the memory and the lower the participation. Run it within two weeks of final delivery.
+At program close-out, before resources are released and before the team disperses. It is the session most often skipped, and the one most worth keeping. The further you get from the program, the hazier the memory and the lower the participation. Run it within two weeks of final delivery.
 
 For long programs, also consider a mid-program retrospective at a major milestone. You don't need to wait until the end to capture learning.
 

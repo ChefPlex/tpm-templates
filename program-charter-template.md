@@ -31,7 +31,7 @@ For a larger program, add the columns you need: the product or program owner, th
 
 ## How to Fill It In
 
-Fill in every section. If you cannot fill in a section, that is useful information - it means you are not ready to start yet.
+Work through every section. If you cannot fill one in, that is useful information: either you are not ready to start yet, or the section does not apply to this program. Say which.
 
 A one-page charter is fine for a small project. A complex multi-team program may need every section fully built out. Use judgment - the goal is shared understanding, not document volume.
 
