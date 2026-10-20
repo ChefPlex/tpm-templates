@@ -272,7 +272,7 @@ The bar is practical usefulness, not completeness.
 
 Built from experience running platform security, infrastructure, compliance, and enterprise execution programs.
 
-Maintained by [Eric White](https://github.com/ChefPlex).
+Maintained by [Eric White](https://www.linkedin.com/in/edwhite) | [ChefPlex](https://github.com/ChefPlex)
 
 ## License
 
