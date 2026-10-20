@@ -59,7 +59,7 @@ Every playbook, template and checklist here is a set of things to think through.
 2. [Security Program Intake and Kickoff Guide](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-program-intake-kickoff.md), with a [sample intake](https://github.com/ChefPlex/security-program-playbooks/blob/main/examples/sample-security-intake.md)
 3. [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md)
 4. By program type: [vulnerability remediation](https://github.com/ChefPlex/security-program-playbooks/blob/main/vulnerability-remediation-runbook.md), [encryption](https://github.com/ChefPlex/security-program-playbooks/blob/main/encryption-program-playbook.md), [compliance](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-program-playbook.md)
-5. Background: [Cryptography Fundamentals for TPMs](https://github.com/ChefPlex/learning-notes/blob/main/cryptography-fundamentals-for-tpms.md) and [System Design Concepts for Security TPMs](https://github.com/ChefPlex/learning-notes/blob/main/system-design-concepts-for-tpms.md)
+5. Background: [Cryptography Fundamentals for TPMs](https://github.com/ChefPlex/learning-notes/blob/main/cryptography-fundamentals-for-tpms.md) and [Security Concepts for TPMs](https://github.com/ChefPlex/learning-notes/blob/main/system-design-concepts-for-tpms.md)
 
 ### I'm running an infrastructure program
 
