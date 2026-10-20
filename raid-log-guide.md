@@ -178,7 +178,7 @@ Dependencies are risks that have not activated yet. That is why the log rates th
 
 Identify dependencies during planning, not during execution. Every dependency should have a named owner on your side and a named contact on the other side, and the What We Need field should name the deliverable rather than the team. "Waiting on Security" is not trackable. "Waiting on the signed threat model for the payments path" is, and the difference shows up the first time you have to escalate. Status gets reviewed regularly - "I haven't heard back" isn't the same as "on track." When a dependency is at risk, escalate early. Waiting for the other team to tell you they're behind isn't a dependency management strategy.
 
-**Worked example:** [an unknown and an actionable dependency entry](examples/sample-raid-log-entry.md), using these fields.
+**Worked example:** [a dependency entry in an unknown version and an actionable version](examples/sample-raid-log-entry.md), using these fields.
 
 ---
 
@@ -221,3 +221,5 @@ The spreadsheet opens on a Summary tab that reads across the four logs. It's the
 ---
 
 *Version 1.0. Propose changes via pull request.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

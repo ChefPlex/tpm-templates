@@ -2,7 +2,7 @@
 
 A reading path across the whole ChefPlex TPM portfolio, by the situation you are in. Each path is short and in order: read the first item first. Everything here is free to use; see each repository's license.
 
-The portfolio is nine repositories. You do not need to know which one holds what. Start from your situation below.
+The portfolio is ten repositories. You do not need to know which one holds what. Start from your situation below.
 
 Every playbook, template and checklist here is a set of things to think through. Some steps will not fit your program; skip them and note why. Some will need a deeper look than the page gives them. The point is to think about each one up front, so nothing you could have dealt with early catches you off guard later.
 
@@ -20,8 +20,8 @@ Every playbook, template and checklist here is a set of things to think through.
 
 ### I'm kicking off a program
 
-1. [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-templates/blob/main/program-kickoff-checklist.md)
-2. [Program Charter Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md), with a [sample excerpt](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-program-charter-excerpt.md)
+1. [Program Charter Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md), with a [sample excerpt](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-program-charter-excerpt.md)
+2. [Program Kickoff Checklist](https://github.com/ChefPlex/tpm-templates/blob/main/program-kickoff-checklist.md)
 3. RACI, [agile](https://github.com/ChefPlex/tpm-templates/blob/main/raci-template-agile.md) or [waterfall](https://github.com/ChefPlex/tpm-templates/blob/main/raci-template-waterfall.md)
 4. [Communications Plan Template](https://github.com/ChefPlex/tpm-templates/blob/main/communications-plan-template.md)
 5. [RAID Log Template](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-template.md) (also as an [Excel workbook](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-template.xlsx))
@@ -139,6 +139,7 @@ Every playbook, template and checklist here is a set of things to think through.
 | [agent-guardrails](https://github.com/ChefPlex/agent-guardrails) | Code: checks that keep AI agents honest |
 | [learning-notes](https://github.com/ChefPlex/learning-notes) | What I learned: TPM craft, security, AI |
 | [teaching-notes](https://github.com/ChefPlex/teaching-notes) | What I taught: courses, career-changer material, talks |
+| [tpm-lab](https://github.com/ChefPlex/tpm-lab) | Where I work on new projects and new frameworks for running them, as first drafts: post-quantum cryptography migration and optimizing a PMO |
 
 ---
 

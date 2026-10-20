@@ -248,3 +248,5 @@ Use this when you would rather tick boxes than fill in a table. Copy the block i
 ---
 
 *Template version 1.1. Propose changes via pull request.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

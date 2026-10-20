@@ -59,7 +59,7 @@ The same action item, written two ways:
 | **Unknown** | A3 | Look into the certificate renewal issue | Security team | ASAP | Open | |
 | **Actionable** | A3 | List the services still using the expiring intermediate certificate, from the certificate inventory scan, and send the list to the platform team so they can rotate before it expires on Nov 15 | Priya (Security) | Thu, Oct 22 | Open | Date is her estimate; she will say by Tuesday if it moves |
 
-A good action item answers the same questions as any report: **who** (one named person), **what** (a task that can be finished), **when** (a date, even an estimate), **where** (which systems), **why** (what it unblocks or prevents), and **how** (the source or method). In the unknown one, nobody can tell who will do what or by when, so nobody acts on it. The actionable one can be checked done or not done at the next meeting.
+A good action item answers the same questions as any report: **who** (one named person), **what** (a task that can be finished), **when** (a date, even an estimate), **where** (which systems), **why** (what it unblocks or prevents), and **how** (the source or method). In the unknown version, nobody can tell who will do what or by when, so nobody acts on it. The actionable version can be checked done or not done at the next meeting.
 
 ### Where This Breaks
 
@@ -158,3 +158,5 @@ Circulate these notes to: [attendees + relevant stakeholders who weren't present
 ---
 
 *Template version 1.1. Propose changes via pull request.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

@@ -6,7 +6,7 @@ This one is from a platform encryption migration, the same program the [RAID log
 
 ---
 
-## Weak ADR
+## Unknown ADR
 
 > **ADR-011: Certificate management**
 >
@@ -28,7 +28,7 @@ This one is from a platform encryption migration, the same program the [RAID log
 
 ---
 
-## Better ADR
+## Actionable ADR
 
 > **ADR-011: Centralize certificate issuance, accept the concentration risk**
 >

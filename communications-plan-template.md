@@ -186,3 +186,5 @@ Use this when the program needs the full plan in one document. Copy the block in
 ---
 
 *Template version 1.1. Propose changes via pull request.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

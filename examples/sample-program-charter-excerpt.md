@@ -6,7 +6,7 @@ A charter is only as strong as its core: the problem it names, the outcomes it c
 
 ---
 
-## Weak
+## Unknown
 
 > **Problem:** Improve our encryption posture across the platform to reduce risk and support compliance.
 >
@@ -20,7 +20,7 @@ Every line is a direction, not a commitment. "Improve," "increase," "strengthen"
 
 ---
 
-## Better
+## Actionable
 
 > ### 1. Why Are We Doing This
 >

@@ -97,3 +97,5 @@ Alignment is cheapest at the start and most expensive at the end.
 ---
 
 *Version 1.0. Propose changes via pull request.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

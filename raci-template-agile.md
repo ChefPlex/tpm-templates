@@ -64,3 +64,7 @@ Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release 
 Agile teams that are already high-trust and co-located sometimes don't need this at all - the ceremonies themselves make ownership visible. Reach for this when the team is new, distributed, scaling past one team, or when release ownership has already caused a miss. Don't add process for its own sake.
 
 **Worked example:** [five rows, unknown against actionable](examples/sample-raci-rows.md), and the test that settles a row.
+
+---
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

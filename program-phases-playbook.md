@@ -325,3 +325,5 @@ Use this when you would rather tick boxes than fill in a table. Copy the block i
 ---
 
 *This playbook is version 1.3. Propose edits via pull request or open an issue with your suggested change and the reasoning behind it.*
+
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
