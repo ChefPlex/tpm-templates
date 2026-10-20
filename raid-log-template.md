@@ -2,7 +2,7 @@
 
 The same log as [`raid-log-template.xlsx`](raid-log-template.xlsx), in a format you can read before you download anything, paste into Confluence or Notion, diff in a pull request, or open on a phone. The spreadsheet is still the better place to actually run a busy program - it sorts, filters and calculates. This is for everywhere the spreadsheet does not go.
 
-The table below is the whole log: risks, assumptions, issues and dependencies in one place, each row with its owner, rating, date and plan. When an entry needs every field written out, use the [alternate style](#alternate-style-the-full-entry-for-each-item) at the bottom of this page. For how to run the log rather than what fields it has, read the [RAID Log Guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md) in `tpm-templates`.
+The table below is the whole log: risks, assumptions, issues and dependencies in one place, each row with its owner, rating, date and plan. When an entry needs every field written out, use the [alternate style](#alternate-style-the-full-entry-for-each-item) at the bottom of this page. For how to run the log rather than what fields it has, read the [RAID Log Guide](raid-log-guide.md).
 
 ---
 
@@ -70,7 +70,7 @@ The actionable row answers who owns it, what the risk is, when it should close, 
 | I1 | The final validation environment has no allocated hardware. Nothing can be certified as done until it exists, so completed migrations are stacking up unverified. This was R4 until it materialized | M. Delgado | High | 2026-03-29 | In Progress | Infrastructure has the request. Escalated to the platform director on 3/18 with the count of blocked migrations attached |
 | D1 | Additional HSM capacity is needed before the second wave of services can cut over. If late, wave two slips by the length of the delay, and wave three slips with it | S. Whitfield | Medium x High | 2026-04-30 | At Risk | Need provisioned capacity in both regions, plus the key ceremony scheduled, from J. Aubert, Platform Infrastructure. Their roadmap review is on the 22nd; confirm the ask is on the agenda before then |
 
-The example entries are illustrative and the names are invented. The shape of them is not: every one is written the way the [RAID Log Guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md) argues an entry should be written, with a named owner, a specific impact, and a plan somebody is actually working.
+The example entries are illustrative and the names are invented. The shape of them is not: every one is written the way the [RAID Log Guide](raid-log-guide.md) argues an entry should be written, with a named owner, a specific impact, and a plan somebody is actually working.
 
 ### Where This Breaks
 

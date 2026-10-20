@@ -48,7 +48,7 @@ The table below is opinion, built on that split. No company found in research fo
 
 Two lines in that table cause most of the trouble.
 
-**The TPM does not own the engineering.** A TPM held accountable for work they cannot do is a TPM set up to fail. The [sample RACI rows](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-raci-rows.md) show exactly how that mistake looks on paper.
+**The TPM does not own the engineering.** A TPM held accountable for work they cannot do is a TPM set up to fail. The [sample RACI rows](examples/sample-raci-rows.md) show exactly how that mistake looks on paper.
 
 **The TPM is not a project manager with a technical title.** The difference is technical depth. A TPM can read a design document and ask what happens when the dependency is late, or when the migration hits the one service nobody has touched in three years. Dropbox's framework says this directly, even at its entry level: "I am expected to create leverage for myself via a technical skillset and not purely from process." ([Dropbox IC1 TPM](https://dropbox.github.io/dbx-career-framework/ic1_technical_program_manager.html), as of October 2026.)
 
@@ -103,7 +103,7 @@ Signals of success at 6 months:
 What this role is not (one line, to stop scope creep):
 ```
 
-RAID stands for Risks, Assumptions, Issues and Dependencies. The [RAID log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md) explains the log the first TPM will keep.
+RAID stands for Risks, Assumptions, Issues and Dependencies. The [RAID log guide](raid-log-guide.md) explains the log the first TPM will keep.
 
 The "What this role is not" line matters more than it looks. Without it, the first TPM becomes the default owner of every orphaned task in the organization within a quarter.
 
@@ -159,7 +159,7 @@ About four to five hours across five stages. Every interviewer scores independen
 | **4. Technical depth** (45 min) | An engineer asks: "Walk me through a system you drove a program on." | Technical fluency | Asks what breaks, not only when it ships |
 | **5. Stakeholder simulation** (30 min) | Role-play: a lead says their team cannot take the work this quarter | Negotiation; escalation judgment | Finds the real constraint, proposes an option, knows when to escalate |
 
-Stage 3 is the one most loops skip, and it is the most predictive part of the job. A plan is only as good as the TPM's ability to defend it to the people who have to do the work. The [Stakeholder Engagement Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/stakeholder-engagement-playbook.md) describes what good looks like there.
+Stage 3 is the one most loops skip, and it is the most predictive part of the job. A plan is only as good as the TPM's ability to defend it to the people who have to do the work. The [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) describes what good looks like there.
 
 ### Template: work-sample brief
 
@@ -243,7 +243,7 @@ Where you put the first TPM decides whether the role survives its first year.
 - **Attach them to a program, not a team.** A TPM attached to one team becomes that team's project manager. A TPM attached to a program owns the seams between teams, which is the job.
 - **Give them one sponsor.** The sponsor is the leader whose outcome the program serves and who will make the call when two teams disagree. Two sponsors is the same as none.
 - **Make the first assignment bounded, with a visible finish.** A migration with a fixed end date and a countable number of services is ideal. Everyone can see whether it finished.
-- **Do not hand a new TPM a rescue as their first job,** unless that is what you hired for and said so in the interview. A rescue tests a different skill and buries the new hire in someone else's history. If you do need one, [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md) is the method.
+- **Do not hand a new TPM a rescue as their first job,** unless that is what you hired for and said so in the interview. A rescue tests a different skill and buries the new hire in someone else's history. If you do need one, [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) is the method.
 
 ### Who should they report to?
 
@@ -258,7 +258,7 @@ For the first one or two hires, report to whoever sponsors the first program, as
 
 ### What to hand them on day one
 
-The first TPM should not be inventing templates in week one. Give them the basics: a [program charter template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md), a [RAID log](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md), a [RACI template](https://github.com/ChefPlex/tpm-templates/blob/main/raci-template-agile.md) and the [program phases playbook](https://github.com/ChefPlex/tpm-templates/blob/main/program-phases-playbook.md). They will adapt them. That is fine.
+The first TPM should not be inventing templates in week one. Give them the basics: a [program charter template](program-charter-template.md), a [RAID log](raid-log-guide.md), a [RACI template](raci-template-agile.md) and the [program phases playbook](program-phases-playbook.md). They will adapt them. That is fine.
 
 ---
 
@@ -428,14 +428,14 @@ All accessed 2026-10-18. Facts are as of October 2026.
 ## Related
 
 - [Security TPM Role Guide](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-tpm-role-guide.md): the domain-specific job description
-- [Stakeholder Engagement Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/stakeholder-engagement-playbook.md): influence without authority, the signal stage 3 tests for
-- [Sample RACI Rows](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-raci-rows.md): what it looks like when a TPM is held accountable for work they cannot do
-- [Program Charter Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md) and [Program Phases Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/program-phases-playbook.md): what the first TPM uses on day one
-- [The RAID Log guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md)
-- [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md): for when the first assignment is a rescue after all
+- [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md): influence without authority, the signal stage 3 tests for
+- [Sample RACI Rows](examples/sample-raci-rows.md): what it looks like when a TPM is held accountable for work they cannot do
+- [Program Charter Template](program-charter-template.md) and [Program Phases Playbook](program-phases-playbook.md): what the first TPM uses on day one
+- [The RAID Log guide](raid-log-guide.md)
+- [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md): for when the first assignment is a rescue after all
 - [TPM Craft: Notes on Running Programs at Scale](https://github.com/ChefPlex/learning-notes/blob/main/tpm-craft-notes.md)
 - [Introducing PM Concepts to Career Changers](https://github.com/ChefPlex/teaching-notes/blob/main/project-management/pm-for-career-changers.md)
 
 ---
 
-*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

@@ -22,9 +22,9 @@ A vendor engagement has three owners, and programs get into trouble when one of 
 
 The MSA is the umbrella contract with the vendor: legal and commercial terms that apply to every piece of work. The SOW sits under it and describes one specific piece of work. You will rarely write the MSA. You will often write most of the SOW, and you are usually the only person in the room who can tell whether its scope is complete.
 
-Two gates come before any of this. The [Buy vs. Build Decision Record](https://github.com/ChefPlex/tpm-templates/blob/main/program-phases-playbook.md) records why you are buying at all, and the [Vendor / Third-Party Review](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-program-intake-kickoff.md) gets security and procurement eyes on the vendor before work starts. The phases playbook says it plainly for the SOW itself: "Do not start vendor work without this."
+Two gates come before any of this. The [Buy vs. Build Decision Record](program-phases-playbook.md) records why you are buying at all, and the [Vendor / Third-Party Review](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-program-intake-kickoff.md) gets security and procurement eyes on the vendor before work starts. The phases playbook says it plainly for the SOW itself: "Do not start vendor work without this."
 
-**The test for ownership** is the same one used in the [sample RACI (responsible, accountable, consulted, informed) rows](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-raci-rows.md): when the vendor delivers something and it is wrong, whose calendar does the meeting land on? If the answer is "it depends," the SOW is not finished.
+**The test for ownership** is the same one used in the [sample RACI (responsible, accountable, consulted, informed) rows](examples/sample-raci-rows.md): when the vendor delivers something and it is wrong, whose calendar does the meeting land on? If the answer is "it depends," the SOW is not finished.
 
 ---
 
@@ -94,7 +94,7 @@ Three points carry over to any contract:
 
 1. **Acceptance is a defined act.** Write down what the accepter does: sign a form, approve a ticket, send a written notice.
 2. **The contract decides when it happens.** If the SOW is silent on timing, the dispute starts there.
-3. **One role accepts.** The FAR puts it in a single place: "Acceptance of supplies or services is the responsibility of the contracting officer" ([FAR 46.502](https://www.acquisition.gov/far/subpart-46.5), as of October 2026). In your SOW, one named person accepts each deliverable. This matches the one-accountable-per-row rule in a [RACI](https://github.com/ChefPlex/tpm-templates/blob/main/raci-template-waterfall.md).
+3. **One role accepts.** The FAR puts it in a single place: "Acceptance of supplies or services is the responsibility of the contracting officer" ([FAR 46.502](https://www.acquisition.gov/far/subpart-46.5), as of October 2026). In your SOW, one named person accepts each deliverable. This matches the one-accountable-per-row rule in a [RACI](raci-template-waterfall.md).
 
 ### Write the acceptance window into the SOW
 
@@ -208,7 +208,7 @@ Each tier has a time limit, and the move to the next tier is automatic when the 
 
 ### What goes in the risk log
 
-Vendor risks and dependencies go in the program's [RAID (risks, assumptions, issues, dependencies) log](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md) like any other. The ones worth logging from day one: each buyer dependency in the SOW (as a dependency with a date), key-person risk on the vendor side, single-supplier concentration, and any SLO without a consequence that the program relies on. Transferring a risk to a vendor is a legitimate strategy, and the RAID guide covers it. Transfer only works if the contract actually carries the risk, so check the clause before you mark it transferred.
+Vendor risks and dependencies go in the program's [RAID (risks, assumptions, issues, dependencies) log](raid-log-guide.md) like any other. The ones worth logging from day one: each buyer dependency in the SOW (as a dependency with a date), key-person risk on the vendor side, single-supplier concentration, and any SLO without a consequence that the program relies on. Transferring a risk to a vendor is a legitimate strategy, and the RAID guide covers it. Transfer only works if the contract actually carries the risk, so check the clause before you mark it transferred.
 
 ---
 
@@ -289,7 +289,7 @@ The federal continuity-of-services clause is a good model of what to cover. The 
 | **Successor access** | Your next provider can talk to the vendor's people during transition |
 | **Who pays** | Whether transition work is in the fixed price or billed separately |
 
-At the end, the vendor row in your [close-out report](https://github.com/ChefPlex/tpm-templates/blob/main/program-close-out-report-template.md) should show each of these as done, with the accepter's name. Access revocation is the one most often missed, and the one a security reviewer will check first.
+At the end, the vendor row in your [close-out report](program-close-out-report-template.md) should show each of these as done, with the accepter's name. Access revocation is the one most often missed, and the one a security reviewer will check first.
 
 ---
 
@@ -297,11 +297,11 @@ At the end, the vendor row in your [close-out report](https://github.com/ChefPle
 
 *Larkspur Logistics and Corvid Trust are fictional companies. All names, figures and dates are invented for illustration.*
 
-Larkspur is running the platform encryption migration from the [sample ADR](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-adr.md): one central certificate authority (CA) with automated rotation. Larkspur buys integration services from the CA vendor, Corvid Trust, to connect its first 40 services.
+Larkspur is running the platform encryption migration from the [sample ADR](examples/sample-adr.md): one central certificate authority (CA) with automated rotation. Larkspur buys integration services from the CA vendor, Corvid Trust, to connect its first 40 services.
 
 **The first draft.** Procurement sent the TPM a SOW drafted from Corvid's standard template. Its core line read: "Corvid will implement certificate rotation for Larkspur platform services and provide knowledge transfer." Payment was split evenly across four calendar dates.
 
-**The review.** The TPM ran the draft through Template A and marked eleven of eighteen rows as missing or failing the test. The three that mattered most: no service list, no acceptance criterion, and nothing on what Larkspur had to provide. The TPM rewrote the deliverable as shown in section 3 (40 named services, two clean rotations per service, one named accepter, change windows due from Larkspur at M2). Procurement moved the payments onto accepted deliverables. Legal added a transition clause and a 72-hour security incident notification.
+**The review.** The TPM ran the draft through Template A and marked eleven of nineteen rows as missing or failing the test. The three that mattered most: no service list, no acceptance criterion, and nothing on what Larkspur had to provide. The TPM rewrote the deliverable as shown in section 3 (40 named services, two clean rotations per service, one named accepter, change windows due from Larkspur at M2). Procurement moved the payments onto accepted deliverables. Legal added a transition clause and a 72-hour security incident notification.
 
 **The acceptance dispute.** At M3, Corvid submitted D3 as complete. The Larkspur accepter checked the rotation log and found 36 of 40 services with two clean rotations. Four had rotated once, and one of those had needed a manual restart. The accepter rejected D3 in writing, naming the four services and the criterion each failed. Corvid did not argue, because there was nothing to argue about: the criterion was in the log. Corvid fixed the four within the correction round and D3 was accepted eleven days later. Under the first draft, this would have been a debate about what "implement" meant, with a calendar payment already made.
 
@@ -313,13 +313,13 @@ Larkspur is running the platform encryption migration from the [sample ADR](http
 
 ## Where this breaks
 
-**Small vendors with no procurement process.** A three-person firm may not have a delivery lead, a QBR, or the patience for an eighteen-item SOW review. Keep the core: a deliverable list, an acceptance criterion per deliverable, one accepter, and payment on acceptance. Drop the ceremony, not the criteria.
+**Small vendors with no procurement process.** A three-person firm may not have a delivery lead, a QBR, or the patience for a nineteen-item SOW review. Keep the core: a deliverable list, an acceptance criterion per deliverable, one accepter, and payment on acceptance. Drop the ceremony, not the criteria.
 
 **Time-and-materials work.** When you pay for hours rather than results, acceptance criteria are harder to attach and the vendor's incentive is not to finish. If the outcome cannot be defined, at least define what each period's hours must produce and review it monthly. If it can be defined, consider whether this should be a results-based SOW instead.
 
 **The only supplier.** If the vendor is the only one who can do the work, your leverage is mostly gone. Scorecards and escalations still help, but the real control is reducing the dependency over time. Record it as a concentration risk, as the sample ADR does, and give it a revisit trigger.
 
-**Contracts you inherit.** You will often take over an engagement where the SOW is already signed and weak. You cannot rewrite it, but you can still name accepters, write acceptance criteria into the next change request, and start a scorecard. Treat it as a rescue: [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md) applies to vendor relationships too.
+**Contracts you inherit.** You will often take over an engagement where the SOW is already signed and weak. You cannot rewrite it, but you can still name accepters, write acceptance criteria into the next change request, and start a scorecard. Treat it as a rescue: [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) applies to vendor relationships too.
 
 **Legal owns the paper.** Some organizations do not let the program touch contract wording. Then your output is a marked-up review using Template A, sent to legal with each gap explained in one line. You are still the only one who can tell whether the scope is complete.
 
@@ -374,7 +374,7 @@ Fill in monthly. Review at the monthly performance review, and bring the trend t
 VENDOR SCORECARD
 Vendor:                       SOW / contract reference:
 Period:                       Prepared by:
-Overall status:               Green / Amber / Red
+Overall status:               Green / Yellow / Red
 ```
 
 **Delivery and service**
@@ -426,17 +426,17 @@ If yes, you are running a vendor program. If they would have to go and ask peopl
 
 ## Related
 
-- [Program Phases Playbook](https://github.com/ChefPlex/tpm-templates/blob/main/program-phases-playbook.md): the Buy vs. Build record and the Vendor SOW / MSA gate
-- [Program Charter Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-charter-template.md): where the vendor's role and procurement review first appear
-- [RAID Log Guide](https://github.com/ChefPlex/tpm-templates/blob/main/raid-log-guide.md): vendor risks, the Transfer strategy, external dependencies
-- [Sample RACI Rows](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-raci-rows.md): one accountable owner per row
-- [Sample ADR](https://github.com/ChefPlex/tpm-templates/blob/main/examples/sample-adr.md): the encryption migration and its single-vendor dependency
-- [Program Close-Out Report Template](https://github.com/ChefPlex/tpm-templates/blob/main/program-close-out-report-template.md): the vendor handoff row
-- [Rescuing Work That Is Off Track](https://github.com/ChefPlex/tpm-templates/blob/main/rescuing-work-that-is-off-track.md): for an inherited, late vendor engagement
+- [Program Phases Playbook](program-phases-playbook.md): the Buy vs. Build record and the Vendor SOW / MSA gate
+- [Program Charter Template](program-charter-template.md): where the vendor's role and procurement review first appear
+- [RAID Log Guide](raid-log-guide.md): vendor risks, the Transfer strategy, external dependencies
+- [Sample RACI Rows](examples/sample-raci-rows.md): one accountable owner per row
+- [Sample ADR](examples/sample-adr.md): the encryption migration and its single-vendor dependency
+- [Program Close-Out Report Template](program-close-out-report-template.md): the vendor handoff row
+- [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md): for an inherited, late vendor engagement
 - [Security Program Intake and Kickoff](https://github.com/ChefPlex/security-program-playbooks/blob/main/security-program-intake-kickoff.md): the vendor and third-party review gate
 - [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md): SOC 2 and HIPAA business associate agreements
 - [Cyber Incident Management Playbook](https://github.com/ChefPlex/security-program-playbooks/blob/main/cyber-incident-playbook.md): third-party compromise and vendor notification
 
 ---
 
-*Part of the [ChefPlex TPM portfolio](https://github.com/ChefPlex/tpm-templates/blob/main/PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
+*Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*

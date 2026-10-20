@@ -11,11 +11,11 @@ The table below is the whole checklist, in the order the work happens: getting r
 | What happens | Artifact / outcome | Owner | Level | Status | Notes |
 |:---|:---|:---|:---|:---|:---|
 | **Get ready** | | | | | |
-| Sponsor reviews and approves the charter | Approved charter | Product / program owner | Must | | |
 | Name the executive sponsor, product / program owner and engineering lead | Names in the charter | TPM | Must | | |
 | Write objectives that can be measured | Objectives in the charter | Product / program owner | Must | | Not "improve security posture" but "achieve X% coverage by Y date" |
 | List what is in scope and what is out | Scope in the charter | Product / program owner + TPM | Must | | |
 | Propose the Definition of Done and agree it with the TPM and engineering lead | Definition of Done | Product / program owner | Must | | If the goal is to move a metric, record the baseline, or a to-do to get one |
+| Executive sponsor reviews and approves the charter | Approved charter | Executive sponsor | Must | | The product / program owner brings it for approval. If the charter was approved in Initiation, confirm nothing has changed |
 | Draft the RACI | RACI | TPM | Should | | It doesn't need to be final, but it needs to exist |
 | Start the stakeholder list with the sponsor and known owners | Stakeholder list | TPM | Should | | It fills in through discovery |
 | Draft the high-level milestone plan | Milestone plan | TPM | Must | | Enter any known compliance deadlines |
@@ -88,11 +88,8 @@ The actionable row answers who owns it, what exists, when it will be done, where
 ### Where This Breaks
 
 - **A deck nobody remembers.** The kickoff is where scope, roles and working norms get settled. If it is only a presentation, nothing gets settled.
-- **Kicking off before the foundation is ready.** A kickoff that happens before the foundation is ready creates false starts, not momentum.
-- **No risks surfaced.** A kickoff that ends without surfacing any risks is a kickoff that didn't create enough psychological safety for people to be honest.
-- **Open scope questions left implicit.** If there are open scope questions, name them. Do not leave them implicit.
-- **The plan presented as fixed.** Present it as the current best understanding, which will be refined as the team learns more.
-- **A ten-page team charter.** Five agreed principles are better than a ten-page team charter nobody reads.
+
+The other failure points (kicking off before the foundation is ready, no risks surfaced, scope questions left implicit, a plan presented as fixed, a ten-page team charter) are in [How to Fill It In](#how-to-fill-it-in) and the agenda below, where each one can be prevented.
 
 ---
 
@@ -207,11 +204,11 @@ Use this when you would rather tick boxes than fill in a table. Copy the block i
 # Kickoff Checklist: [Program Name]
 
 ## Get Ready
-- [ ] (Must) Sponsor reviews and approves the charter
 - [ ] (Must) Executive sponsor, product / program owner and engineering lead named
 - [ ] (Must) Objectives can be measured
 - [ ] (Must) In scope and out of scope listed
 - [ ] (Must) Definition of Done proposed and agreed
+- [ ] (Must) Executive sponsor approves the charter
 - [ ] (Should) RACI drafted
 - [ ] (Should) Stakeholder list started
 - [ ] (Must) High-level milestone plan drafted

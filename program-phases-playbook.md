@@ -12,7 +12,7 @@ The table below is the whole playbook, in the order the work happens, one phase 
 |:---|:---|:---|:---|:---|:---|:---|
 | **1. Conception & Initiation** - starts from the annual or long-range plan, or a request from leadership | | | | | | |
 | Pitch the idea, the value and the ask | The problem, and who has it | Program / project charter (1-pager), or a PRFAQ | Product / program owner | Must | | |
-| Get leadership approval for resources and budget to proceed | Charter | Approval names and date on the charter | Executive sponsor | Should | | Agreement from the engineering, product and TPM leads, approval from the executive who funds it |
+| Get leadership approval for resources and budget to proceed | Charter | Approval names and date on the charter | Executive sponsor | Must | | Agreement from the engineering, product and TPM leads, approval from the executive who funds it |
 | Start the stakeholder register with whoever handed you the work | Charter | Stakeholder register (started) | Product / program owner + TPM | Must | | It fills in during discovery. See the [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) |
 | Collect the business requirements: what problem, and for whom | Charter, stakeholder register | Business requirements document | Product / program owner | Must | | |
 | Propose what success looks like | Business requirements | Definition of Done (initial) | Product / program owner | Must | | If the goal is to move a metric, record the baseline, or a to-do to get one |
@@ -247,7 +247,7 @@ Use this when you would rather tick boxes than fill in a table. Copy the block i
 
 ## 1. Conception & Initiation (starts from the annual or long-range plan)
 - [ ] (Must) Charter (1-pager) or PRFAQ
-- [ ] (Should) Leadership approval for resources and budget, names and date on the charter
+- [ ] (Must) Leadership approval for resources and budget, names and date on the charter
 - [ ] (Must) Stakeholder register started
 - [ ] (Must) Business requirements document
 - [ ] (Must) Definition of Done (initial), with baselines

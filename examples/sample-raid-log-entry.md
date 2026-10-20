@@ -19,8 +19,10 @@ No owner. No date. No impact statement. No decision needed. No path to resolutio
 | Field | Entry |
 |-------|-------|
 | Type | Dependency |
-| Status | Yellow |
-| Owner | Sarah - Payments Engineering |
+| Status | At Risk |
+| What We Need | A committed date for the Payments rotation-client integration |
+| Owner | [TPM name] - Program TPM |
+| External Contact | Sarah - Payments Engineering |
 | Due Date | 2026-06-07 |
 | Impact | Payments services cannot cut over to the central certificate authority until Payments commits a date for its rotation-client integration. Current cutover target of 2026-06-15 is at risk if the commitment does not arrive by Friday 2026-05-29. |
 | Next Step | TPM to confirm the integration date with Sarah by Friday 2026-05-29. If date is not committed, escalate to sponsor for priority call. |
@@ -28,7 +30,7 @@ No owner. No date. No impact statement. No decision needed. No path to resolutio
 
 ### Why This Works
 
-The entry gives the team something to do. It names the owner, the date, the impact, the next step, and the escalation trigger. It converts a concern into a dependency with a clear resolution path. Anyone who reads it - including someone joining the program mid-flight - knows exactly where this stands and what happens next.
+The entry gives the team something to do. It names the owner on our side and the contact on theirs, the date, the impact, the next step, and the escalation trigger. It converts a concern into a dependency with a clear resolution path. Anyone who reads it - including someone joining the program mid-flight - knows exactly where this stands and what happens next.
 
 ---
 

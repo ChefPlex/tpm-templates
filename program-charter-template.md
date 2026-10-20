@@ -121,11 +121,8 @@ The actionable row answers who sponsors and runs it, what done looks like, when 
 ### Where This Breaks
 
 - **No sponsor sign-off.** If you cannot get executive sponsor sign-off on the charter, you do not have a real program yet. That is important information to have before you spend six months building something.
-- **A vague problem statement.** A vague problem statement produces a vague program.
-- **Scope with no edges.** Vague scope is how programs expand without anyone noticing. Out of scope is just as important as in scope.
-- **Compliance found late.** Late discoveries here are the most expensive kind.
-- **Support decided after go-live.** Define the support model before go-live, not after.
-- **Document volume as the goal.** The goal is shared understanding, not document volume.
+
+The other failure points (a vague problem, scope with no edges, compliance found late, support decided after go-live, documents for their own sake) are in [How to Fill It In](#how-to-fill-it-in), next to the field each one belongs to.
 
 ---
 

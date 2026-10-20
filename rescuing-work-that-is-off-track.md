@@ -91,7 +91,7 @@ Go back through everything the team has actually completed over the last couple 
 
 That number is the whole negotiation. Without it, you are arguing. With it, you are reading.
 
-An illustrative example: a team of five people who can finish roughly forty points each per sprint has a real capacity of about two hundred. Your numbers will differ, and the arithmetic is the point. If the stakeholders are collectively asking for five hundred, the conversation is no longer about whether people are working hard enough.
+An illustrative example: a team of five people who can finish roughly fifty points each per sprint has a real capacity of about two hundred and fifty. On the 5, 8 and 13 scale, the cap in section 6 (two of each size) is 52 points a person, which matches. Your numbers will differ, and the arithmetic is the point. If the stakeholders are collectively asking for five hundred, the conversation is no longer about whether people are working hard enough.
 
 ---
 
@@ -123,11 +123,11 @@ Sizing is by working time, not by importance:
 
 | Size | Roughly |
 |---|---|
-| Large | About a week of work |
+| Large | About a week from start to done, of which a few days are hands-on; the rest is waiting on reviews, builds and other teams |
 | Medium | Up to about a day |
 | Small | Up to about an hour |
 
-In a two-week sprint that is one large a week, plus a medium and a small. It sounds like too much until you picture the mason jar. Someone fills a jar with rocks and asks if it's full. Then they pour in sand, and the sand fills the gaps between the rocks. Then they pour in water. Each time, the jar held more than it looked like it could.
+In a two-week sprint that is one large a week, plus a medium and a small. In hands-on time that is roughly eight days of ten, which leaves the slack this section asks for. It still sounds like too much until you picture the mason jar. Someone fills a jar with rocks and asks if it's full. Then they pour in sand, and the sand fills the gaps between the rocks. Then they pour in water. Each time, the jar held more than it looked like it could.
 
 The work is the same. A large always has breaks in it: a review you are waiting on, a build that is running, a question out to another team. Mediums fill in around the larges. Smalls fill in around the mediums. You switch from the large to a medium to a small and back again, the week stays full, and nobody is ever blocked with nothing to pick up.
 

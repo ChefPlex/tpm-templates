@@ -26,33 +26,35 @@ The assignments below are a starting point. Who is accountable depends on the te
 
 Roles are Scrum defaults - swap in Kanban or SAFe roles as needed (e.g. Release Train Engineer instead of Scrum Master, System Architect instead of Solution Architect). Rows are grouped by cadence; add or cut rows to match your actual ceremonies.
 
-| Activity / Deliverable | Product Owner | Scrum Master | Dev Team | QA/Test | Solution Architect | Release Mgr | Security/Compliance | Stakeholders/Sponsor |
-|---|---|---|---|---|---|---|---|---|
-| **Program/Release Setup** | | | | | | | | |
-| Vision & roadmap | R, A | C | I | | C | I | | C |
-| Release/PI planning | A | R | C | C | C | C | C | C |
-| Backlog prioritization | A | C | I | | I | | | C |
-| **Sprint Cadence** | | | | | | | | |
-| Backlog refinement | A | C | R | C | C | | | |
-| Sprint planning | A | R | R | C | C | I | | |
-| Daily standup | | R | R | I | | | | |
-| Story/epic definition & acceptance criteria | A | C | R | C | C | | | |
-| Development | | | R | I | C | | | |
-| Code review | | | R | C | C | | C | |
-| **Quality & Review** | | | | | | | | |
-| Sprint testing/QA | C | | C | R, A | | | C | |
-| Security scan/review | I | | C | C | C | | R, A | |
-| Sprint review/demo | A | R | R | C | I | I | | C |
-| Sprint retrospective | R | A | R | R | | | | |
-| **Release** | | | | | | | | |
-| Release readiness review | A | R | C | C | C | R | C | I |
-| Deployment/release | I | C | C | C | C | A | C | I |
-| Post-release monitoring | I | C | R | R | C | A | | I |
+| Activity / Deliverable | Product Owner | Scrum Master | TPM | Dev Team | QA/Test | Solution Architect | Release Mgr | Security/Compliance | Stakeholders/Sponsor |
+|---|---|---|---|---|---|---|---|---|---|
+| **Program/Release Setup** | | | | | | | | | |
+| Vision & roadmap | R, A | C | C | I | | C | I | | C |
+| Release/PI planning | A | R | R | C | C | C | C | C | C |
+| Backlog prioritization | A | C | C | I | | I | | | C |
+| Cross-team dependencies & risks | C | C | R, A | C | C | C | C | C | I |
+| **Sprint Cadence** | | | | | | | | | |
+| Backlog refinement | A | C | | R | C | C | | | |
+| Sprint planning | A | R | I | R | C | C | I | | |
+| Daily standup | | R | | R | I | | | | |
+| Story/epic definition & acceptance criteria | A | C | | R | C | C | | | |
+| Development | | | | R | I | C | | | |
+| Code review | | | | R | C | C | | C | |
+| **Quality & Review** | | | | | | | | | |
+| Sprint testing/QA | C | | | C | R, A | | | C | |
+| Security scan/review | I | | I | C | C | C | | R, A | |
+| Sprint review/demo | A | R | I | R | C | I | I | | C |
+| Sprint retrospective | R | A | | R | R | | | | |
+| **Release** | | | | | | | | | |
+| Release readiness review | A | R | R | C | C | C | R | C | I |
+| Deployment/release | I | C | C | C | C | C | A | C | I |
+| Post-release monitoring | I | C | I | R | R | C | A | | I |
 
 ## Rules Of Thumb
 
 - Never more than one A per row. Note the deliberate handoff in this template - Product Owner holds A from setup through the sprint review and the release readiness review, then Release Manager takes it for deployment and post-release monitoring. That's the transition teams most often lose track of.
 - R can be shared. A cannot.
+- The TPM column is for a program that spans more than one team. The TPM owns what no single team owns: the dependencies and risks between teams, and the release plan across them. On a single-team product, drop the column.
 - Daily standup and development rows lean heavily R with almost no A - that's intentional, not a gap. Not every activity needs a formal accountable owner, only the ones with a real decision or sign-off attached.
 - A blank cell is fine. Don't mark every role on every row.
 - Revisit at the start of a new PI or when the team composition changes. A RACI built for a 5-person team doesn't survive a SAFe train unmodified.

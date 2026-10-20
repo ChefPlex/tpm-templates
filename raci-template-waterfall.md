@@ -34,11 +34,11 @@ Roles across the top are a starting set - rename or add columns to match your pr
 | Budget & resource approval | A | R | C | C | I | I | | | |
 | **Requirements** | | | | | | | | | |
 | Requirements gathering | | C | A/R | C | C | C | C | I | R |
-| Requirements sign-off | A | R | R | C | I | I | C | I | C |
+| Requirements sign-off | C | R | A/R | C | I | I | C | I | C |
 | Scope baseline | A | R | C | C | C | I | | I | I |
 | **Design** | | | | | | | | | |
 | Solution/technical design | | C | C | A/R | C | C | C | | |
-| Design review & approval | A | R | C | R | C | C | C | | |
+| Design review & approval | I | R | C | A/R | C | C | C | | |
 | Security/architecture review | | C | | C | C | C | A/R | | |
 | **Development** | | | | | | | | | |
 | Build/development | | I | | C | A/R | I | | | |
@@ -47,11 +47,12 @@ Roles across the top are a starting set - rename or add columns to match your pr
 | **Testing** | | | | | | | | | |
 | Test plan development | | C | C | C | C | A/R | C | | |
 | System integration testing | | I | C | C | C | A/R | C | | |
-| UAT execution & sign-off | A | R | C | | I | C | | I | R |
+| UAT execution & sign-off | I | R | C | | I | C | | I | A/R |
 | Defect resolution | | I | | C | A/R | R | | | |
 | **Deployment** | | | | | | | | | |
-| Deployment/release plan | A | R | I | C | C | C | C | R | I |
-| Go-live execution | A | R | I | C | R | C | C | C | I |
+| Deployment/release plan | I | A/R | I | C | C | C | C | R | I |
+| Go/no-go decision | A | R | I | C | C | C | C | C | I |
+| Go-live execution | I | A | I | C | R | C | C | C | I |
 | Post-launch support/hypercare | I | C | | C | A/R | R | | C | I |
 | **Closure** | | | | | | | | | |
 | Lessons learned | I | A | R | R | R | R | C | C | |
@@ -61,6 +62,7 @@ Roles across the top are a starting set - rename or add columns to match your pr
 
 - Never more than one A per row. If two roles both think they're accountable, that's the conversation to have before the program starts, not after something slips.
 - R can be shared. A cannot. Where one role both does the work and owns it, write A/R.
+- The sponsor holds A only where money, scope or the go/no-go is decided: business case, budget, scope baseline, go/no-go and closure. Everywhere else the sponsor is I or C, which is what makes the A mean something ([worked example](examples/sample-raci-rows.md)).
 - The PM is accountable for the schedule, the gates, and the decisions that cross teams, not for the work itself. Build, test, and design are owned by the people who can actually do them.
 - A blank cell is fine. Don't mark every role on every row just to fill the grid - that's the fastest way to make the matrix meaningless.
 - If a row has zero A's or more than one, fix it before you circulate the matrix. A row like that is an unresolved ownership question.
