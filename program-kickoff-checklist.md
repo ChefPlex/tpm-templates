@@ -159,6 +159,7 @@ Specifically cover:
 - The major milestones and target dates
 - Known dependencies on other teams and the current status of those dependencies
 - Any hard external deadlines (compliance dates, product launches, contractual obligations)
+- The two or three scenarios that would move the end date, each with its trigger ([Complexity and Scenario Planning](complexity-and-scenario-planning.md))
 - The planning process going forward - how the team will refine the plan, who contributes, how often it gets updated
 
 #### Working Norms

@@ -242,6 +242,18 @@ Receiving the report is not the same as reading it. These are the things to look
 - **Right to evidence:** your ability to request current audit reports each year.
 - **Regulated data:** if the vendor will handle protected health information, a business associate agreement (BAA) is required; the [Compliance Framework Reference](https://github.com/ChefPlex/security-program-playbooks/blob/main/compliance-framework-reference.md) covers it.
 
+### AI in the SOW
+
+Most vendors now use AI tools in the work itself, whether or not the SOW says so. Write it down:
+
+- **Permitted use:** which AI tools the vendor may use on your work, and on which classes of your data. Training a model on your data is off unless you say yes in writing.
+- **Model and provider changes:** the vendor tells you before it changes the model or provider behind a deliverable or a hosted service.
+- **Cost:** who pays for AI usage, any cap, and what happens at the cap. Usage-based charges grow quietly.
+- **Human sign-off:** a named person at the vendor reviews AI-produced deliverables before they reach you. Acceptance is still your named act ([section 4](#4-acceptance-a-named-act-by-a-named-person)).
+- **Retention:** what happens to prompts, outputs and logs that contain your data, during the contract and at exit.
+
+For AI vendors handling regulated data, see [AI tooling with regulated data](https://github.com/ChefPlex/security-program-playbooks/blob/main/ai-tooling-regulated-data.md).
+
 ---
 
 ## 9. Key-person and subcontractor risk

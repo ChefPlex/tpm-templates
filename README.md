@@ -61,6 +61,7 @@ of them on one platform encryption migration, so the artifacts connect to each o
 | Getting ready to kick off | [Program Kickoff Checklist](program-kickoff-checklist.md) |
 | Program feels vague or stuck | [Program Phases Playbook](program-phases-playbook.md) |
 | You inherited work that is already late and already an argument | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) |
+| A complex program, and nobody has said what would knock it off course | [Complexity and Scenario Planning](complexity-and-scenario-planning.md) |
 | Risks are scattered across meetings and memory | [RAID Log Guide](raid-log-guide.md) and [RAID Log Template](raid-log-template.md) |
 | Decisions and actions get lost after meetings | [Meeting Notes + Action Item Tracker](meeting-notes-action-tracker.md) |
 | Too many people are asking for status in different ways | [Communications Plan Template](communications-plan-template.md) |
@@ -97,6 +98,7 @@ Thanksgiving teaching deck is in
 | [Program Kickoff Checklist](program-kickoff-checklist.md) | What to have ready before the kickoff, what to settle in it, and what to set up in the 48 hours after, each with an owner and a level. |
 | [Program Close-Out Report Template](program-close-out-report-template.md) | A practical close-out format for outcomes, schedule and budget summary, risks, handoff, lessons learned, and recommendations. |
 | [Lessons Learned Facilitation Guide](lessons-learned-facilitation-guide.md) | How to run a retrospective that produces something the next program can use. |
+| [Complexity and Scenario Planning](complexity-and-scenario-planning.md) | Agree what success means with the sponsor before kickoff, map what the program depends on, and write two or three scenarios with a trigger and an agreed response for each. |
 | [Rescuing Work That Is Off Track](rescuing-work-that-is-off-track.md) | What to do when you are handed something already moving, already late, and already the subject of an argument. Diagnosis, baselining with real throughput data, renegotiating the commitment, and the day 1 / 30 / 90 / 180 shape of the recovery. |
 
 ### Operations and Tracking

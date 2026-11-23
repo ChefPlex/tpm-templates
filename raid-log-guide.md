@@ -180,6 +180,8 @@ Identify dependencies during planning, not during execution. Every dependency sh
 
 **Worked example:** [a dependency entry in an unknown version and an actionable version](examples/sample-raid-log-entry.md), using these fields.
 
+The few dependencies that would move the end date if they slipped are the ones to build scenarios on, each with a trigger and a response agreed in advance: [Complexity and Scenario Planning](complexity-and-scenario-planning.md).
+
 ---
 
 ## How to Run the RAID Log

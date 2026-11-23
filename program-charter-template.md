@@ -224,6 +224,8 @@ Use this when the program needs every section written out. Copy the block into a
 
 **Business Metrics:** [What needle moves in the business]
 
+**Agreed with the sponsor:** [The sponsor's definition of success in their own words, and the date they said yes. Do this before kickoff; see complexity-and-scenario-planning.md.]
+
 ## 3. Scope
 
 ### In Scope
@@ -274,6 +276,9 @@ Use this when the program needs every section written out. Copy the block into a
 | Date | Constraint | Impact if Missed |
 |:---|:---|:---|
 | | | |
+
+### Complexity Drivers
+[What makes this program hard: how many teams and dependencies, what is new to this organization, regulatory exposure, fixed external dates. Name the two or three scenarios that would move the end date, each with its trigger; see complexity-and-scenario-planning.md.]
 
 ## 5. Resources
 
@@ -358,6 +363,15 @@ Use this when the program needs every section written out. Copy the block into a
 | Legal / Privacy Review | | | | |
 | Vendor / Procurement Review | | | | |
 | Penetration Testing | | | | |
+| AI Use Review | | | | |
+
+### AI Use
+
+| Where AI is used | What data it touches | Autonomy tier | Human sign-off |
+|:---|:---|:---|:---|
+| [Task or workflow] | [Data class] | [Tier, from human-only to AI-only] | [Who approves the output] |
+
+[The tiers are in AI Execution Tiers, in ai-automations. Leave the table empty and say so if the program uses no AI.]
 
 ## 9. Operational Handoff
 
@@ -372,6 +386,6 @@ Use this when the program needs every section written out. Copy the block into a
 
 ---
 
-*Template version 1.1. Propose changes via pull request.*
+*Template version 1.2: adds the sponsor-agreed success line, complexity drivers and AI use. Propose changes via pull request.*
 
 *Part of the [ChefPlex TPM portfolio](PORTFOLIO-GUIDE.md). Maintained by [Eric White](https://www.linkedin.com/in/edwhite). Licensed under [CC BY 4.0](LICENSE).*
