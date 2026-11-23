@@ -139,7 +139,7 @@ Every playbook, template and checklist here is a set of things to think through.
 | [agent-guardrails](https://github.com/ChefPlex/agent-guardrails) | Code: checks that keep AI agents honest |
 | [learning-notes](https://github.com/ChefPlex/learning-notes) | What I learned: TPM craft, security, AI |
 | [teaching-notes](https://github.com/ChefPlex/teaching-notes) | What I taught: courses, career-changer material, talks |
-| [tpm-lab](https://github.com/ChefPlex/tpm-lab) | Where I work on new projects and new frameworks for running them, as first drafts: post-quantum cryptography migration and optimizing a PMO |
+| [tpm-lab](https://github.com/ChefPlex/tpm-lab) | Where I work on new projects and new frameworks for running them, as first drafts: post-quantum cryptography migration, change impact, and optimizing a PMO |
 
 ---
 

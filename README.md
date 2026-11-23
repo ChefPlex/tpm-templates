@@ -259,6 +259,8 @@ The work is getting the right people aligned on the right problem, with clear ow
 - [tpm-toolbox](https://github.com/ChefPlex/tpm-toolbox) - Working tools with code, including the Slack status tooling.
 - [learning-notes](https://github.com/ChefPlex/learning-notes) - A public notebook on security, systems design and program practice. Some of it will turn out to be wrong.
 - [teaching-notes](https://github.com/ChefPlex/teaching-notes) - Teaching material, including the Thanksgiving deck and the career-changer course.
+- [tpm-lab](https://github.com/ChefPlex/tpm-lab) - First drafts of new frameworks: post-quantum cryptography migration, change impact, and optimizing a PMO.
+- [agent-guardrails](https://github.com/ChefPlex/agent-guardrails) - Three checks for AI agent workflows that refuse to report a pass they did not earn.
 
 ## Contributing
 
