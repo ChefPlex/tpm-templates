@@ -4,6 +4,8 @@ A program charter is the founding document for any serious initiative. It exists
 
 Start with the charter summary below: one table, with the program name in its title, short enough to be the one-pager. When the program needs every section written out, use the [alternate style](#alternate-style-the-full-charter-on-one-page) at the bottom of this page and link to it from the summary.
 
+*Figures in the examples on this page are illustrative, not results from a real program.*
+
 ---
 
 ## The Charter Summary - [Program Name]

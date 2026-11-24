@@ -159,7 +159,7 @@ About four to five hours across five stages. Every interviewer scores independen
 | **4. Technical depth** (45 min) | An engineer asks: "Walk me through a system you drove a program on." | Technical fluency | Asks what breaks, not only when it ships |
 | **5. Stakeholder simulation** (30 min) | Role-play: a lead says their team cannot take the work this quarter | Negotiation; escalation judgment | Finds the real constraint, proposes an option, knows when to escalate |
 
-Stage 3 is the one most loops skip, and it is the most predictive part of the job. A plan is only as good as the TPM's ability to defend it to the people who have to do the work. The [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) describes what good looks like there.
+Stage 3 is the one most loops skip, and it is the stage I weight most heavily. A plan is only as good as the TPM's ability to defend it to the people who have to do the work. The [Stakeholder Engagement Playbook](stakeholder-engagement-playbook.md) describes what good looks like there.
 
 ### Template: work-sample brief
 

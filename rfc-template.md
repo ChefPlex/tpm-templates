@@ -4,6 +4,8 @@ An RFC is a proposal document. Its job is to describe a change you want to make,
 
 Start with the RFC log below: one table, one row per proposal, so everyone can see what is open for comment and what has been decided. When a proposal needs its motivation, alternatives and impact written out in full, use the [alternate style](#alternate-style-the-full-proposal-on-one-page) at the bottom of this page and link to it from the log.
 
+*Figures in the examples on this page are illustrative, not results from a real program.*
+
 ---
 
 ## The RFC Log

@@ -4,6 +4,8 @@ An Architecture Decision Record documents a significant architectural decision -
 
 Start with the decision log below: one table, one row per decision, short and easy to search. When a decision needs its context, alternatives and consequences written out in full, use the [alternate style](#alternate-style-the-full-record-on-one-page) at the bottom of this page and link to it from the log.
 
+*Figures in the examples on this page are illustrative, not results from a real program.*
+
 ---
 
 ## The Decision Log

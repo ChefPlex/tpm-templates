@@ -4,6 +4,8 @@ A close-out report is the last thing a program produces and the first thing the 
 
 Start with the objectives and results below: one table, one row per objective from the charter, so anyone can see what was promised and what was delivered. When the report needs the schedule, budget, risks, handoff and lessons written out in full, use the [alternate style](#alternate-style-the-full-report-on-one-page) at the bottom of this page.
 
+*Figures in the examples on this page are illustrative, not results from a real program.*
+
 ---
 
 ## Objectives and Results - [Program Name]
